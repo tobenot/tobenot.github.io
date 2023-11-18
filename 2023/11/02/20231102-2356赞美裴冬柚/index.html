@@ -6,7 +6,7 @@
     <meta name="description" content="一位名叫裴冬柚的杰出人物" />
     <meta name="hexo-theme-A4" content="v1.7.1" />
     <link rel="alternate icon" type="image/webp" href="/img/favicon.webp">
-    <title>你好 | 再见</title>
+    <title>星海 | 苏敬峰的手稿</title>
 
     
         
@@ -19,6 +19,10 @@
 <link rel="stylesheet" href="/css/fonts.css">
  
          <!--注意：首页既不是post也不是page-->
+        
+            
+<link rel="stylesheet" href="/css/waline.css">
+
         
     
     
@@ -43,7 +47,7 @@
         width: 56px;
         height: auto;" alt="^-^" cache-control="max-age=86400" class="header-img" src="/img/favicon.webp" width="10%"></img>
         <div class="header-content">
-            <a class="logo" href="/">你好</a> 
+            <a class="logo" href="/">星海</a> 
             <span class="description"></span> 
         </div>
         
@@ -112,8 +116,8 @@
                 <span>打上标签:
                     
                     
-                        <a href='/tags/%E8%A3%B4%E5%86%AC%E6%9F%9A-%E8%B5%9E%E7%BE%8E-%E6%9D%B0%E5%87%BA%E4%BA%BA%E7%89%A9/'>
-                            裴冬柚, 赞美, 杰出人物
+                        <a href='/tags/%E6%9D%B0%E5%87%BA%E4%BA%BA%E7%89%A9/'>
+                            杰出人物
                         </a>
                     
                 </span>
@@ -124,6 +128,46 @@
     </div>
     
         
+    <div class="comments-container">
+    <div id="comment-anchor"></div>
+    <div class="comment-area-title">
+        以上。 
+    </div>
+    
+        
+
+    <div id="waline"></div>
+    <script type="module"  >
+        import { init } from 'https://npm.elemecdn.com/hexo-theme-a4@latest/source/js/waline.mjs'; 
+        function loadWaline() {
+            init({
+                el: '#waline',
+                serverURL: 'https://tobenot-valine-1f31-bx6zj27br-tobenots-projects.vercel.app/',
+                lang: 'zh-CN',
+                dark: 'body[class~="dark-mode"]',
+                requiredMeta: ['nick','mail'], // cannot customize by theme config, change it yourself
+                search: false, // 禁止表情包搜索
+                reaction: false, // 对文章打分
+                pageview: false, // 浏览量统计
+                comment: false, // 评论数统计
+
+                locale: {
+                    placeholder: '正确的邮箱地址，回复将能得到邮件通知。', 
+                    sofa: ''
+                },
+            });
+            
+        }
+        window.addEventListener('DOMContentLoaded', loadWaline);
+    </script>
+
+
+
+    
+    
+    
+    </div>
+
 
      
 </div>
@@ -138,6 +182,11 @@
             © 2023-2023 China 
 
             
+                
+
+            
+                
+                    / <a href="/friends/"> 友链 </a>
                 
 
             
