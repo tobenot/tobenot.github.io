@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0,  viewport-fit=cover" name="viewport" />
+    <meta name="description" content="虚幻引擎的坑" />
+    <meta name="hexo-theme-A4" content="v1.7.3" />
+    <link rel="alternate icon" type="image/webp" href="/img/favicon.webp">
+    <title>作家之屋</title>
+
+    
+        
+<link rel="stylesheet" href="/css/reset.css">
+
+        
+<link rel="stylesheet" href="/css/markdown.css">
+
+        
+<link rel="stylesheet" href="/css/fonts.css">
+ 
+         <!--注意：首页既不是post也不是page-->
+        
+            
+<link rel="stylesheet" href="/css/waline.css">
+
+        
+    
+    
+<link rel="stylesheet" href="/css/ui.css">
+ 
+    
+<link rel="stylesheet" href="/css/style.css">
+
+<meta name="generator" content="Hexo 6.3.0"></head>
+    
+    <body>
+        <div class="paper">
+            
+            
+            
+            
+                <div class="shadow-drop-2-bottom paper-main">
+                    
+<div class="header">
+    <div class="header-container">
+        <img style="
+        width: 56px;
+        height: auto;" alt="^-^" cache-control="max-age=86400" class="header-img" src="/img/favicon.webp" width="10%"></img>
+        <div class="header-content">
+            <a class="logo" href="/">作家之屋</a> 
+            <span class="description"></span> 
+        </div>
+        
+    </div>
+    
+   
+    <ul class="nav">
+        
+            
+                <li><a href="/">扉页</a></li>
+            
+        
+            
+                <li><a href="/list/">手稿</a></li>
+            
+        
+            
+                <li><a href="/about/">作者</a></li>
+            
+        
+    </ul>
+</div> 
+        
+                    
+                    
+
+                    
+                    
+                    
+                    <!--说明是文章post页面-->
+                    
+                        <div class="post-main">
+
+    
+        <div class="post-main-title">
+            虚幻引擎的坑
+        </div>
+      
+    
+
+    <div class="post-md">
+        
+            <ol class="post-toc"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#%E5%A7%94%E6%89%98%E7%BB%91%E5%AE%9A%E5%A4%B1%E8%B4%A5"><span class="post-toc-text">委托绑定失败</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#%E5%A7%94%E6%89%98"><span class="post-toc-text">委托</span></a></li></ol>
+        
+        <h2 id="委托绑定失败"><a href="#委托绑定失败" class="headerlink" title="委托绑定失败"></a>委托绑定失败</h2><p>确保函数在头文件中声明为UFUNCTION()</p>
+<h2 id="委托"><a href="#委托" class="headerlink" title="委托"></a>委托</h2><p>(by GPT4)<br><code>DECLARE_DELEGATE_ThreeParams</code>和<code>DECLARE_DYNAMIC_MULTICAST_DELEGATE_ThreeParams</code>都是Unreal Engine中用于创建委托的宏，但它们之间存在一些关键区别。</p>
+<ol>
+<li><strong>声明类型</strong>：</li>
+</ol>
+<p><code>DECLARE_DELEGATE_ThreeParams</code>声明的是单播委托（Single-Cast Delegate），它只能绑定一个函数。当触发委托时，只有这个绑定的函数会被调用。</p>
+<p><code>DECLARE_DYNAMIC_MULTICAST_DELEGATE_ThreeParams</code>声明的是多播委托（Multi-Cast Delegate），它可以绑定多个函数。当触发委托时，所有绑定的函数都会被调用。</p>
+<ol start="2">
+<li><strong>动态性</strong>：</li>
+</ol>
+<p><code>DECLARE_DELEGATE_ThreeParams</code>声明的委托是静态的，不需要使用UFUNCTION()宏。它们的生命周期由C++对象管理。</p>
+<p><code>DECLARE_DYNAMIC_MULTICAST_DELEGATE_ThreeParams</code>声明的委托是动态的，需要使用UFUNCTION()宏。它们的生命周期由Unreal Engine的垃圾回收系统管理，因此需要继承自UObject。</p>
+<ol start="3">
+<li><strong>触发方式</strong>：</li>
+</ol>
+<p><code>DECLARE_DELEGATE_ThreeParams</code>声明的委托使用<code>Execute</code>或<code>ExecuteIfBound</code>方法触发。</p>
+<p><code>DECLARE_DYNAMIC_MULTICAST_DELEGATE_ThreeParams</code>声明的委托使用<code>Broadcast</code>方法触发。</p>
+<p>总结：</p>
+<ul>
+<li>如果你需要在触发委托时只调用一个函数，可以使用<code>DECLARE_DELEGATE_ThreeParams</code>声明单播委托。</li>
+<li>如果你需要在触发委托时调用多个函数，可以使用<code>DECLARE_DYNAMIC_MULTICAST_DELEGATE_ThreeParams</code>声明多播委托。</li>
+<li>如果你需要与Unreal Engine的垃圾回收系统集成，可以使用<code>DECLARE_DYNAMIC_MULTICAST_DELEGATE_ThreeParams</code>声明动态多播委托，并确保使用UFUNCTION()宏。</li>
+</ul>
+
+    </div>
+
+    <div class="post-meta">
+        <i>
+        
+            <span>2023-11-20</span>
+            
+                <span>该篇文章被 tobenot</span>
+            
+            
+                <span>打上标签:
+                    
+                    
+                        <a href='/tags/%E6%8A%80%E6%9C%AF/'>
+                            技术
+                        </a>
+                    
+                </span>
+             
+             
+                <span>归为分类:
+                    
+                    
+                        <a href='/categories/%E6%8A%80%E6%9C%AF/'>
+                            技术
+                        </a>
+                    
+                </span>
+            
+        
+        </i>
+    </div>
+    
+        
+    <div class="comments-container">
+    <div id="comment-anchor"></div>
+    <div class="comment-area-title">
+        以上。 
+    </div>
+    
+        
+
+    <div id="waline"></div>
+    <script type="module"  >
+        import { init } from 'https://npm.elemecdn.com/hexo-theme-a4@latest/source/js/waline.mjs'; 
+        function loadWaline() {
+            init({
+                el: '#waline',
+                serverURL: 'https://tobenot-valine-1f31-bx6zj27br-tobenots-projects.vercel.app/',
+                lang: 'zh-CN',
+                dark: 'body[class~="dark-mode"]',
+                requiredMeta: ['nick','mail'], // cannot customize by theme config, change it yourself
+                search: false, // 禁止表情包搜索
+                reaction: false, // 对文章打分
+                pageview: false, // 浏览量统计
+                comment: false, // 评论数统计
+
+                locale: {
+                    placeholder: '正确的邮箱地址，回复将能得到邮件通知。', 
+                    sofa: ''
+                },
+            });
+            
+        }
+        window.addEventListener('DOMContentLoaded', loadWaline);
+    </script>
+
+
+
+    
+    
+    
+    </div>
+
+
+     
+</div>
+
+
+
+                    
+                    
+                    <div class="footer">
+    
+        <span> 
+            © 2023-2023 China 
+
+            
+                
+
+            
+                
+                    / <a href="/friends/"> 友链 </a>
+                
+
+            
+        </span>
+    
+</div>
+<!--这是指一条线往下的内容-->
+<div class="footer-last">
+    
+            <span>星界</span>
+            
+                <span class="footer-last-span-right"><i>本站由<a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/index.html">Hexo</a>驱动｜使用<a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/hexo-theme-A4">Hexo-theme-A4</a>主题</i></span>
+            
+    
+</div>
+
+
+    
+<link rel="stylesheet" href="/css/a11y-dark.min.css">
+
+    
+<script src="/js/highlight.min.js"></script>
+
+    
+<script src="/js/highlightjs-line-numbers.js"></script>
+
+
+
+<script>
+    hljs.initHighlightingOnLoad();
+    hljs.initLineNumbersOnLoad();
+</script>
+                </div>
+            
+    </body>
+
+<script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+<script>
+    function addDarkmodeWidget() {
+      const options = {
+          bottom: '64px', // default: '32px'
+          right: 'unset', // default: '32px'
+          left: '32px', // default: 'unset'
+          time: '0.3s', // default: '0.3s'
+          mixColor: '#fff', // default: '#fff'
+          backgroundColor: ' #e4e4e4 ',  // default: '#fff'
+          buttonColorDark: '#100f2c',  // default: '#100f2c'
+          buttonColorLight: '#fff', // default: '#fff'
+          saveInCookies: true, // default: true,
+          label: '🌓', // default: ''
+          autoMatchOsTheme: true // default: true
+      }
+  
+      const darkmode = new Darkmode(options);
+      darkmode.showWidget();
+      
+    }
+    window.addEventListener('load', addDarkmodeWidget);
+  </script>
+</html>
