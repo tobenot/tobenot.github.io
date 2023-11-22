@@ -3,7 +3,7 @@
     <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0,  viewport-fit=cover" name="viewport" />
-    <meta name="description" content="虚幻引擎的坑" />
+    <meta name="description" content="心界研究" />
     <meta name="hexo-theme-A4" content="v1.7.5" />
     <link rel="alternate icon" type="image/webp" href="/img/favicon.webp">
     <title>作家之屋</title>
@@ -99,7 +99,7 @@
 
     
         <div class="post-main-title">
-            虚幻引擎的坑
+            心界研究
         </div>
       
     
@@ -107,40 +107,40 @@
     <div class="post-md">
         
             
-                <ol class="post-toc"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#%E5%A7%94%E6%89%98%E7%BB%91%E5%AE%9A%E5%A4%B1%E8%B4%A5"><span class="post-toc-text">委托绑定失败</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#%E5%A7%94%E6%89%98"><span class="post-toc-text">委托</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#%E8%93%9D%E5%9B%BE%E5%AE%9E%E7%8E%B0%E7%9A%84%E6%8E%A5%E5%8F%A3if-Interface-%E4%BC%9A%E8%BF%94%E5%9B%9E%E7%A9%BA"><span class="post-toc-text">蓝图实现的接口if(Interface)会返回空</span></a></li></ol>
+                <ol class="post-toc"><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#%E5%89%8D%E8%A8%80"><span class="post-toc-text">前言</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#%E7%A0%94%E7%A9%B6%E6%96%B9%E6%B3%95"><span class="post-toc-text">研究方法</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#%E7%A0%94%E7%A9%B6%E8%B5%84%E6%96%99"><span class="post-toc-text">研究资料</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#%E5%85%B1%E9%B8%A3"><span class="post-toc-text">共鸣</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#%E9%A3%8E-%E7%9B%BE"><span class="post-toc-text">风 | 盾</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#%E7%96%AF%E7%8B%82%E5%86%A0%E5%86%95"><span class="post-toc-text">疯狂冠冕</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#%E8%8B%B1%E9%9B%84%E5%8F%B2%E8%AF%97"><span class="post-toc-text">英雄史诗</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#%E9%86%92%E6%9D%A5"><span class="post-toc-text">醒来</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#%E5%A5%89%E7%8C%AE"><span class="post-toc-text">奉献</span></a></li></ol></li></ol></li></ol>
             
         
-        <h2 id="委托绑定失败"><a href="#委托绑定失败" class="headerlink" title="委托绑定失败"></a>委托绑定失败</h2><p>确保函数在头文件中声明为UFUNCTION()</p>
-<h2 id="委托"><a href="#委托" class="headerlink" title="委托"></a>委托</h2><p>(by GPT4)<br><code>DECLARE_DELEGATE_ThreeParams</code>和<code>DECLARE_DYNAMIC_MULTICAST_DELEGATE_ThreeParams</code>都是Unreal Engine中用于创建委托的宏，但它们之间存在一些关键区别。</p>
-<ol>
-<li><strong>声明类型</strong>：</li>
-</ol>
-<p><code>DECLARE_DELEGATE_ThreeParams</code>声明的是单播委托（Single-Cast Delegate），它只能绑定一个函数。当触发委托时，只有这个绑定的函数会被调用。</p>
-<p><code>DECLARE_DYNAMIC_MULTICAST_DELEGATE_ThreeParams</code>声明的是多播委托（Multi-Cast Delegate），它可以绑定多个函数。当触发委托时，所有绑定的函数都会被调用。</p>
-<ol start="2">
-<li><strong>动态性</strong>：</li>
-</ol>
-<p><code>DECLARE_DELEGATE_ThreeParams</code>声明的委托是静态的，不需要使用UFUNCTION()宏。它们的生命周期由C++对象管理。</p>
-<p><code>DECLARE_DYNAMIC_MULTICAST_DELEGATE_ThreeParams</code>声明的委托是动态的，需要使用UFUNCTION()宏。它们的生命周期由Unreal Engine的垃圾回收系统管理，因此需要继承自UObject。</p>
-<ol start="3">
-<li><strong>触发方式</strong>：</li>
-</ol>
-<p><code>DECLARE_DELEGATE_ThreeParams</code>声明的委托使用<code>Execute</code>或<code>ExecuteIfBound</code>方法触发。</p>
-<p><code>DECLARE_DYNAMIC_MULTICAST_DELEGATE_ThreeParams</code>声明的委托使用<code>Broadcast</code>方法触发。</p>
-<p>总结：</p>
-<ul>
-<li>如果你需要在触发委托时只调用一个函数，可以使用<code>DECLARE_DELEGATE_ThreeParams</code>声明单播委托。</li>
-<li>如果你需要在触发委托时调用多个函数，可以使用<code>DECLARE_DYNAMIC_MULTICAST_DELEGATE_ThreeParams</code>声明多播委托。</li>
-<li>如果你需要与Unreal Engine的垃圾回收系统集成，可以使用<code>DECLARE_DYNAMIC_MULTICAST_DELEGATE_ThreeParams</code>声明动态多播委托，并确保使用UFUNCTION()宏。</li>
-</ul>
-<h2 id="蓝图实现的接口if-Interface-会返回空"><a href="#蓝图实现的接口if-Interface-会返回空" class="headerlink" title="蓝图实现的接口if(Interface)会返回空"></a>蓝图实现的接口if(Interface)会返回空</h2><p>如题，不能用if去判空蓝图实现的C++接口</p>
+        <h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>继承Flower长官的材料和██████的历史，对心界的性质与力量进行研究。<br>可被参照做类似研究。在Flower长官的时期遇到过一名外人能使用类似力量。</p>
+<h1 id="研究方法"><a href="#研究方法" class="headerlink" title="研究方法"></a>研究方法</h1><p>实验，观察，记录<br>从历史可以获得一部分灵感</p>
+<h1 id="研究资料"><a href="#研究资料" class="headerlink" title="研究资料"></a>研究资料</h1><h2 id="共鸣"><a href="#共鸣" class="headerlink" title="共鸣"></a>共鸣</h2><h3 id="风-盾"><a href="#风-盾" class="headerlink" title="风 | 盾"></a>风 | 盾</h3><p>首先需要有防护</p>
+<p><span style="color: #ddd;"><em>“但你工作时需要找些防御。你需要气密的、自我维持的实验室，和理想城市要一样大……”</em></span><br><span style="color: #ddd; float: right;">——————《忘念碑》</span></p>
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=1374889274&auto=0&height=66"></iframe>
+
+<div style="text-align: center;">
+跑起来
+
+<p><span style="color: #ca9161; text-shadow: 1px 1px 1px #8b0000, -1px -1px 1px #8b0000, 1px -1px 1px #8b0000, -1px 1px 1px #8b0000;font-size: 2.0em;"><i>movēre crŭs</i></span></p>
+</div>
+
+<h3 id="疯狂冠冕"><a href="#疯狂冠冕" class="headerlink" title="疯狂冠冕"></a>疯狂冠冕</h3><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=3&id=2489850584&auto=0&height=66"></iframe>
+
+<p>请保持克制</p>
+<h3 id="英雄史诗"><a href="#英雄史诗" class="headerlink" title="英雄史诗"></a>英雄史诗</h3><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=3&id=2489833399&auto=0&height=66"></iframe>
+
+<p>见到过去的人的话，拥抱她</p>
+<h3 id="醒来"><a href="#醒来" class="headerlink" title="醒来"></a>醒来</h3><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=1306273678&auto=0&height=66"></iframe>
+
+<p>祈使句</p>
+<h3 id="奉献"><a href="#奉献" class="headerlink" title="奉献"></a>奉献</h3><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=552101552&auto=0&height=66"></iframe>
+
+<p><span style="color: #ddd;"><em>“谨记：我们是守护的圣灵”</em></span><br><span style="color: #ddd; float: right;">——————《与亡者共战》</span></p>
 
     </div>
 
     <div class="post-meta">
         <i>
         
-            <span>2023-11-20</span>
+            <span>2023-11-23</span>
             
                 <span>该篇文章被 tobenot</span>
             
@@ -148,8 +148,8 @@
                 <span>打上标签:
                     
                     
-                        <a href='/tags/%E6%8A%80%E6%9C%AF/'>
-                            技术
+                        <a href='/tags/%E7%81%B5%E7%95%8C/'>
+                            灵界
                         </a>
                     
                 </span>
@@ -158,8 +158,8 @@
                 <span>归为分类:
                     
                     
-                        <a href='/categories/%E6%8A%80%E6%9C%AF/'>
-                            技术
+                        <a href='/categories/%E7%81%B5%E7%95%8C/'>
+                            灵界
                         </a>
                     
                 </span>
