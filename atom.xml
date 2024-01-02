@@ -6,7 +6,7 @@
   <link href="https://tobenot.github.io/atom.xml" rel="self"/>
   
   <link href="https://tobenot.github.io/"/>
-  <updated>2024-01-01T03:17:05.722Z</updated>
+  <updated>2024-01-02T15:13:34.017Z</updated>
   <id>https://tobenot.github.io/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>RSS订阅是什么以及怎么用</title>
+    <link href="https://tobenot.github.io/2024/01/02/240102-RSS-Tutorial/"/>
+    <id>https://tobenot.github.io/2024/01/02/240102-RSS-Tutorial/</id>
+    <published>2024-01-02T15:03:36.000Z</published>
+    <updated>2024-01-02T15:13:34.017Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="RSS订阅是什么"><a href="#RSS订阅是什么" class="headerlink" title="RSS订阅是什么"></a>RSS订阅是什么</h2><p>RSS订阅是古老的东西<br>大概作用是订阅信息源，信息源发布新文章时，在RSS阅读器里面可以收到推送<br>比起上各种平台被推荐算法带着走，RSS订阅是可以考虑的方法<br>感觉用RSS订阅大家的博客是最实用的用法了）<br>并不是所有网站都能用RSS订阅，如果一个人的博客没有RSS订阅，去催他加上</p><h3 id="RSS订阅的详细介绍"><a href="#RSS订阅的详细介绍" class="headerlink" title="RSS订阅的详细介绍"></a>RSS订阅的详细介绍</h3><p>这里有知乎的一个文章，一文读通：<br><img src="https://zhuanlan.zhihu.com/p/349349861" alt="知道RSS的人越少，我就越希望它能被人知道！"></p><h2 id="先推荐一个RSS阅读器"><a href="#先推荐一个RSS阅读器" class="headerlink" title="先推荐一个RSS阅读器"></a>先推荐一个RSS阅读器</h2><p><img src="https://www.agrreader.xyz/" alt="AgrReader官网"></p><h2 id="挖掘网站的RSS订阅网址"><a href="#挖掘网站的RSS订阅网址" class="headerlink" title="挖掘网站的RSS订阅网址"></a>挖掘网站的RSS订阅网址</h2><p>Rsshub-Radar插件<br>Chrome打开这个网址就能安装：<br><img src="https://chromewebstore.google.com/detail/rsshub-radar/kefjpfngnndepjbopdmoebkipbgkggaa" alt="Rsshub-Radar插件"><br>装好后打开网站时，如果有RSS网址，就能在网址右边的插件管理里面看到RSS有个红点，告诉你RSS订阅网址</p><p>把网址放进RSS阅读器里就能完成订阅！</p><h2 id="给hexo博客添加RSS订阅"><a href="#给hexo博客添加RSS订阅" class="headerlink" title="给hexo博客添加RSS订阅"></a>给hexo博客添加RSS订阅</h2><p>用插件：<br><img src="https://blog.csdn.net/qq_38140292/article/details/119076455" alt="【hexo】基础教程-四-新增RSS订阅"><br>本网站使用该插件生成RSS订阅链接，欢迎订阅<br><img src="https://tobenot.github.io/atom.xml" alt="订阅作家之屋"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;RSS订阅是什么&quot;&gt;&lt;a href=&quot;#RSS订阅是什么&quot; class=&quot;headerlink&quot; title=&quot;RSS订阅是什么&quot;&gt;&lt;/a&gt;RSS订阅是什么&lt;/h2&gt;&lt;p&gt;RSS订阅是古老的东西&lt;br&gt;大概作用是订阅信息源，信息源发布新文章时，在RSS阅读器里面可</summary>
+      
+    
+    
+    
+    <category term="蒸汽机" scheme="https://tobenot.github.io/categories/%E8%92%B8%E6%B1%BD%E6%9C%BA/"/>
+    
+    
+    <category term="技术" scheme="https://tobenot.github.io/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+    <category term="完整" scheme="https://tobenot.github.io/tags/%E5%AE%8C%E6%95%B4/"/>
+    
+  </entry>
   
   <entry>
     <title>再见2023</title>
@@ -155,9 +181,9 @@
     <link href="https://tobenot.github.io/2023/11/26/231126-AI-Game-Dev-Log/"/>
     <id>https://tobenot.github.io/2023/11/26/231126-AI-Game-Dev-Log/</id>
     <published>2023-11-26T08:55:07.000Z</published>
-    <updated>2024-01-02T14:56:18.889Z</updated>
+    <updated>2024-01-02T15:03:32.240Z</updated>
     
-    <content type="html"><![CDATA[<p>目前都要玩家生成key</p><h2 id="2023-11-6"><a href="#2023-11-6" class="headerlink" title="2023.11.6"></a>2023.11.6</h2><p>roadmap规划<br>这时规划做成模板型<br>1.5h</p><h2 id="2023-11-9"><a href="#2023-11-9" class="headerlink" title="2023.11.9 *"></a>2023.11.9 *</h2><p><a href="https://github.com/tobenot/TobenotAIGameCollection/tree/main/AIChatCilent">GPT客户端</a><br>3.5h</p><h2 id="2023-11-13"><a href="#2023-11-13" class="headerlink" title="2023.11.13"></a>2023.11.13</h2><p><a href="https://github.com/tobenot/TobenotAIGameCollection/tree/main/AIPersuadeGame">AI说服小游戏</a></p><p>有点bug，开始五分钟后游戏会不响应任何操作，下个版本修</p><p>先做了一个Agent，技术路线可以往任何方案拓展<br>画面表现我也是想做一些的，纯黑底白字看着不太吸引人<br>4h</p><h2 id="2023-11-18"><a href="#2023-11-18" class="headerlink" title="2023.11.18"></a>2023.11.18</h2><p>roadmap规划<br>往具有表现力方向规划了<br>2h</p><h2 id="2023-11-19"><a href="#2023-11-19" class="headerlink" title="2023.11.19"></a>2023.11.19</h2><p>插件C++化<br>遇到了委托的bug，修到1点<br>2.5h</p><h2 id="2023-11-26"><a href="#2023-11-26" class="headerlink" title="2023.11.26"></a>2023.11.26</h2><p>生成初始设置的C++化<br>3.5h</p><h2 id="中间还有一段，待有空了记录"><a href="#中间还有一段，待有空了记录" class="headerlink" title="中间还有一段，待有空了记录"></a>中间还有一段，待有空了记录</h2><h2 id="2023-12-9"><a href="#2023-12-9" class="headerlink" title="2023.12.9"></a>2023.12.9</h2><p>旅行两天</p><h2 id="2023-12-13"><a href="#2023-12-13" class="headerlink" title="2023.12.13 *"></a>2023.12.13 *</h2><p>研究了第三方key的性质<br>研究了实时生图方案<br>有很大进展<br>1.5h</p><h2 id="2023-12-17"><a href="#2023-12-17" class="headerlink" title="2023.12.17"></a>2023.12.17</h2><p>工程升5.3<br>0.3h<br>搞AI故事大赛去了，练下prompt水平和剧情生成<br>我这进度慢的我接受不了<br>但实在是太忙了</p><h2 id="2023-12-18"><a href="#2023-12-18" class="headerlink" title="2023.12.18"></a>2023.12.18</h2><p>搞AI故事大赛去了（昨天今天总共花了3小时），练下prompt水平和剧情生成<br>作品在参赛结束后发博客一份</p><h2 id="2023-12-20"><a href="#2023-12-20" class="headerlink" title="2023.12.20"></a>2023.12.20</h2><p>添加自动整理蓝图的插件，方便开发</p><p>加了个下载文本文件的接口<br>可以下公共key了<br>这下解压即可玩了<br>0.5h</p><h2 id="2023-12-25"><a href="#2023-12-25" class="headerlink" title="2023.12.25"></a>2023.12.25</h2><p>考研</p><h2 id="2023-12-30"><a href="#2023-12-30" class="headerlink" title="2023.12.30"></a>2023.12.30</h2><p>研究人物模型工具链<br>选VRoid<br>1.5h 大概明白怎么跑流程了，做了一个小女孩模型<br>还是先去搞机制吧，不然说服小游戏打包出来太大</p><p>1.5h 弄出来了json格式回复</p><p>1.5h prompt外置文件化，版本管理</p><h2 id="2023-12-31"><a href="#2023-12-31" class="headerlink" title="2023.12.31"></a>2023.12.31</h2><p>1.5h Json格式回复实装到聊天Agent上<br>0.5h 预生成选项</p><p>1h:<br>Log调整，在Http过程中添加心跳Log</p><p>给交谈的json回复提供例子</p><p>把AI的回复压缩存储</p><p>0.5h 让GPT选择回复模板，能调用外部工具进行进一步处理<br>1h 制作外部工具：骰子，让gpt能调用</p><h2 id="2024-1-1"><a href="#2024-1-1" class="headerlink" title="2024.1.1"></a>2024.1.1</h2><p>1h 骰子的文本展示和机制优化</p><p>0.8h 发消息时隐藏玩家选项，转加载圈圈</p><p>0.5h 游戏结束标志<br>1h 重构了一下消息接受，来支持报错机制。给报错加了一个窗口<br>下载key自动设置API网址<br>以及设置API网址的UI按钮提示文本优化</p><p>0.8h 封包demov4 修bug 发布v4的release</p><p>维护key</p>]]></content>
+    <content type="html"><![CDATA[<p>目前都要玩家生成key</p><h2 id="2023-11-6"><a href="#2023-11-6" class="headerlink" title="2023.11.6"></a>2023.11.6</h2><p>roadmap规划<br>这时规划做成模板型<br>1.5h</p><h2 id="2023-11-9"><a href="#2023-11-9" class="headerlink" title="2023.11.9 *"></a>2023.11.9 *</h2><p><a href="https://github.com/tobenot/TobenotAIGameCollection/tree/main/AIChatCilent">GPT客户端</a><br>3.5h</p><h2 id="2023-11-13"><a href="#2023-11-13" class="headerlink" title="2023.11.13"></a>2023.11.13</h2><p><a href="https://github.com/tobenot/TobenotAIGameCollection/tree/main/AIPersuadeGame">AI说服小游戏</a></p><p>有点bug，开始五分钟后游戏会不响应任何操作，下个版本修</p><p>先做了一个Agent，技术路线可以往任何方案拓展<br>画面表现我也是想做一些的，纯黑底白字看着不太吸引人<br>4h</p><h2 id="2023-11-18"><a href="#2023-11-18" class="headerlink" title="2023.11.18"></a>2023.11.18</h2><p>roadmap规划<br>往具有表现力方向规划了<br>2h</p><h2 id="2023-11-19"><a href="#2023-11-19" class="headerlink" title="2023.11.19"></a>2023.11.19</h2><p>插件C++化<br>遇到了委托的bug，修到1点<br>2.5h</p><h2 id="2023-11-26"><a href="#2023-11-26" class="headerlink" title="2023.11.26"></a>2023.11.26</h2><p>生成初始设置的C++化<br>3.5h</p><h2 id="中间还有一段，待有空了记录"><a href="#中间还有一段，待有空了记录" class="headerlink" title="中间还有一段，待有空了记录"></a>中间还有一段，待有空了记录</h2><h2 id="2023-12-9"><a href="#2023-12-9" class="headerlink" title="2023.12.9"></a>2023.12.9</h2><p>旅行两天</p><h2 id="2023-12-13"><a href="#2023-12-13" class="headerlink" title="2023.12.13 *"></a>2023.12.13 *</h2><p>研究了第三方key的性质<br>研究了实时生图方案<br>有很大进展<br>1.5h</p><h2 id="2023-12-17"><a href="#2023-12-17" class="headerlink" title="2023.12.17"></a>2023.12.17</h2><p>工程升5.3<br>0.3h<br>搞AI故事大赛去了，练下prompt水平和剧情生成<br>我这进度慢的我接受不了<br>但实在是太忙了</p><h2 id="2023-12-18"><a href="#2023-12-18" class="headerlink" title="2023.12.18"></a>2023.12.18</h2><p>搞AI故事大赛去了（昨天今天总共花了3小时），练下prompt水平和剧情生成<br>作品在参赛结束后发博客一份</p><h2 id="2023-12-20"><a href="#2023-12-20" class="headerlink" title="2023.12.20"></a>2023.12.20</h2><p>添加自动整理蓝图的插件，方便开发</p><p>加了个下载文本文件的接口<br>可以下公共key了<br>这下解压即可玩了<br>0.5h</p><h2 id="2023-12-25"><a href="#2023-12-25" class="headerlink" title="2023.12.25"></a>2023.12.25</h2><p>考研</p><h2 id="2023-12-30"><a href="#2023-12-30" class="headerlink" title="2023.12.30"></a>2023.12.30</h2><p>研究人物模型工具链<br>选VRoid<br>1.5h 大概明白怎么跑流程了，做了一个小女孩模型<br>还是先去搞机制吧，不然说服小游戏打包出来太大</p><p>1.5h 弄出来了json格式回复</p><p>1.5h prompt外置文件化，版本管理</p><h2 id="2023-12-31"><a href="#2023-12-31" class="headerlink" title="2023.12.31"></a>2023.12.31</h2><p>1.5h Json格式回复实装到聊天Agent上<br>0.5h 预生成选项</p><p>1h:<br>Log调整，在Http过程中添加心跳Log</p><p>给交谈的json回复提供例子</p><p>把AI的回复压缩存储</p><p>0.5h 让GPT选择回复模板，能调用外部工具进行进一步处理<br>1h 制作外部工具：骰子，让gpt能调用</p><h2 id="2024-1-1"><a href="#2024-1-1" class="headerlink" title="2024.1.1"></a>2024.1.1</h2><p>1h 骰子的文本展示和机制优化</p><p>0.8h 发消息时隐藏玩家选项，转加载圈圈</p><p>0.5h 游戏结束标志<br>1h 重构了一下消息接受，来支持报错机制。给报错加了一个窗口<br>下载key自动设置API网址<br>以及设置API网址的UI按钮提示文本优化</p><p>0.8h 封包demov4 修bug 发布v4的release</p>]]></content>
     
     
       
