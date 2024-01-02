@@ -6,7 +6,7 @@
   <link href="https://tobenot.github.io/atom.xml" rel="self"/>
   
   <link href="https://tobenot.github.io/"/>
-  <updated>2024-01-02T15:13:34.017Z</updated>
+  <updated>2024-01-02T15:14:05.337Z</updated>
   <id>https://tobenot.github.io/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="https://tobenot.github.io/2024/01/02/240102-RSS-Tutorial/"/>
     <id>https://tobenot.github.io/2024/01/02/240102-RSS-Tutorial/</id>
     <published>2024-01-02T15:03:36.000Z</published>
-    <updated>2024-01-02T15:13:34.017Z</updated>
+    <updated>2024-01-02T15:14:05.337Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="RSS订阅是什么"><a href="#RSS订阅是什么" class="headerlink" title="RSS订阅是什么"></a>RSS订阅是什么</h2><p>RSS订阅是古老的东西<br>大概作用是订阅信息源，信息源发布新文章时，在RSS阅读器里面可以收到推送<br>比起上各种平台被推荐算法带着走，RSS订阅是可以考虑的方法<br>感觉用RSS订阅大家的博客是最实用的用法了）<br>并不是所有网站都能用RSS订阅，如果一个人的博客没有RSS订阅，去催他加上</p><h3 id="RSS订阅的详细介绍"><a href="#RSS订阅的详细介绍" class="headerlink" title="RSS订阅的详细介绍"></a>RSS订阅的详细介绍</h3><p>这里有知乎的一个文章，一文读通：<br><img src="https://zhuanlan.zhihu.com/p/349349861" alt="知道RSS的人越少，我就越希望它能被人知道！"></p><h2 id="先推荐一个RSS阅读器"><a href="#先推荐一个RSS阅读器" class="headerlink" title="先推荐一个RSS阅读器"></a>先推荐一个RSS阅读器</h2><p><img src="https://www.agrreader.xyz/" alt="AgrReader官网"></p><h2 id="挖掘网站的RSS订阅网址"><a href="#挖掘网站的RSS订阅网址" class="headerlink" title="挖掘网站的RSS订阅网址"></a>挖掘网站的RSS订阅网址</h2><p>Rsshub-Radar插件<br>Chrome打开这个网址就能安装：<br><img src="https://chromewebstore.google.com/detail/rsshub-radar/kefjpfngnndepjbopdmoebkipbgkggaa" alt="Rsshub-Radar插件"><br>装好后打开网站时，如果有RSS网址，就能在网址右边的插件管理里面看到RSS有个红点，告诉你RSS订阅网址</p><p>把网址放进RSS阅读器里就能完成订阅！</p><h2 id="给hexo博客添加RSS订阅"><a href="#给hexo博客添加RSS订阅" class="headerlink" title="给hexo博客添加RSS订阅"></a>给hexo博客添加RSS订阅</h2><p>用插件：<br><img src="https://blog.csdn.net/qq_38140292/article/details/119076455" alt="【hexo】基础教程-四-新增RSS订阅"><br>本网站使用该插件生成RSS订阅链接，欢迎订阅<br><img src="https://tobenot.github.io/atom.xml" alt="订阅作家之屋"></p>]]></content>
+    <content type="html"><![CDATA[<h2 id="RSS订阅是什么"><a href="#RSS订阅是什么" class="headerlink" title="RSS订阅是什么"></a>RSS订阅是什么</h2><p>RSS订阅是古老的东西<br>大概作用是订阅信息源，信息源发布新文章时，在RSS阅读器里面可以收到推送<br>比起上各种平台被推荐算法带着走，RSS订阅是可以考虑的方法<br>感觉用RSS订阅大家的博客是最实用的用法了）<br>并不是所有网站都能用RSS订阅，如果一个人的博客没有RSS订阅，去催他加上</p><h3 id="RSS订阅的详细介绍"><a href="#RSS订阅的详细介绍" class="headerlink" title="RSS订阅的详细介绍"></a>RSS订阅的详细介绍</h3><p>这里有知乎的一个文章，一文读通：<br><a href="https://zhuanlan.zhihu.com/p/349349861">知道RSS的人越少，我就越希望它能被人知道！</a></p><h2 id="先推荐一个RSS阅读器"><a href="#先推荐一个RSS阅读器" class="headerlink" title="先推荐一个RSS阅读器"></a>先推荐一个RSS阅读器</h2><p><a href="https://www.agrreader.xyz/">AgrReader官网</a></p><h2 id="挖掘网站的RSS订阅网址"><a href="#挖掘网站的RSS订阅网址" class="headerlink" title="挖掘网站的RSS订阅网址"></a>挖掘网站的RSS订阅网址</h2><p>Rsshub-Radar插件<br>Chrome打开这个网址就能安装：<br><a href="https://chromewebstore.google.com/detail/rsshub-radar/kefjpfngnndepjbopdmoebkipbgkggaa">Rsshub-Radar插件</a><br>装好后打开网站时，如果有RSS网址，就能在网址右边的插件管理里面看到RSS有个红点，告诉你RSS订阅网址</p><p>把网址放进RSS阅读器里就能完成订阅！</p><h2 id="给hexo博客添加RSS订阅"><a href="#给hexo博客添加RSS订阅" class="headerlink" title="给hexo博客添加RSS订阅"></a>给hexo博客添加RSS订阅</h2><p>用插件：<br><a href="https://blog.csdn.net/qq_38140292/article/details/119076455">【hexo】基础教程-四-新增RSS订阅</a><br>本网站使用该插件生成RSS订阅链接，欢迎订阅<br><a href="https://tobenot.github.io/atom.xml">订阅作家之屋</a></p>]]></content>
     
     
       
