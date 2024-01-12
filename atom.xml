@@ -6,7 +6,7 @@
   <link href="https://tobenot.github.io/atom.xml" rel="self"/>
   
   <link href="https://tobenot.github.io/"/>
-  <updated>2024-01-02T17:49:36.073Z</updated>
+  <updated>2024-01-12T19:51:34.434Z</updated>
   <id>https://tobenot.github.io/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>为什么卖Key不是GPT游戏的商业模式</title>
+    <link href="https://tobenot.github.io/2024/01/13/240113-WhyNot-SellKey-For-GPTGame/"/>
+    <id>https://tobenot.github.io/2024/01/13/240113-WhyNot-SellKey-For-GPTGame/</id>
+    <published>2024-01-12T19:05:38.000Z</published>
+    <updated>2024-01-12T19:51:34.434Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Steam"><a href="#Steam" class="headerlink" title="Steam"></a>Steam</h2><p><a href="https://www.reddit.com/r/gamedev/comments/vunz9y/what_is_steams_policy_on_the_revenue_cut_from/">对于内购物品，Steam也会进行抽成</a></p><p>大概抽一半<br>要自己不亏，key价格得翻倍<br>亏的是玩家</p><h2 id="Gamefilp"><a href="#Gamefilp" class="headerlink" title="Gamefilp"></a>Gamefilp</h2><p>这个抽成应该少点<br>但是玩家为什么不直接去openAI那里买key呢？<br>外国玩家可以直接买，国内也有很多转发服务</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;Steam&quot;&gt;&lt;a href=&quot;#Steam&quot; class=&quot;headerlink&quot; title=&quot;Steam&quot;&gt;&lt;/a&gt;Steam&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/gamedev/comments/vunz9y/</summary>
+      
+    
+    
+    
+    <category term="漫谈" scheme="https://tobenot.github.io/categories/%E6%BC%AB%E8%B0%88/"/>
+    
+    
+    <category term="漫谈" scheme="https://tobenot.github.io/tags/%E6%BC%AB%E8%B0%88/"/>
+    
+  </entry>
   
   <entry>
     <title>谈谈生命卷轴吧</title>
@@ -526,30 +550,6 @@
     <category term="工作流" scheme="https://tobenot.github.io/tags/%E5%B7%A5%E4%BD%9C%E6%B5%81/"/>
     
     <category term="碎片" scheme="https://tobenot.github.io/tags/%E7%A2%8E%E7%89%87/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>歌单</title>
-    <link href="https://tobenot.github.io/2023/11/18/Song-Playlist/"/>
-    <id>https://tobenot.github.io/2023/11/18/Song-Playlist/</id>
-    <published>2023-11-18T15:22:57.000Z</published>
-    <updated>2023-12-01T18:44:41.796Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="冰岛的气息"><a href="#冰岛的气息" class="headerlink" title="冰岛的气息"></a>冰岛的气息</h2><p><a href="https://www.bilibili.com/video/BV1uK41197aE">死亡搁浅</a></p><h2 id="就连失去什么也不自知"><a href="#就连失去什么也不自知" class="headerlink" title="就连失去什么也不自知"></a>就连失去什么也不自知</h2><p>明明从开始就一无所有<br><a href="https://www.bilibili.com/video/BV1rX4y117rp/">「転がる岩、 君に朝が降る」结束乐队</a></p><h1 id="神界原罪"><a href="#神界原罪" class="headerlink" title="神界原罪"></a>神界原罪</h1><h2 id="里维纶"><a href="#里维纶" class="headerlink" title="里维纶"></a>里维纶</h2><p><a href="https://www.bilibili.com/video/BV1ix41177XM?p=4">阳光 | 复仇女神号 | 半恶魔</a></p><h2 id="神的原罪"><a href="#神的原罪" class="headerlink" title="神的原罪"></a>神的原罪</h2><p><a href="https://www.bilibili.com/video/BV1ix41177XM?p=35">神圣的哀歌</a></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h2 id=&quot;冰岛的气息&quot;&gt;&lt;a href=&quot;#冰岛的气息&quot; class=&quot;headerlink&quot; title=&quot;冰岛的气息&quot;&gt;&lt;/a&gt;冰岛的气息&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;https://www.bilibili.com/video/BV1uK41197aE&quot;&gt;死亡搁浅</summary>
-      
-    
-    
-    
-    <category term="共鸣" scheme="https://tobenot.github.io/categories/%E5%85%B1%E9%B8%A3/"/>
-    
-    
-    <category term="推荐" scheme="https://tobenot.github.io/tags/%E6%8E%A8%E8%8D%90/"/>
     
   </entry>
   
