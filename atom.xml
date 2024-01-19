@@ -6,7 +6,7 @@
   <link href="https://tobenot.github.io/atom.xml" rel="self"/>
   
   <link href="https://tobenot.github.io/"/>
-  <updated>2024-01-12T19:51:34.434Z</updated>
+  <updated>2024-01-02T17:49:36.073Z</updated>
   <id>https://tobenot.github.io/</id>
   
   <author>
@@ -15,30 +15,6 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>为什么卖Key不是GPT游戏的商业模式</title>
-    <link href="https://tobenot.github.io/2024/01/13/240113-WhyNot-SellKey-For-GPTGame/"/>
-    <id>https://tobenot.github.io/2024/01/13/240113-WhyNot-SellKey-For-GPTGame/</id>
-    <published>2024-01-12T19:05:38.000Z</published>
-    <updated>2024-01-12T19:51:34.434Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="Steam"><a href="#Steam" class="headerlink" title="Steam"></a>Steam</h2><p><a href="https://www.reddit.com/r/gamedev/comments/vunz9y/what_is_steams_policy_on_the_revenue_cut_from/">对于内购物品，Steam也会进行抽成</a></p><p>大概抽一半<br>要自己不亏，key价格得翻倍<br>亏的是玩家</p><h2 id="Gamefilp"><a href="#Gamefilp" class="headerlink" title="Gamefilp"></a>Gamefilp</h2><p>这个抽成应该少点<br>但是玩家为什么不直接去openAI那里买key呢？<br>外国玩家可以直接买，国内也有很多转发服务</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h2 id=&quot;Steam&quot;&gt;&lt;a href=&quot;#Steam&quot; class=&quot;headerlink&quot; title=&quot;Steam&quot;&gt;&lt;/a&gt;Steam&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/gamedev/comments/vunz9y/</summary>
-      
-    
-    
-    
-    <category term="漫谈" scheme="https://tobenot.github.io/categories/%E6%BC%AB%E8%B0%88/"/>
-    
-    
-    <category term="漫谈" scheme="https://tobenot.github.io/tags/%E6%BC%AB%E8%B0%88/"/>
-    
-  </entry>
   
   <entry>
     <title>谈谈生命卷轴吧</title>
@@ -153,9 +129,9 @@
     <link href="https://tobenot.github.io/2023/12/28/231228-Optimal-Note-Choices/"/>
     <id>https://tobenot.github.io/2023/12/28/231228-Optimal-Note-Choices/</id>
     <published>2023-12-28T14:40:59.000Z</published>
-    <updated>2023-12-28T15:00:29.978Z</updated>
+    <updated>2024-01-19T16:09:12.558Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="笔记软件选择"><a href="#笔记软件选择" class="headerlink" title="笔记软件选择"></a>笔记软件选择</h1><p>在数字化时代，选择一款适合自己的笔记软件变得尤为重要。不同的软件有不同的特点和用途，而我则根据我的需求在多个软件中进行了选择和应用。以下是我对几种常用笔记软件的评价和应用场景。</p><h2 id="幕布"><a href="#幕布" class="headerlink" title="幕布"></a>幕布</h2><p><strong>用途：云粘贴板，大纲导图</strong></p><p><strong>特点：</strong></p><ul><li>无感云同步，十分方便，手机端编辑也得心应手，免费。</li><li>不适合写大段文本，更适合关键内容的记录，大纲式写作。</li><li>不过使用Shift+Enter还是可以输入大片文本。</li><li>我对它的定位是云粘贴板和大纲导图，全同步，是记录文字的外置器官，随身携带的小本本。</li></ul><h2 id="Obsidian-黑曜石"><a href="#Obsidian-黑曜石" class="headerlink" title="Obsidian 黑曜石"></a>Obsidian 黑曜石</h2><p><strong>用途：详细技术性笔记，建立知识体系</strong></p><p><strong>特点：</strong></p><ul><li>支持Markdown格式的笔记。</li><li>数据存储在本地，更安全，可以使用git同步。</li><li>适合写大段文本，特别是详细的技术性笔记，类似写技术博客。</li><li>提供很帅的联系图功能，非常适合学习和建立知识体系，新东西加进来还能复习下老东西。</li><li>我在公司用来记录笔记，但不进行同步，确保数据的安全性。</li></ul><h2 id="坚果云Markdown"><a href="#坚果云Markdown" class="headerlink" title="坚果云Markdown"></a>坚果云Markdown</h2><p><strong>用途：碎片时间写文章</strong></p><p><strong>特点：</strong></p><ul><li>是一个基于坚果云的Markdown编辑器。</li><li>无感云同步，手机端编辑Markdown很方便，适合利用碎片时间写文章。</li><li>我在家和手机之间同步，写文章的地方。</li></ul><h2 id="OneNote"><a href="#OneNote" class="headerlink" title="OneNote"></a>OneNote</h2><p><strong>用途：个人项目管理，思维梳理</strong></p><p><strong>特点：</strong></p><ul><li>未使用手写功能，不作手写评价。</li><li>适用于排代办和产出灵感，自由排版。高考结束时我选了它作为电子化的All-In-One工具。事实证明一个无限延展的白板很适合发挥创造力，反思与发散。</li><li>在家用来梳理思绪，进行对个人的”项目管理”。</li><li>同步功能可以视为没有，关闭同步更舒服，定期本地备份就是了。</li></ul><h2 id="Word"><a href="#Word" class="headerlink" title="Word"></a>Word</h2><p><strong>用途：工作进度管理</strong></p><p><strong>特点：</strong></p><ul><li>所见即所得的编辑方式。</li><li>开多个文档不太方便，联系上下文较为不便。</li><li>主要用于工作进度管理，在公司中负责管理工作进展。</li></ul><h2 id="Typora"><a href="#Typora" class="headerlink" title="Typora"></a>Typora</h2><p><strong>特点：</strong></p><ul><li>据说写Markdown很方便。</li><li>贵。</li></ul><h2 id="Notion"><a href="#Notion" class="headerlink" title="Notion"></a>Notion</h2><p><strong>用途：团队项目管理</strong></p><p><strong>特点：</strong></p><ul><li>类似于TAPD，适用于团队项目管理。</li></ul><h1 id="不同应用场景的总结"><a href="#不同应用场景的总结" class="headerlink" title="不同应用场景的总结"></a>不同应用场景的总结</h1><ul><li><p><strong>在家：</strong></p><ul><li>幕布：云粘贴板，用于记录碎片化的东西。以及把碎片的东西取出来梳理一下。（比如这篇文章就是大纲转过来的）<br><img src="/img/Article/Optimal-Note-Choices.webp" alt="这篇文章的幕布大纲"></li><li>OneNote：主要用于个人日程管理和思维梳理。</li></ul></li><li><p><strong>在公司：</strong></p><ul><li>幕布：云粘贴板，用于记录碎片化的东西。</li><li>Obsidian：用于写详细的Markdown技术性笔记</li><li>Word：用于工作进度管理，做到哪啦？</li></ul></li><li><p><strong>在手机上：</strong></p><ul><li>幕布：云粘贴板，用于记录碎片化的东西。</li><li>坚果云Markdown：方便的Markdown同步功能，适合在手机上利用碎片时间写文章。</li></ul></li></ul><h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><p>在不同场景中，我会灵活运用这些笔记软件，以满足我的不同需求。无论是记录碎片化的灵感，整理技术性的知识，还是进行团队项目管理，每款软件都有其独特的价值。选择适合自己需求的笔记软件，就像选择合适的工具一样，能够事半功倍地提高工作和学习效率。</p>]]></content>
+    <content type="html"><![CDATA[<h1 id="笔记软件选择"><a href="#笔记软件选择" class="headerlink" title="笔记软件选择"></a>笔记软件选择</h1><p>在数字化时代，选择一款适合自己的笔记软件变得尤为重要。不同的软件有不同的特点和用途，而我则根据我的需求在多个软件中进行了选择和应用。以下是我对几种常用笔记软件的评价和应用场景。</p><h2 id="幕布"><a href="#幕布" class="headerlink" title="幕布"></a>幕布</h2><p><strong>用途：云粘贴板，大纲导图</strong></p><p><strong>特点：</strong></p><ul><li>无感云同步，十分方便，手机端编辑也得心应手，免费。</li><li>不适合写大段文本，更适合关键内容的记录，大纲式写作。</li><li>不过使用Shift+Enter还是可以输入大片文本。</li><li>我对它的定位是云粘贴板和大纲导图，全同步，是记录文字的外置器官，随身携带的小本本。</li></ul><h2 id="Obsidian-黑曜石"><a href="#Obsidian-黑曜石" class="headerlink" title="Obsidian 黑曜石"></a>Obsidian 黑曜石</h2><p><strong>用途：详细技术性笔记，建立知识体系</strong></p><p><strong>特点：</strong></p><ul><li>支持Markdown格式的笔记。</li><li>数据存储在本地，更安全，可以使用git同步。</li><li>适合写大段文本，特别是详细的技术性笔记，类似写技术博客。</li><li>提供很帅的联系图功能，非常适合学习和建立知识体系，新东西加进来还能复习下老东西。</li><li>我在公司用来记录笔记，但不进行同步，确保数据的安全性。</li></ul><h2 id="坚果云Markdown"><a href="#坚果云Markdown" class="headerlink" title="坚果云Markdown"></a>坚果云Markdown</h2><p><strong>用途：碎片时间写文章</strong></p><p><strong>特点：</strong></p><ul><li>是一个基于坚果云的Markdown编辑器。</li><li>无感云同步，手机端编辑Markdown很方便，适合利用碎片时间写文章。</li><li>我在家和手机之间同步，写文章的地方。</li></ul><h2 id="OneNote"><a href="#OneNote" class="headerlink" title="OneNote"></a>OneNote</h2><p><strong>用途：个人项目管理，思维梳理</strong></p><p><strong>特点：</strong></p><ul><li>未使用手写功能，不作手写评价。</li><li>适用于排代办和产出灵感，自由排版。高考结束时我选了它作为电子化的All-In-One工具。事实证明一个无限延展的白板很适合发挥创造力，反思与发散。</li><li>在家用来梳理思绪，进行对个人的”项目管理”。</li><li>同步功能可以视为没有，关闭同步更舒服，定期本地备份就是了。</li></ul><h2 id="Word"><a href="#Word" class="headerlink" title="Word"></a>Word</h2><p><strong>用途：工作进度管理</strong></p><p><strong>特点：</strong></p><ul><li>所见即所得的编辑方式。</li><li>开多个文档不太方便，联系上下文较为不便。</li><li>主要用于工作进度管理，在公司中负责管理工作进展。</li></ul><h2 id="Typora"><a href="#Typora" class="headerlink" title="Typora"></a>Typora</h2><p><strong>特点：</strong></p><ul><li>据说写Markdown很方便。</li><li>贵。</li></ul><h2 id="Notion"><a href="#Notion" class="headerlink" title="Notion"></a>Notion</h2><p><strong>用途：团队项目管理</strong></p><p><strong>特点：</strong></p><ul><li>类似于TAPD，适用于团队项目管理。</li></ul><h1 id="不同应用场景的总结"><a href="#不同应用场景的总结" class="headerlink" title="不同应用场景的总结"></a>不同应用场景的总结</h1><ul><li><p><strong>在家：</strong></p><ul><li>幕布：云粘贴板，用于记录碎片化的东西。以及把碎片的东西取出来梳理一下。（比如这篇文章就是大纲转过来的）<br><img src="/img/Article/Optimal-Note-Choices.webp" alt="这篇文章的幕布大纲"></li><li>OneNote：主要用于个人日程管理和思维梳理。</li></ul></li><li><p><strong>在公司：</strong></p><ul><li>幕布：云粘贴板，用于记录碎片化的东西。</li><li>Obsidian：用于写详细的Markdown技术性笔记</li><li>Word：用于工作进度管理，做到哪啦？</li></ul></li><li><p><strong>在手机上：</strong></p><ul><li>幕布：云粘贴板，用于记录碎片化的东西。</li><li>坚果云Markdown：方便的Markdown同步功能，适合在手机上利用碎片时间写文章。</li></ul></li></ul><h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><p>在不同场景中，我会灵活运用这些笔记软件，以满足我的不同需求。无论是记录碎片化的灵感，整理技术性的知识，还是进行团队项目管理，每款软件都有其独特的价值。选择适合自己需求的笔记软件，就像选择合适的工具一样，能够事半功倍地提高工作和学习效率。</p><h1 id="补充"><a href="#补充" class="headerlink" title="补充"></a>补充</h1><h2 id="2024-1-19"><a href="#2024-1-19" class="headerlink" title="2024.1.19"></a>2024.1.19</h2><p>幕布确实好列代办，可以在碎片时间列代办<br>但真要开干还是得移动到OneNote，好做各种标记</p>]]></content>
     
     
       
@@ -262,9 +238,9 @@
     <link href="https://tobenot.github.io/2023/11/26/231126-AI-Game-Dev-Log/"/>
     <id>https://tobenot.github.io/2023/11/26/231126-AI-Game-Dev-Log/</id>
     <published>2023-11-26T08:55:07.000Z</published>
-    <updated>2024-01-17T18:34:27.535Z</updated>
+    <updated>2024-01-19T16:24:43.219Z</updated>
     
-    <content type="html"><![CDATA[<p>目前都要玩家生成key</p><h2 id="2023-11-6"><a href="#2023-11-6" class="headerlink" title="2023.11.6"></a>2023.11.6</h2><p>roadmap规划<br>这时规划做成模板型<br>1.5h</p><h2 id="2023-11-9"><a href="#2023-11-9" class="headerlink" title="2023.11.9 *"></a>2023.11.9 *</h2><p><a href="https://github.com/tobenot/TobenotAIGameCollection/tree/main/AIChatCilent">GPT客户端</a><br>3.5h</p><h2 id="2023-11-13"><a href="#2023-11-13" class="headerlink" title="2023.11.13"></a>2023.11.13</h2><p><a href="https://github.com/tobenot/TobenotAIGameCollection/tree/main/AIPersuadeGame">AI说服小游戏</a></p><p>有点bug，开始五分钟后游戏会不响应任何操作，下个版本修</p><p>先做了一个Agent，技术路线可以往任何方案拓展<br>画面表现我也是想做一些的，纯黑底白字看着不太吸引人<br>4h</p><h2 id="2023-11-18"><a href="#2023-11-18" class="headerlink" title="2023.11.18"></a>2023.11.18</h2><p>roadmap规划<br>往具有表现力方向规划了<br>2h</p><h2 id="2023-11-19"><a href="#2023-11-19" class="headerlink" title="2023.11.19"></a>2023.11.19</h2><p>插件C++化<br>遇到了委托的bug，修到1点<br>2.5h</p><h2 id="2023-11-26"><a href="#2023-11-26" class="headerlink" title="2023.11.26"></a>2023.11.26</h2><p>生成初始设置的C++化<br>3.5h</p><h2 id="中间还有一段，待有空了记录"><a href="#中间还有一段，待有空了记录" class="headerlink" title="中间还有一段，待有空了记录"></a>中间还有一段，待有空了记录</h2><h2 id="2023-12-9"><a href="#2023-12-9" class="headerlink" title="2023.12.9"></a>2023.12.9</h2><p>旅行两天</p><h2 id="2023-12-13"><a href="#2023-12-13" class="headerlink" title="2023.12.13 *"></a>2023.12.13 *</h2><p>研究了第三方key的性质<br>研究了实时生图方案<br>有很大进展<br>1.5h</p><h2 id="2023-12-17"><a href="#2023-12-17" class="headerlink" title="2023.12.17"></a>2023.12.17</h2><p>工程升5.3<br>0.3h<br>搞AI故事大赛去了，练下prompt水平和剧情生成<br>我这进度慢的我接受不了<br>但实在是太忙了</p><h2 id="2023-12-18"><a href="#2023-12-18" class="headerlink" title="2023.12.18"></a>2023.12.18</h2><p>搞AI故事大赛去了（昨天今天总共花了3小时），练下prompt水平和剧情生成<br>作品在参赛结束后发博客一份</p><h2 id="2023-12-20"><a href="#2023-12-20" class="headerlink" title="2023.12.20"></a>2023.12.20</h2><p>添加自动整理蓝图的插件，方便开发</p><p>加了个下载文本文件的接口<br>可以下公共key了<br>这下解压即可玩了<br>0.5h</p><h2 id="2023-12-25"><a href="#2023-12-25" class="headerlink" title="2023.12.25"></a>2023.12.25</h2><p>考研</p><h2 id="2023-12-30"><a href="#2023-12-30" class="headerlink" title="2023.12.30"></a>2023.12.30</h2><p>研究人物模型工具链<br>选VRoid<br>1.5h 大概明白怎么跑流程了，做了一个小女孩模型<br>还是先去搞机制吧，不然说服小游戏打包出来太大</p><p>1.5h 弄出来了json格式回复</p><p>1.5h prompt外置文件化，版本管理</p><h2 id="2023-12-31"><a href="#2023-12-31" class="headerlink" title="2023.12.31"></a>2023.12.31</h2><p>1.5h Json格式回复实装到聊天Agent上<br>0.5h 预生成选项</p><p>1h:<br>Log调整，在Http过程中添加心跳Log</p><p>给交谈的json回复提供例子</p><p>把AI的回复压缩存储</p><p>0.5h 让GPT选择回复模板，能调用外部工具进行进一步处理<br>1h 制作外部工具：骰子，让gpt能调用</p><h2 id="2024-1-1"><a href="#2024-1-1" class="headerlink" title="2024.1.1"></a>2024.1.1</h2><p>1h 骰子的文本展示和机制优化</p><p>0.8h 发消息时隐藏玩家选项，转加载圈圈</p><p>0.5h 游戏结束标志<br>1h 重构了一下消息接受，来支持报错机制。给报错加了一个窗口<br>下载key自动设置API网址<br>以及设置API网址的UI按钮提示文本优化</p><p>0.8h 封包demov4 修bug 发布v4的release</p><h2 id="2024-1-5"><a href="#2024-1-5" class="headerlink" title="2024.1.5"></a>2024.1.5</h2><p>01:20 - 02:00<br>0.6h 开始游戏就立刻下载key，优化一些加载进度条</p><p>下一步也许要自动检测来下载key</p><h2 id="2024-1-10"><a href="#2024-1-10" class="headerlink" title="2024.1.10"></a>2024.1.10</h2><p>01:40 - 04:26<br>3h 准备Steam商店页，送审<br>工作那边在攻坚，从1月2日到1月19日都没有休息日，只能熬夜搞</p><h2 id="2024-1-13"><a href="#2024-1-13" class="headerlink" title="2024.1.13"></a>2024.1.13</h2><p>Steam商店页审核失败</p><h2 id="2024-1-16"><a href="#2024-1-16" class="headerlink" title="2024.1.16"></a>2024.1.16</h2><p>Steam商店页审核成功，公布商店页</p><h2 id="2024-1-29"><a href="#2024-1-29" class="headerlink" title="2024.1.29"></a>2024.1.29</h2><p>预计发行日期，其实18号的时候还没准备好游戏包送审，有点危险</p>]]></content>
+    <content type="html"><![CDATA[<p>目前都要玩家生成key</p><h2 id="2023-11-6"><a href="#2023-11-6" class="headerlink" title="2023.11.6"></a>2023.11.6</h2><p>roadmap规划<br>这时规划做成模板型<br>1.5h</p><h2 id="2023-11-9"><a href="#2023-11-9" class="headerlink" title="2023.11.9 *"></a>2023.11.9 *</h2><p><a href="https://github.com/tobenot/TobenotAIGameCollection/tree/main/AIChatCilent">GPT客户端</a><br>3.5h</p><h2 id="2023-11-13"><a href="#2023-11-13" class="headerlink" title="2023.11.13"></a>2023.11.13</h2><p><a href="https://github.com/tobenot/TobenotAIGameCollection/tree/main/AIPersuadeGame">AI说服小游戏</a></p><p>有点bug，开始五分钟后游戏会不响应任何操作，下个版本修</p><p>先做了一个Agent，技术路线可以往任何方案拓展<br>画面表现我也是想做一些的，纯黑底白字看着不太吸引人<br>4h</p><h2 id="2023-11-18"><a href="#2023-11-18" class="headerlink" title="2023.11.18"></a>2023.11.18</h2><p>roadmap规划<br>往具有表现力方向规划了<br>2h</p><h2 id="2023-11-19"><a href="#2023-11-19" class="headerlink" title="2023.11.19"></a>2023.11.19</h2><p>插件C++化<br>遇到了委托的bug，修到1点<br>2.5h</p><h2 id="2023-11-26"><a href="#2023-11-26" class="headerlink" title="2023.11.26"></a>2023.11.26</h2><p>生成初始设置的C++化<br>3.5h</p><h2 id="中间还有一段，待有空了记录"><a href="#中间还有一段，待有空了记录" class="headerlink" title="中间还有一段，待有空了记录"></a>中间还有一段，待有空了记录</h2><h2 id="2023-12-9"><a href="#2023-12-9" class="headerlink" title="2023.12.9"></a>2023.12.9</h2><p>旅行两天</p><h2 id="2023-12-13"><a href="#2023-12-13" class="headerlink" title="2023.12.13 *"></a>2023.12.13 *</h2><p>研究了第三方key的性质<br>研究了实时生图方案<br>有很大进展<br>1.5h</p><h2 id="2023-12-17"><a href="#2023-12-17" class="headerlink" title="2023.12.17"></a>2023.12.17</h2><p>工程升5.3<br>0.3h<br>搞AI故事大赛去了，练下prompt水平和剧情生成<br>我这进度慢的我接受不了<br>但实在是太忙了</p><h2 id="2023-12-18"><a href="#2023-12-18" class="headerlink" title="2023.12.18"></a>2023.12.18</h2><p>搞AI故事大赛去了（昨天今天总共花了3小时），练下prompt水平和剧情生成<br>作品在参赛结束后发博客一份</p><h2 id="2023-12-20"><a href="#2023-12-20" class="headerlink" title="2023.12.20"></a>2023.12.20</h2><p>添加自动整理蓝图的插件，方便开发</p><p>加了个下载文本文件的接口<br>可以下公共key了<br>这下解压即可玩了<br>0.5h</p><h2 id="2023-12-25"><a href="#2023-12-25" class="headerlink" title="2023.12.25"></a>2023.12.25</h2><p>考研</p><h2 id="2023-12-30"><a href="#2023-12-30" class="headerlink" title="2023.12.30"></a>2023.12.30</h2><p>研究人物模型工具链<br>选VRoid<br>1.5h 大概明白怎么跑流程了，做了一个小女孩模型<br>还是先去搞机制吧，不然说服小游戏打包出来太大</p><p>1.5h 弄出来了json格式回复</p><p>1.5h prompt外置文件化，版本管理</p><h2 id="2023-12-31"><a href="#2023-12-31" class="headerlink" title="2023.12.31"></a>2023.12.31</h2><p>1.5h Json格式回复实装到聊天Agent上<br>0.5h 预生成选项</p><p>1h:<br>Log调整，在Http过程中添加心跳Log</p><p>给交谈的json回复提供例子</p><p>把AI的回复压缩存储</p><p>0.5h 让GPT选择回复模板，能调用外部工具进行进一步处理<br>1h 制作外部工具：骰子，让gpt能调用</p><h2 id="2024-1-1"><a href="#2024-1-1" class="headerlink" title="2024.1.1"></a>2024.1.1</h2><p>1h 骰子的文本展示和机制优化</p><p>0.8h 发消息时隐藏玩家选项，转加载圈圈</p><p>0.5h 游戏结束标志<br>1h 重构了一下消息接受，来支持报错机制。给报错加了一个窗口<br>下载key自动设置API网址<br>以及设置API网址的UI按钮提示文本优化</p><p>0.8h 封包demov4 修bug 发布v4的release</p><h2 id="2024-1-5"><a href="#2024-1-5" class="headerlink" title="2024.1.5"></a>2024.1.5</h2><p>01:20 - 02:00<br>0.6h 开始游戏就立刻下载key，优化一些加载进度条</p><p>下一步也许要自动检测来下载key</p><h2 id="2024-1-10"><a href="#2024-1-10" class="headerlink" title="2024.1.10"></a>2024.1.10</h2><p>01:40 - 04:26<br>3h 准备Steam商店页，送审<br>工作那边在攻坚，从1月2日到1月19日都没有休息日，只能熬夜搞</p><h2 id="2024-1-13"><a href="#2024-1-13" class="headerlink" title="2024.1.13"></a>2024.1.13</h2><p>Steam商店页审核失败</p><h2 id="2024-1-16"><a href="#2024-1-16" class="headerlink" title="2024.1.16"></a>2024.1.16</h2><p>Steam商店页审核成功，公布商店页<br>🎮<br>1月29是预计发行日期，其实18号的时候还没准备好游戏包送审，有点危险<br>笑死了，18号通宵把游戏生成版本搞了</p><h2 id="2024-1-18"><a href="#2024-1-18" class="headerlink" title="2024.1.18"></a>2024.1.18</h2><p>🚀💻🌟📝✨<br>通宵做出第一个游戏生成版本<br>大概弄了：</p><ul><li><strong>文本和资源改成对话纷争的样式</strong></li><li><strong>尝试修复野指针崩溃</strong></li><li><strong>本地化文本翻译</strong></li><li><strong>语言设置</strong></li><li><strong>内容安全审查</strong></li></ul><p>和GPT的一些聊天记录：</p><ul><li>好的，现在是2024年1月19日00:54:28，我准备今晚就要做完一个游戏的上线前送审的版本</li><li>现在是2024年1月19日01:38:21。我可能修复了一个崩溃问题，- 现在开始做本地化！</li><li>现在是2024年1月19日04:18:06，我的游戏基本做好了，我要录视频了！</li><li>现在是2024年1月19日04:58:57，我修了40分钟的prompt的bug，原来是个初始化问题，干</li><li>现在是2024年1月19日05:19:00，我准备送审了！</li><li>“辛苦你们审核我的游戏。如果你们需要公共key的话，可以直接在主菜单点击下载。如果你点了下载公共key，但是又希望用自己的openAI官方key的话，最好重新进一下游戏！或者在高级设置里点一下官方网址。因为公共key是一个API网址不同的高并发的转发openAI gpt服务，方便更多的玩家同时连接。公共key我目前只充了20美元进去。这个游戏需要装DX，我在steam应用设置里应该设置好了。至于为什么文字游戏要装DX，因为是基于虚幻引擎的，以后更新我会想加一些固定场景！总之，希望你们能成功连接上AI服务，并且在我的游戏中遇到一些有趣的事情！”</li><li>现在是2024年1月19日05:45:54，我又遇到了一点问题，中文好像切换不过去，我准备再修一下。英文的本地化也漏了一个字符串</li><li>好的，现在是2024年1月19日06:10:57。我发现问题所在了，是一个工程设置的问题</li><li>2024年1月19日06:16:24 全部搞定，睡觉，明天接着上班</li></ul><p>5h</p>]]></content>
     
     
       
@@ -402,9 +378,9 @@
     <link href="https://tobenot.github.io/2023/11/26/Mutterings/"/>
     <id>https://tobenot.github.io/2023/11/26/Mutterings/</id>
     <published>2023-11-26T07:31:20.000Z</published>
-    <updated>2023-11-28T14:42:12.622Z</updated>
+    <updated>2024-01-19T16:11:22.536Z</updated>
     
-    <content type="html"><![CDATA[<p>相当于QQ空间</p><h2 id="作诗"><a href="#作诗" class="headerlink" title="作诗"></a>作诗</h2><h3 id="银光织梦"><a href="#银光织梦" class="headerlink" title="银光织梦"></a>银光织梦</h3><p>银玉盘上织幻巧，玻璃窗下捕梦痴。</p><p>银玉盘：指月亮</p><h1 id="最新位置"><a href="#最新位置" class="headerlink" title="最新位置"></a>最新位置</h1><h2 id="2023-11"><a href="#2023-11" class="headerlink" title="2023.11"></a>2023.11</h2><p>26<br>Take a deep breath and work on this step by step, This is very import to my career.<br>这个prompt我不肯对gpt用，这像是在忽悠它，不真诚</p><p>在C++里写毕设很让人高兴和舒服<br>可能因为以前都是蓝图写的<br>而且提交的那一刻很舒服<br>diff的感觉</p><p>28<br>个人日志应该是对客人的，应该要文章化，而不是分类步进式更新。<br>我应该把碎片知识收到笔记里，把文章梳理出来展示给客人看。<br>这里就像自家花园，碎片化知识就像五彩的花朵，打理一下整齐点客人才爱看。</p>]]></content>
+    <content type="html"><![CDATA[<p>相当于QQ空间</p><h2 id="作诗"><a href="#作诗" class="headerlink" title="作诗"></a>作诗</h2><h3 id="银光织梦"><a href="#银光织梦" class="headerlink" title="银光织梦"></a>银光织梦</h3><p>银玉盘上织幻巧，玻璃窗下捕梦痴。</p><p>银玉盘：指月亮</p><h2 id="2023-11"><a href="#2023-11" class="headerlink" title="2023.11"></a>2023.11</h2><p>26<br>Take a deep breath and work on this step by step, This is very import to my career.<br>这个prompt我不肯对gpt用，这像是在忽悠它，不真诚</p><p>在C++里写毕设很让人高兴和舒服<br>可能因为以前都是蓝图写的<br>而且提交的那一刻很舒服<br>diff的感觉</p><p>28<br>个人日志应该是对客人的，应该要文章化，而不是分类步进式更新。<br>我应该把碎片知识收到笔记里，把文章梳理出来展示给客人看。<br>这里就像自家花园，碎片化知识就像五彩的花朵，打理一下整齐点客人才爱看。</p><h1 id="最新位置"><a href="#最新位置" class="headerlink" title="最新位置"></a>最新位置</h1><h2 id="2024-1"><a href="#2024-1" class="headerlink" title="2024.1"></a>2024.1</h2><h3 id="为什么卖Key不是GPT游戏的商业模式"><a href="#为什么卖Key不是GPT游戏的商业模式" class="headerlink" title="为什么卖Key不是GPT游戏的商业模式"></a>为什么卖Key不是GPT游戏的商业模式</h3><p>2024-01-13 03:05:38</p><h4 id="Steam"><a href="#Steam" class="headerlink" title="Steam"></a>Steam</h4><p><a href="https://www.reddit.com/r/gamedev/comments/vunz9y/what_is_steams_policy_on_the_revenue_cut_from/">对于内购物品，Steam也会进行抽成</a></p><p>大概抽一半<br>要自己不亏，key价格得翻倍<br>亏的是玩家</p><h4 id="Gamefilp"><a href="#Gamefilp" class="headerlink" title="Gamefilp"></a>Gamefilp</h4><p>这个抽成应该少点<br>但是玩家为什么不直接去openAI那里买key呢？<br>外国玩家可以直接买，国内也有很多转发服务</p><p>GPT游戏的商业模式，大概还是原来的游戏的商业模式</p>]]></content>
     
     
       
@@ -550,6 +526,30 @@
     <category term="工作流" scheme="https://tobenot.github.io/tags/%E5%B7%A5%E4%BD%9C%E6%B5%81/"/>
     
     <category term="碎片" scheme="https://tobenot.github.io/tags/%E7%A2%8E%E7%89%87/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>歌单</title>
+    <link href="https://tobenot.github.io/2023/11/18/Song-Playlist/"/>
+    <id>https://tobenot.github.io/2023/11/18/Song-Playlist/</id>
+    <published>2023-11-18T15:22:57.000Z</published>
+    <updated>2023-12-01T18:44:41.796Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="冰岛的气息"><a href="#冰岛的气息" class="headerlink" title="冰岛的气息"></a>冰岛的气息</h2><p><a href="https://www.bilibili.com/video/BV1uK41197aE">死亡搁浅</a></p><h2 id="就连失去什么也不自知"><a href="#就连失去什么也不自知" class="headerlink" title="就连失去什么也不自知"></a>就连失去什么也不自知</h2><p>明明从开始就一无所有<br><a href="https://www.bilibili.com/video/BV1rX4y117rp/">「転がる岩、 君に朝が降る」结束乐队</a></p><h1 id="神界原罪"><a href="#神界原罪" class="headerlink" title="神界原罪"></a>神界原罪</h1><h2 id="里维纶"><a href="#里维纶" class="headerlink" title="里维纶"></a>里维纶</h2><p><a href="https://www.bilibili.com/video/BV1ix41177XM?p=4">阳光 | 复仇女神号 | 半恶魔</a></p><h2 id="神的原罪"><a href="#神的原罪" class="headerlink" title="神的原罪"></a>神的原罪</h2><p><a href="https://www.bilibili.com/video/BV1ix41177XM?p=35">神圣的哀歌</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;冰岛的气息&quot;&gt;&lt;a href=&quot;#冰岛的气息&quot; class=&quot;headerlink&quot; title=&quot;冰岛的气息&quot;&gt;&lt;/a&gt;冰岛的气息&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;https://www.bilibili.com/video/BV1uK41197aE&quot;&gt;死亡搁浅</summary>
+      
+    
+    
+    
+    <category term="共鸣" scheme="https://tobenot.github.io/categories/%E5%85%B1%E9%B8%A3/"/>
+    
+    
+    <category term="推荐" scheme="https://tobenot.github.io/tags/%E6%8E%A8%E8%8D%90/"/>
     
   </entry>
   
