@@ -51,9 +51,9 @@
     <link href="https://tobenot.github.io/2024/01/21/240121-Project-Alkaid-Dev-Log/"/>
     <id>https://tobenot.github.io/2024/01/21/240121-Project-Alkaid-Dev-Log/</id>
     <published>2024-01-21T14:37:56.000Z</published>
-    <updated>2024-01-21T15:38:30.582Z</updated>
+    <updated>2024-01-28T18:04:16.147Z</updated>
     
-    <content type="html"><![CDATA[<p><a href="https://github.com/tobenot/Project-Alkaid">仓库地址</a></p><p>Project Alkaid是一个以MIT协议开源的，能自动写代码的虚拟助手，开发的初始原因是因为本人工作太忙，希望有一个虚拟助手能帮我写<a href="https://tobenot.top/2023/11/26/231126-AI-Game-Dev-Log/">AI故事游戏</a>的代码</p><p>技术选型是python, gpt, VSCode</p><h2 id="部署"><a href="#部署" class="headerlink" title="部署"></a>部署</h2><p>Clone下来，用VSCode打开工程，VSCode的Terminal-&gt;Run Task…里面有构建和运行docker容器的脚本。<br>记得安装Docker。在Docker Desktop里面能更好的管理容器和终端。<br>虽然不用Docker其实也能跑，直接在VSCode里面开个终端输入python llm&#x2F;OpenAIChatExp.py<br>目前它还没那么危险，还不能读写文件</p><h2 id="2024-1-21"><a href="#2024-1-21" class="headerlink" title="2024.1.21"></a>2024.1.21</h2><p>新建文件夹<br><a href="https://github.com/tobenot/Project-Alkaid">仓库地址</a><br>搭建docker环境<br>写了一个gpt聊天客户端</p>]]></content>
+    <content type="html"><![CDATA[<p><a href="https://github.com/tobenot/Project-Alkaid">仓库地址</a></p><p>Project Alkaid是一个以MIT协议开源的，能自动写代码的虚拟助手，开发的初始原因是因为本人工作太忙，希望有一个虚拟助手能帮我写<a href="https://tobenot.top/2023/11/26/231126-AI-Game-Dev-Log/">AI故事游戏</a>的代码</p><p>技术选型是python, gpt, VSCode, docker</p><h2 id="部署"><a href="#部署" class="headerlink" title="部署"></a>部署</h2><p>Clone下来，用VSCode打开工程，VSCode的Terminal-&gt;Run Task…里面有构建和运行docker容器的脚本。<br>记得安装Docker。在Docker Desktop里面能更好的管理容器和终端。<br>虽然不用Docker其实也能跑，直接在VSCode里面开个终端输入python llm&#x2F;OpenAIChatExp.py<br>目前它还没那么危险，还不能读写文件</p><h2 id="2024-1-21"><a href="#2024-1-21" class="headerlink" title="2024.1.21"></a>2024.1.21</h2><p>新建文件夹<br><a href="https://github.com/tobenot/Project-Alkaid">仓库地址</a><br>被python的import整破防了，最后代码全放一个目录下了<br>搭建docker环境<br>写了一个gpt聊天客户端</p><p>大概是做了4h</p><h2 id="2024-1-27"><a href="#2024-1-27" class="headerlink" title="2024.1.27"></a>2024.1.27</h2><p>2.5h<br>写了一个Function Call示例<br>一开始是写了个加减乘除计算器<br>结果发现我们是有库可以调用的<br>调用一下就搞定了<br>我如果再花时间去弄更高级的计算器，或者弄连续自动分步调用，是不是在造轮子呢？<br>我要怎么能减少造轮子的情况？<br>我现在做Alkaid，是不是在造轮子？<br>因为它其实会比较像一个shell？</p><p>对话记录：<br>user: 算817<em>172</em>121<em>765</em>23<br>assistant: 817 * 172 * 121 * 765 * 23 &#x3D; 299,174,893,380<br>user: 算78668%239<br>assistant: 78668 % 239 &#x3D; 37<br>我验算过，都是准的</p>]]></content>
     
     
       
@@ -222,9 +222,9 @@
     <link href="https://tobenot.github.io/2023/12/28/231228-Optimal-Note-Choices/"/>
     <id>https://tobenot.github.io/2023/12/28/231228-Optimal-Note-Choices/</id>
     <published>2023-12-28T14:40:59.000Z</published>
-    <updated>2024-01-19T16:09:12.558Z</updated>
+    <updated>2024-01-25T13:05:29.861Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="笔记软件选择"><a href="#笔记软件选择" class="headerlink" title="笔记软件选择"></a>笔记软件选择</h1><p>在数字化时代，选择一款适合自己的笔记软件变得尤为重要。不同的软件有不同的特点和用途，而我则根据我的需求在多个软件中进行了选择和应用。以下是我对几种常用笔记软件的评价和应用场景。</p><h2 id="幕布"><a href="#幕布" class="headerlink" title="幕布"></a>幕布</h2><p><strong>用途：云粘贴板，大纲导图</strong></p><p><strong>特点：</strong></p><ul><li>无感云同步，十分方便，手机端编辑也得心应手，免费。</li><li>不适合写大段文本，更适合关键内容的记录，大纲式写作。</li><li>不过使用Shift+Enter还是可以输入大片文本。</li><li>我对它的定位是云粘贴板和大纲导图，全同步，是记录文字的外置器官，随身携带的小本本。</li></ul><h2 id="Obsidian-黑曜石"><a href="#Obsidian-黑曜石" class="headerlink" title="Obsidian 黑曜石"></a>Obsidian 黑曜石</h2><p><strong>用途：详细技术性笔记，建立知识体系</strong></p><p><strong>特点：</strong></p><ul><li>支持Markdown格式的笔记。</li><li>数据存储在本地，更安全，可以使用git同步。</li><li>适合写大段文本，特别是详细的技术性笔记，类似写技术博客。</li><li>提供很帅的联系图功能，非常适合学习和建立知识体系，新东西加进来还能复习下老东西。</li><li>我在公司用来记录笔记，但不进行同步，确保数据的安全性。</li></ul><h2 id="坚果云Markdown"><a href="#坚果云Markdown" class="headerlink" title="坚果云Markdown"></a>坚果云Markdown</h2><p><strong>用途：碎片时间写文章</strong></p><p><strong>特点：</strong></p><ul><li>是一个基于坚果云的Markdown编辑器。</li><li>无感云同步，手机端编辑Markdown很方便，适合利用碎片时间写文章。</li><li>我在家和手机之间同步，写文章的地方。</li></ul><h2 id="OneNote"><a href="#OneNote" class="headerlink" title="OneNote"></a>OneNote</h2><p><strong>用途：个人项目管理，思维梳理</strong></p><p><strong>特点：</strong></p><ul><li>未使用手写功能，不作手写评价。</li><li>适用于排代办和产出灵感，自由排版。高考结束时我选了它作为电子化的All-In-One工具。事实证明一个无限延展的白板很适合发挥创造力，反思与发散。</li><li>在家用来梳理思绪，进行对个人的”项目管理”。</li><li>同步功能可以视为没有，关闭同步更舒服，定期本地备份就是了。</li></ul><h2 id="Word"><a href="#Word" class="headerlink" title="Word"></a>Word</h2><p><strong>用途：工作进度管理</strong></p><p><strong>特点：</strong></p><ul><li>所见即所得的编辑方式。</li><li>开多个文档不太方便，联系上下文较为不便。</li><li>主要用于工作进度管理，在公司中负责管理工作进展。</li></ul><h2 id="Typora"><a href="#Typora" class="headerlink" title="Typora"></a>Typora</h2><p><strong>特点：</strong></p><ul><li>据说写Markdown很方便。</li><li>贵。</li></ul><h2 id="Notion"><a href="#Notion" class="headerlink" title="Notion"></a>Notion</h2><p><strong>用途：团队项目管理</strong></p><p><strong>特点：</strong></p><ul><li>类似于TAPD，适用于团队项目管理。</li></ul><h1 id="不同应用场景的总结"><a href="#不同应用场景的总结" class="headerlink" title="不同应用场景的总结"></a>不同应用场景的总结</h1><ul><li><p><strong>在家：</strong></p><ul><li>幕布：云粘贴板，用于记录碎片化的东西。以及把碎片的东西取出来梳理一下。（比如这篇文章就是大纲转过来的）<br><img src="/img/Article/Optimal-Note-Choices.webp" alt="这篇文章的幕布大纲"></li><li>OneNote：主要用于个人日程管理和思维梳理。</li></ul></li><li><p><strong>在公司：</strong></p><ul><li>幕布：云粘贴板，用于记录碎片化的东西。</li><li>Obsidian：用于写详细的Markdown技术性笔记</li><li>Word：用于工作进度管理，做到哪啦？</li></ul></li><li><p><strong>在手机上：</strong></p><ul><li>幕布：云粘贴板，用于记录碎片化的东西。</li><li>坚果云Markdown：方便的Markdown同步功能，适合在手机上利用碎片时间写文章。</li></ul></li></ul><h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><p>在不同场景中，我会灵活运用这些笔记软件，以满足我的不同需求。无论是记录碎片化的灵感，整理技术性的知识，还是进行团队项目管理，每款软件都有其独特的价值。选择适合自己需求的笔记软件，就像选择合适的工具一样，能够事半功倍地提高工作和学习效率。</p><h1 id="补充"><a href="#补充" class="headerlink" title="补充"></a>补充</h1><h2 id="2024-1-19"><a href="#2024-1-19" class="headerlink" title="2024.1.19"></a>2024.1.19</h2><p>幕布确实好列代办，可以在碎片时间列代办<br>但真要开干还是得移动到OneNote，好做各种标记</p>]]></content>
+    <content type="html"><![CDATA[<h1 id="笔记软件选择"><a href="#笔记软件选择" class="headerlink" title="笔记软件选择"></a>笔记软件选择</h1><p>在数字化时代，选择一款适合自己的笔记软件变得尤为重要。不同的软件有不同的特点和用途，而我则根据我的需求在多个软件中进行了选择和应用。以下是我对几种常用笔记软件的评价和应用场景。</p><h2 id="幕布"><a href="#幕布" class="headerlink" title="幕布"></a>幕布</h2><p><strong>用途：云粘贴板，大纲导图</strong></p><p><strong>特点：</strong></p><ul><li>无感云同步，十分方便，手机端编辑也得心应手，免费。</li><li>不适合写大段文本，更适合关键内容的记录，大纲式写作。</li><li>不过使用Shift+Enter还是可以输入大片文本。</li><li>我对它的定位是云粘贴板和大纲导图，全同步，是记录文字的外置器官，随身携带的小本本。</li></ul><h2 id="Obsidian-黑曜石"><a href="#Obsidian-黑曜石" class="headerlink" title="Obsidian 黑曜石"></a>Obsidian 黑曜石</h2><p><strong>用途：详细技术性笔记，建立知识体系</strong></p><p><strong>特点：</strong></p><ul><li>支持Markdown格式的笔记。</li><li>数据存储在本地，更安全，可以使用git同步。</li><li>适合写大段文本，特别是详细的技术性笔记，类似写技术博客。</li><li>提供很帅的联系图功能，非常适合学习和建立知识体系，新东西加进来还能复习下老东西。</li><li>我在公司用来记录笔记，但不进行同步，确保数据的安全性。</li></ul><h2 id="坚果云Markdown"><a href="#坚果云Markdown" class="headerlink" title="坚果云Markdown"></a>坚果云Markdown</h2><p><strong>用途：碎片时间写文章</strong></p><p><strong>特点：</strong></p><ul><li>是一个基于坚果云的Markdown编辑器。</li><li>无感云同步，手机端编辑Markdown很方便，适合利用碎片时间写文章。</li><li>我在家和手机之间同步，写文章的地方。</li></ul><h2 id="OneNote"><a href="#OneNote" class="headerlink" title="OneNote"></a>OneNote</h2><p><strong>用途：个人项目管理，思维梳理</strong></p><p><strong>特点：</strong></p><ul><li>未使用手写功能，不作手写评价。</li><li>适用于排代办和产出灵感，自由排版。高考结束时我选了它作为电子化的All-In-One工具。事实证明一个无限延展的白板很适合发挥创造力，反思与发散。</li><li>在家用来梳理思绪，进行对个人的”项目管理”。</li><li>同步功能可以视为没有，关闭同步更舒服，定期本地备份就是了。</li></ul><h2 id="Word"><a href="#Word" class="headerlink" title="Word"></a>Word</h2><p><strong>用途：工作进度管理</strong></p><p><strong>特点：</strong></p><ul><li>所见即所得的编辑方式。</li><li>开多个文档不太方便，联系上下文较为不便。</li><li>主要用于工作进度管理，在公司中负责管理工作进展。</li></ul><h2 id="Typora"><a href="#Typora" class="headerlink" title="Typora"></a>Typora</h2><p><strong>特点：</strong></p><ul><li>据说写Markdown很方便。</li><li>贵。</li></ul><h2 id="Notion"><a href="#Notion" class="headerlink" title="Notion"></a>Notion</h2><p><strong>用途：团队项目管理</strong></p><p><strong>特点：</strong></p><ul><li>类似于TAPD，适用于团队项目管理。</li></ul><h1 id="不同应用场景的总结"><a href="#不同应用场景的总结" class="headerlink" title="不同应用场景的总结"></a>不同应用场景的总结</h1><ul><li><p><strong>在家：</strong></p><ul><li>幕布：云粘贴板，用于记录碎片化的东西。以及把碎片的东西取出来梳理一下。（比如这篇文章就是大纲转过来的）<br><img src="/img/Article/Optimal-Note-Choices.webp" alt="这篇文章的幕布大纲"></li><li>OneNote：主要用于个人日程管理和思维梳理。</li></ul></li><li><p><strong>在公司：</strong></p><ul><li>幕布：云粘贴板，用于记录碎片化的东西。</li><li>Obsidian：用于写详细的Markdown技术性笔记</li><li>Word：用于工作进度管理，做到哪啦？</li></ul></li><li><p><strong>在手机上：</strong></p><ul><li>幕布：云粘贴板，用于记录碎片化的东西。</li><li>坚果云Markdown：方便的Markdown同步功能，适合在手机上利用碎片时间写文章。</li></ul></li></ul><h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><p>在不同场景中，我会灵活运用这些笔记软件，以满足我的不同需求。无论是记录碎片化的灵感，整理技术性的知识，还是进行团队项目管理，每款软件都有其独特的价值。选择适合自己需求的笔记软件，就像选择合适的工具一样，能够事半功倍地提高工作和学习效率。</p><h1 id="补充"><a href="#补充" class="headerlink" title="补充"></a>补充</h1><h2 id="2024-1-19"><a href="#2024-1-19" class="headerlink" title="2024.1.19"></a>2024.1.19</h2><p>幕布确实好列代办，可以在碎片时间列代办<br>但真要开干还是得移动到OneNote，好做各种标记</p><h2 id="2024-1-25"><a href="#2024-1-25" class="headerlink" title="2024.1.25"></a>2024.1.25</h2><p>这三天用notion给GGJ2024的校队拆单<br>发现notion作为团队协作还是很好用的<br>但是有些bug很难受，比如task有时候会被拆散父子关系，没法回退<br>而且免费的团队协作就1000个字能写<br>我们的单没拆一半就满了<br>5个人，开通无限空间，最便宜的套餐50美元一个月，太坑啦<br>不过可以开多个workspace，新的又能写1000个字<br>就是不太好管理就是了</p>]]></content>
     
     
       
@@ -379,6 +379,36 @@
     <category term="技术" scheme="https://tobenot.github.io/tags/%E6%8A%80%E6%9C%AF/"/>
     
     <category term="碎片" scheme="https://tobenot.github.io/tags/%E7%A2%8E%E7%89%87/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>GPT的Function Call使用</title>
+    <link href="https://tobenot.github.io/2023/11/26/240127-GPT-Function-Call/"/>
+    <id>https://tobenot.github.io/2023/11/26/240127-GPT-Function-Call/</id>
+    <published>2023-11-26T08:35:59.000Z</published>
+    <updated>2024-01-27T09:06:21.074Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="官方文档翻译"><a href="#官方文档翻译" class="headerlink" title="官方文档翻译"></a>官方文档翻译</h2><h3 id="Function-Calling-Overview"><a href="#Function-Calling-Overview" class="headerlink" title="Function Calling Overview:"></a>Function Calling Overview:</h3><p>在 OpenAI API 中，Function Calling 允许你描述函数，并让模型智能地选择生成一个包含调用一个或多个函数的 JSON 对象的输出。Chat Completions API 不直接调用函数；相反，模型生成 JSON，然后你可以在你的代码中使用这个 JSON 调用函数。</p><p>最新的模型（例如 gpt-3.5-turbo-1106 和 gpt-4-turbo-preview）已经经过训练，可以智能地检测何时应该调用一个函数（根据输入）并以更贴近函数签名的方式生成 JSON。但需要注意，这种能力也带来潜在的风险。强烈建议在对用户产生影响的操作之前建立用户确认流程（发送电子邮件、在线发布内容、购买等）。</p><h3 id="Common-Use-Cases"><a href="#Common-Use-Cases" class="headerlink" title="Common Use Cases:"></a>Common Use Cases:</h3><p>函数调用允许你更可靠地从模型中获取结构化数据。例如，你可以：</p><p>创建能够通过调用外部 API 回答问题的助手（例如 ChatGPT 插件）。<br>将自然语言转换为 API 调用。<br>从文本中提取结构化数据。</p><h3 id="Basic-Sequence-of-Steps-for-Function-Calling"><a href="#Basic-Sequence-of-Steps-for-Function-Calling" class="headerlink" title="Basic Sequence of Steps for Function Calling:"></a>Basic Sequence of Steps for Function Calling:</h3><p>通过在 functions 参数中定义的一组函数和用户查询一起调用模型。<br>模型可以选择调用一个或多个函数；如果是这样，内容将是一个字符串化的 JSON 对象，符合你的自定义模式（注意：模型可能会产生参数幻觉）。<br>在代码中将字符串解析为 JSON，并使用提供的参数调用你的函数（如果存在）。<br>通过将函数响应附加为新消息再次调用模型，让模型总结结果并返回给用户。<br>Supported Models:</p><p>并非所有模型版本都经过函数调用数据的训练。支持函数调用的模型包括：gpt-4、gpt-4-turbo-preview、gpt-4-0125-preview、gpt-4-1106-preview、gpt-4-0613、gpt-3.5-turbo、gpt-3.5-turbo-1106 和 gpt-3.5-turbo-0613。</p><p>此外，以下模型支持并行函数调用：gpt-4-turbo-preview、gpt-4-0125-preview、gpt-4-1106-preview 和 gpt-3.5-turbo-1106。</p><h3 id="Parallel-Function-Calling"><a href="#Parallel-Function-Calling" class="headerlink" title="Parallel Function Calling:"></a>Parallel Function Calling:</h3><p>并行函数调用是模型同时执行多个函数调用的能力，允许这些函数调用的效果和结果并行解决。这在函数需要很长时间的情况下特别有用，并减少了与 API 的往返次数。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;官方文档翻译&quot;&gt;&lt;a href=&quot;#官方文档翻译&quot; class=&quot;headerlink&quot; title=&quot;官方文档翻译&quot;&gt;&lt;/a&gt;官方文档翻译&lt;/h2&gt;&lt;h3 id=&quot;Function-Calling-Overview&quot;&gt;&lt;a href=&quot;#Function-Cal</summary>
+      
+    
+    
+    
+    <category term="LLM" scheme="https://tobenot.github.io/categories/LLM/"/>
+    
+    
+    <category term="LLM" scheme="https://tobenot.github.io/tags/LLM/"/>
+    
+    <category term="技术" scheme="https://tobenot.github.io/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+    <category term="完整" scheme="https://tobenot.github.io/tags/%E5%AE%8C%E6%95%B4/"/>
+    
+    <category term="GPT" scheme="https://tobenot.github.io/tags/GPT/"/>
     
   </entry>
   
@@ -538,32 +568,6 @@
     
     
     <category term="灵界" scheme="https://tobenot.github.io/tags/%E7%81%B5%E7%95%8C/"/>
-    
-    <category term="碎片" scheme="https://tobenot.github.io/tags/%E7%A2%8E%E7%89%87/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>虚幻引擎的坑</title>
-    <link href="https://tobenot.github.io/2023/11/20/231120-Unreal-Engine-Pitfalls/"/>
-    <id>https://tobenot.github.io/2023/11/20/231120-Unreal-Engine-Pitfalls/</id>
-    <published>2023-11-19T16:50:04.000Z</published>
-    <updated>2023-12-31T06:09:28.694Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="JSON做函数参数报错"><a href="#JSON做函数参数报错" class="headerlink" title="JSON做函数参数报错"></a>JSON做函数参数报错</h2><p>  AILibrary.h(46): [] Unable to find ‘class’, ‘delegate’, ‘enum’, or ‘struct’ with name ‘FJsonObject’</p><p>  不能是蓝图可调用的</p><h2 id="委托绑定失败"><a href="#委托绑定失败" class="headerlink" title="委托绑定失败"></a>委托绑定失败</h2><p>确保函数在头文件中声明为UFUNCTION()</p><h2 id="委托"><a href="#委托" class="headerlink" title="委托"></a>委托</h2><p>(by GPT4)<br><code>DECLARE_DELEGATE_ThreeParams</code>和<code>DECLARE_DYNAMIC_MULTICAST_DELEGATE_ThreeParams</code>都是Unreal Engine中用于创建委托的宏，但它们之间存在一些关键区别。</p><ol><li><strong>声明类型</strong>：</li></ol><p><code>DECLARE_DELEGATE_ThreeParams</code>声明的是单播委托（Single-Cast Delegate），它只能绑定一个函数。当触发委托时，只有这个绑定的函数会被调用。</p><p><code>DECLARE_DYNAMIC_MULTICAST_DELEGATE_ThreeParams</code>声明的是多播委托（Multi-Cast Delegate），它可以绑定多个函数。当触发委托时，所有绑定的函数都会被调用。</p><ol start="2"><li><strong>动态性</strong>：</li></ol><p><code>DECLARE_DELEGATE_ThreeParams</code>声明的委托是静态的，不需要使用UFUNCTION()宏。它们的生命周期由C++对象管理。</p><p><code>DECLARE_DYNAMIC_MULTICAST_DELEGATE_ThreeParams</code>声明的委托是动态的，需要使用UFUNCTION()宏。它们的生命周期由Unreal Engine的垃圾回收系统管理，因此需要继承自UObject。</p><ol start="3"><li><strong>触发方式</strong>：</li></ol><p><code>DECLARE_DELEGATE_ThreeParams</code>声明的委托使用<code>Execute</code>或<code>ExecuteIfBound</code>方法触发。</p><p><code>DECLARE_DYNAMIC_MULTICAST_DELEGATE_ThreeParams</code>声明的委托使用<code>Broadcast</code>方法触发。</p><p>总结：</p><ul><li>如果你需要在触发委托时只调用一个函数，可以使用<code>DECLARE_DELEGATE_ThreeParams</code>声明单播委托。</li><li>如果你需要在触发委托时调用多个函数，可以使用<code>DECLARE_DYNAMIC_MULTICAST_DELEGATE_ThreeParams</code>声明多播委托。</li><li>如果你需要与Unreal Engine的垃圾回收系统集成，可以使用<code>DECLARE_DYNAMIC_MULTICAST_DELEGATE_ThreeParams</code>声明动态多播委托，并确保使用UFUNCTION()宏。</li></ul><h2 id="蓝图实现的接口if-Interface-会返回空"><a href="#蓝图实现的接口if-Interface-会返回空" class="headerlink" title="蓝图实现的接口if(Interface)会返回空"></a>蓝图实现的接口if(Interface)会返回空</h2><p>如题，不能用if去判空蓝图实现的C++接口</p><h2 id="Lambda-表达式"><a href="#Lambda-表达式" class="headerlink" title="Lambda 表达式"></a>Lambda 表达式</h2><p>不能捕获自己，所以重试逻辑直接调用最外面那层函数吧</p><p>#UI</p><h2 id="文本截断不生效"><a href="#文本截断不生效" class="headerlink" title="文本截断不生效"></a>文本截断不生效</h2><p>这里指的是文本过长，然后选择了截断成省略号，不生效，文本还是超框的情况。</p><p>去放那个文本的父类，Rendering-&gt;Clipping选“Clip to Bounds”</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h2 id=&quot;JSON做函数参数报错&quot;&gt;&lt;a href=&quot;#JSON做函数参数报错&quot; class=&quot;headerlink&quot; title=&quot;JSON做函数参数报错&quot;&gt;&lt;/a&gt;JSON做函数参数报错&lt;/h2&gt;&lt;p&gt;  AILibrary.h(46): [] Unable to fi</summary>
-      
-    
-    
-    
-    <category term="技术" scheme="https://tobenot.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
-    
-    
-    <category term="技术" scheme="https://tobenot.github.io/tags/%E6%8A%80%E6%9C%AF/"/>
     
     <category term="碎片" scheme="https://tobenot.github.io/tags/%E7%A2%8E%E7%89%87/"/>
     
