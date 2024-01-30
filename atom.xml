@@ -6,7 +6,7 @@
   <link href="https://tobenot.github.io/atom.xml" rel="self"/>
   
   <link href="https://tobenot.github.io/"/>
-  <updated>2024-01-21T15:42:20.770Z</updated>
+  <updated>2024-01-30T13:53:10.691Z</updated>
   <id>https://tobenot.github.io/</id>
   
   <author>
@@ -15,6 +15,62 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>全自动Agent的三大基本工程问题</title>
+    <link href="https://tobenot.github.io/2024/01/30/240130-AutoAgent-FundProblems/"/>
+    <id>https://tobenot.github.io/2024/01/30/240130-AutoAgent-FundProblems/</id>
+    <published>2024-01-30T13:40:18.000Z</published>
+    <updated>2024-01-30T13:53:10.691Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Full-Auto-Agent"><a href="#Full-Auto-Agent" class="headerlink" title="Full Auto Agent"></a>Full Auto Agent</h1><p>全自动代理（Full Auto Agent）通常指的是一个能够自主执行任务、学习和适应环境的智能系统。这种代理系统旨在能够执行一系列任务，而无需过多的人工干预。</p><p>全自动代理的设计目标是使其能够感知环境、理解任务，自主采取行动，并通过学习不断改进自身性能。</p><h1 id="Fundamental-Problems-For-Full-Auto-Agent"><a href="#Fundamental-Problems-For-Full-Auto-Agent" class="headerlink" title="Fundamental Problems For Full Auto Agent"></a>Fundamental Problems For Full Auto Agent</h1><p>全自动Agent的三大基本工程问题与考察的能力：</p><ol><li><p><strong>不断地出数学题，并在另一个文件里写下答案</strong></p><ul><li>任务序列(自主决策和规划)</li><li>基本文件读写</li></ul></li><li><p><strong>给每一类里面带有苹果的数学题都添加一个题干数字</strong></p><ul><li>内容定位与修改</li></ul></li><li><p><strong>把问题和答案文件分散在一个传统的项目工程中</strong></p><ul><li>目录检索能力</li></ul></li></ol>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;Full-Auto-Agent&quot;&gt;&lt;a href=&quot;#Full-Auto-Agent&quot; class=&quot;headerlink&quot; title=&quot;Full Auto Agent&quot;&gt;&lt;/a&gt;Full Auto Agent&lt;/h1&gt;&lt;p&gt;全自动代理（Full Auto Ag</summary>
+      
+    
+    
+    
+    <category term="LLM" scheme="https://tobenot.github.io/categories/LLM/"/>
+    
+    
+    <category term="LLM" scheme="https://tobenot.github.io/tags/LLM/"/>
+    
+    <category term="技术" scheme="https://tobenot.github.io/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>GPT的Function Call使用</title>
+    <link href="https://tobenot.github.io/2024/01/27/240127-GPT-Function-Call/"/>
+    <id>https://tobenot.github.io/2024/01/27/240127-GPT-Function-Call/</id>
+    <published>2024-01-27T09:04:32.000Z</published>
+    <updated>2024-01-30T13:41:02.200Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="官方文档翻译"><a href="#官方文档翻译" class="headerlink" title="官方文档翻译"></a>官方文档翻译</h2><h3 id="Function-Calling-Overview"><a href="#Function-Calling-Overview" class="headerlink" title="Function Calling Overview:"></a>Function Calling Overview:</h3><p>在 OpenAI API 中，Function Calling 允许你描述函数，并让模型智能地选择生成一个包含调用一个或多个函数的 JSON 对象的输出。Chat Completions API 不直接调用函数；相反，模型生成 JSON，然后你可以在你的代码中使用这个 JSON 调用函数。</p><p>最新的模型（例如 gpt-3.5-turbo-1106 和 gpt-4-turbo-preview）已经经过训练，可以智能地检测何时应该调用一个函数（根据输入）并以更贴近函数签名的方式生成 JSON。但需要注意，这种能力也带来潜在的风险。强烈建议在对用户产生影响的操作之前建立用户确认流程（发送电子邮件、在线发布内容、购买等）。</p><h3 id="Common-Use-Cases"><a href="#Common-Use-Cases" class="headerlink" title="Common Use Cases:"></a>Common Use Cases:</h3><p>函数调用允许你更可靠地从模型中获取结构化数据。例如，你可以：</p><p>创建能够通过调用外部 API 回答问题的助手（例如 ChatGPT 插件）。<br>将自然语言转换为 API 调用。<br>从文本中提取结构化数据。</p><h3 id="Basic-Sequence-of-Steps-for-Function-Calling"><a href="#Basic-Sequence-of-Steps-for-Function-Calling" class="headerlink" title="Basic Sequence of Steps for Function Calling:"></a>Basic Sequence of Steps for Function Calling:</h3><p>通过在 functions 参数中定义的一组函数和用户查询一起调用模型。<br>模型可以选择调用一个或多个函数；如果是这样，内容将是一个字符串化的 JSON 对象，符合你的自定义模式（注意：模型可能会产生参数幻觉）。<br>在代码中将字符串解析为 JSON，并使用提供的参数调用你的函数（如果存在）。<br>通过将函数响应附加为新消息再次调用模型，让模型总结结果并返回给用户。<br>Supported Models:</p><p>并非所有模型版本都经过函数调用数据的训练。支持函数调用的模型包括：gpt-4、gpt-4-turbo-preview、gpt-4-0125-preview、gpt-4-1106-preview、gpt-4-0613、gpt-3.5-turbo、gpt-3.5-turbo-1106 和 gpt-3.5-turbo-0613。</p><p>此外，以下模型支持并行函数调用：gpt-4-turbo-preview、gpt-4-0125-preview、gpt-4-1106-preview 和 gpt-3.5-turbo-1106。</p><h3 id="Parallel-Function-Calling"><a href="#Parallel-Function-Calling" class="headerlink" title="Parallel Function Calling:"></a>Parallel Function Calling:</h3><p>并行函数调用是模型同时执行多个函数调用的能力，允许这些函数调用的效果和结果并行解决。这在函数需要很长时间的情况下特别有用，并减少了与 API 的往返次数。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;官方文档翻译&quot;&gt;&lt;a href=&quot;#官方文档翻译&quot; class=&quot;headerlink&quot; title=&quot;官方文档翻译&quot;&gt;&lt;/a&gt;官方文档翻译&lt;/h2&gt;&lt;h3 id=&quot;Function-Calling-Overview&quot;&gt;&lt;a href=&quot;#Function-Cal</summary>
+      
+    
+    
+    
+    <category term="LLM" scheme="https://tobenot.github.io/categories/LLM/"/>
+    
+    
+    <category term="LLM" scheme="https://tobenot.github.io/tags/LLM/"/>
+    
+    <category term="技术" scheme="https://tobenot.github.io/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+    <category term="完整" scheme="https://tobenot.github.io/tags/%E5%AE%8C%E6%95%B4/"/>
+    
+    <category term="GPT" scheme="https://tobenot.github.io/tags/GPT/"/>
+    
+  </entry>
   
   <entry>
     <title>Docker实操</title>
@@ -51,9 +107,9 @@
     <link href="https://tobenot.github.io/2024/01/21/240121-Project-Alkaid-Dev-Log/"/>
     <id>https://tobenot.github.io/2024/01/21/240121-Project-Alkaid-Dev-Log/</id>
     <published>2024-01-21T14:37:56.000Z</published>
-    <updated>2024-01-28T18:04:16.147Z</updated>
+    <updated>2024-01-30T13:54:11.450Z</updated>
     
-    <content type="html"><![CDATA[<p><a href="https://github.com/tobenot/Project-Alkaid">仓库地址</a></p><p>Project Alkaid是一个以MIT协议开源的，能自动写代码的虚拟助手，开发的初始原因是因为本人工作太忙，希望有一个虚拟助手能帮我写<a href="https://tobenot.top/2023/11/26/231126-AI-Game-Dev-Log/">AI故事游戏</a>的代码</p><p>技术选型是python, gpt, VSCode, docker</p><h2 id="部署"><a href="#部署" class="headerlink" title="部署"></a>部署</h2><p>Clone下来，用VSCode打开工程，VSCode的Terminal-&gt;Run Task…里面有构建和运行docker容器的脚本。<br>记得安装Docker。在Docker Desktop里面能更好的管理容器和终端。<br>虽然不用Docker其实也能跑，直接在VSCode里面开个终端输入python llm&#x2F;OpenAIChatExp.py<br>目前它还没那么危险，还不能读写文件</p><h2 id="2024-1-21"><a href="#2024-1-21" class="headerlink" title="2024.1.21"></a>2024.1.21</h2><p>新建文件夹<br><a href="https://github.com/tobenot/Project-Alkaid">仓库地址</a><br>被python的import整破防了，最后代码全放一个目录下了<br>搭建docker环境<br>写了一个gpt聊天客户端</p><p>大概是做了4h</p><h2 id="2024-1-27"><a href="#2024-1-27" class="headerlink" title="2024.1.27"></a>2024.1.27</h2><p>2.5h<br>写了一个Function Call示例<br>一开始是写了个加减乘除计算器<br>结果发现我们是有库可以调用的<br>调用一下就搞定了<br>我如果再花时间去弄更高级的计算器，或者弄连续自动分步调用，是不是在造轮子呢？<br>我要怎么能减少造轮子的情况？<br>我现在做Alkaid，是不是在造轮子？<br>因为它其实会比较像一个shell？</p><p>对话记录：<br>user: 算817<em>172</em>121<em>765</em>23<br>assistant: 817 * 172 * 121 * 765 * 23 &#x3D; 299,174,893,380<br>user: 算78668%239<br>assistant: 78668 % 239 &#x3D; 37<br>我验算过，都是准的</p>]]></content>
+    <content type="html"><![CDATA[<p><a href="https://github.com/tobenot/Project-Alkaid">仓库地址</a></p><p>Project Alkaid是一个以MIT协议开源的，能自动写代码的虚拟助手，开发的初始原因是因为本人工作太忙，希望有一个虚拟助手能帮我写<a href="https://tobenot.top/2023/11/26/231126-AI-Game-Dev-Log/">AI故事游戏</a>的代码</p><p>技术选型是python, gpt, VSCode, docker</p><h2 id="部署"><a href="#部署" class="headerlink" title="部署"></a>部署</h2><p>Clone下来，用VSCode打开工程，VSCode的Terminal-&gt;Run Task…里面有构建和运行docker容器的脚本。<br>记得安装Docker。在Docker Desktop里面能更好的管理容器和终端。<br>虽然不用Docker其实也能跑，直接在VSCode里面开个终端输入python llm&#x2F;OpenAIChatExp.py<br>目前它还没那么危险，还不能读写文件</p><h2 id="2024-1-21"><a href="#2024-1-21" class="headerlink" title="2024.1.21"></a>2024.1.21</h2><p>新建文件夹<br><a href="https://github.com/tobenot/Project-Alkaid">仓库地址</a><br>被python的import整破防了，最后代码全放一个目录下了<br>搭建docker环境<br>写了一个gpt聊天客户端</p><p>大概是做了4h</p><h2 id="2024-1-27"><a href="#2024-1-27" class="headerlink" title="2024.1.27"></a>2024.1.27</h2><p>2.5h<br>写了一个Function Call示例<br>一开始是写了个加减乘除计算器<br>结果发现我们是有库可以调用的<br>调用一下就搞定了<br>我如果再花时间去弄更高级的计算器，或者弄连续自动分步调用，是不是在造轮子呢？<br>我要怎么能减少造轮子的情况？<br>我现在做Alkaid，是不是在造轮子？<br>因为它其实会比较像一个shell？</p><p>对话记录：<br>user: 算817<em>172</em>121<em>765</em>23<br>assistant: 817 * 172 * 121 * 765 * 23 &#x3D; 299,174,893,380<br>user: 算78668%239<br>assistant: 78668 % 239 &#x3D; 37<br>我验算过，都是准的</p><h2 id="2024-1-30"><a href="#2024-1-30" class="headerlink" title="2024.1.30"></a>2024.1.30</h2><p>项目暂时搁置<br>还是我亲自先做<a href="https://tobenot.top/2023/11/26/231126-AI-Game-Dev-Log/">AI故事游戏</a>吧，要答辩的</p>]]></content>
     
     
       
@@ -383,36 +439,6 @@
   </entry>
   
   <entry>
-    <title>GPT的Function Call使用</title>
-    <link href="https://tobenot.github.io/2023/11/26/240127-GPT-Function-Call/"/>
-    <id>https://tobenot.github.io/2023/11/26/240127-GPT-Function-Call/</id>
-    <published>2023-11-26T08:35:59.000Z</published>
-    <updated>2024-01-27T09:06:21.074Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="官方文档翻译"><a href="#官方文档翻译" class="headerlink" title="官方文档翻译"></a>官方文档翻译</h2><h3 id="Function-Calling-Overview"><a href="#Function-Calling-Overview" class="headerlink" title="Function Calling Overview:"></a>Function Calling Overview:</h3><p>在 OpenAI API 中，Function Calling 允许你描述函数，并让模型智能地选择生成一个包含调用一个或多个函数的 JSON 对象的输出。Chat Completions API 不直接调用函数；相反，模型生成 JSON，然后你可以在你的代码中使用这个 JSON 调用函数。</p><p>最新的模型（例如 gpt-3.5-turbo-1106 和 gpt-4-turbo-preview）已经经过训练，可以智能地检测何时应该调用一个函数（根据输入）并以更贴近函数签名的方式生成 JSON。但需要注意，这种能力也带来潜在的风险。强烈建议在对用户产生影响的操作之前建立用户确认流程（发送电子邮件、在线发布内容、购买等）。</p><h3 id="Common-Use-Cases"><a href="#Common-Use-Cases" class="headerlink" title="Common Use Cases:"></a>Common Use Cases:</h3><p>函数调用允许你更可靠地从模型中获取结构化数据。例如，你可以：</p><p>创建能够通过调用外部 API 回答问题的助手（例如 ChatGPT 插件）。<br>将自然语言转换为 API 调用。<br>从文本中提取结构化数据。</p><h3 id="Basic-Sequence-of-Steps-for-Function-Calling"><a href="#Basic-Sequence-of-Steps-for-Function-Calling" class="headerlink" title="Basic Sequence of Steps for Function Calling:"></a>Basic Sequence of Steps for Function Calling:</h3><p>通过在 functions 参数中定义的一组函数和用户查询一起调用模型。<br>模型可以选择调用一个或多个函数；如果是这样，内容将是一个字符串化的 JSON 对象，符合你的自定义模式（注意：模型可能会产生参数幻觉）。<br>在代码中将字符串解析为 JSON，并使用提供的参数调用你的函数（如果存在）。<br>通过将函数响应附加为新消息再次调用模型，让模型总结结果并返回给用户。<br>Supported Models:</p><p>并非所有模型版本都经过函数调用数据的训练。支持函数调用的模型包括：gpt-4、gpt-4-turbo-preview、gpt-4-0125-preview、gpt-4-1106-preview、gpt-4-0613、gpt-3.5-turbo、gpt-3.5-turbo-1106 和 gpt-3.5-turbo-0613。</p><p>此外，以下模型支持并行函数调用：gpt-4-turbo-preview、gpt-4-0125-preview、gpt-4-1106-preview 和 gpt-3.5-turbo-1106。</p><h3 id="Parallel-Function-Calling"><a href="#Parallel-Function-Calling" class="headerlink" title="Parallel Function Calling:"></a>Parallel Function Calling:</h3><p>并行函数调用是模型同时执行多个函数调用的能力，允许这些函数调用的效果和结果并行解决。这在函数需要很长时间的情况下特别有用，并减少了与 API 的往返次数。</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h2 id=&quot;官方文档翻译&quot;&gt;&lt;a href=&quot;#官方文档翻译&quot; class=&quot;headerlink&quot; title=&quot;官方文档翻译&quot;&gt;&lt;/a&gt;官方文档翻译&lt;/h2&gt;&lt;h3 id=&quot;Function-Calling-Overview&quot;&gt;&lt;a href=&quot;#Function-Cal</summary>
-      
-    
-    
-    
-    <category term="LLM" scheme="https://tobenot.github.io/categories/LLM/"/>
-    
-    
-    <category term="LLM" scheme="https://tobenot.github.io/tags/LLM/"/>
-    
-    <category term="技术" scheme="https://tobenot.github.io/tags/%E6%8A%80%E6%9C%AF/"/>
-    
-    <category term="完整" scheme="https://tobenot.github.io/tags/%E5%AE%8C%E6%95%B4/"/>
-    
-    <category term="GPT" scheme="https://tobenot.github.io/tags/GPT/"/>
-    
-  </entry>
-  
-  <entry>
     <title>虚拟恋人工程问题</title>
     <link href="https://tobenot.github.io/2023/11/26/231126-Virtual-Lover-Project-Tech/"/>
     <id>https://tobenot.github.io/2023/11/26/231126-Virtual-Lover-Project-Tech/</id>
@@ -534,32 +560,6 @@
       
       
     <summary type="html">&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;心界是一片连续存在的三维空间；一种透过其本身的性质，对现世造成主动或被动影响的空间。&lt;br&gt;&lt;strong&gt;非异常的心界是真实存在的。&lt;/s</summary>
-      
-    
-    
-    
-    <category term="灵界" scheme="https://tobenot.github.io/categories/%E7%81%B5%E7%95%8C/"/>
-    
-    
-    <category term="灵界" scheme="https://tobenot.github.io/tags/%E7%81%B5%E7%95%8C/"/>
-    
-    <category term="碎片" scheme="https://tobenot.github.io/tags/%E7%A2%8E%E7%89%87/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>心界史</title>
-    <link href="https://tobenot.github.io/2023/11/21/231121-Heart-World-History/"/>
-    <id>https://tobenot.github.io/2023/11/21/231121-Heart-World-History/</id>
-    <published>2023-11-21T15:10:58.000Z</published>
-    <updated>2023-12-31T09:51:07.244Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="回忆最初的心界"><a href="#回忆最初的心界" class="headerlink" title="回忆最初的心界"></a>回忆最初的心界</h1><h2 id="渡海"><a href="#渡海" class="headerlink" title="渡海"></a>渡海</h2><p>我渡过三角线条汇成的海<br>星星随着浪花跳跃翻滚<br>我要到的是彼岸<br>彼岸</p><p>注：SILVER将“浪花”写为“海花”</p><h1 id="风帆时代的心界"><a href="#风帆时代的心界" class="headerlink" title="风帆时代的心界"></a>风帆时代的心界</h1><h2 id="山坡上的树"><a href="#山坡上的树" class="headerlink" title="山坡上的树"></a>山坡上的树</h2><p>书沿着紫色纹路从树上掉下来，有一，二，三，三本书，它们悬停在空中，有一本是棕色封皮的</p><h2 id="废墟"><a href="#废墟" class="headerlink" title="废墟"></a>废墟</h2><p>也可能这里会成为废墟<br>但是以后还能建起这么大的吗<br>（█████在熙攘的花园之上对█████如是说。末日的幻景）</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h1 id=&quot;回忆最初的心界&quot;&gt;&lt;a href=&quot;#回忆最初的心界&quot; class=&quot;headerlink&quot; title=&quot;回忆最初的心界&quot;&gt;&lt;/a&gt;回忆最初的心界&lt;/h1&gt;&lt;h2 id=&quot;渡海&quot;&gt;&lt;a href=&quot;#渡海&quot; class=&quot;headerlink&quot; title=&quot;渡</summary>
       
     
     
