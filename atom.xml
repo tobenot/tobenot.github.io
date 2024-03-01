@@ -6,7 +6,7 @@
   <link href="https://tobenot.github.io/atom.xml" rel="self"/>
   
   <link href="https://tobenot.github.io/"/>
-  <updated>2024-01-30T13:53:10.691Z</updated>
+  <updated>2024-01-30T13:41:02.200Z</updated>
   <id>https://tobenot.github.io/</id>
   
   <author>
@@ -15,32 +15,6 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>全自动Agent的三大基本工程问题</title>
-    <link href="https://tobenot.github.io/2024/01/30/240130-AutoAgent-FundProblems/"/>
-    <id>https://tobenot.github.io/2024/01/30/240130-AutoAgent-FundProblems/</id>
-    <published>2024-01-30T13:40:18.000Z</published>
-    <updated>2024-01-30T13:53:10.691Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="Full-Auto-Agent"><a href="#Full-Auto-Agent" class="headerlink" title="Full Auto Agent"></a>Full Auto Agent</h1><p>全自动代理（Full Auto Agent）通常指的是一个能够自主执行任务、学习和适应环境的智能系统。这种代理系统旨在能够执行一系列任务，而无需过多的人工干预。</p><p>全自动代理的设计目标是使其能够感知环境、理解任务，自主采取行动，并通过学习不断改进自身性能。</p><h1 id="Fundamental-Problems-For-Full-Auto-Agent"><a href="#Fundamental-Problems-For-Full-Auto-Agent" class="headerlink" title="Fundamental Problems For Full Auto Agent"></a>Fundamental Problems For Full Auto Agent</h1><p>全自动Agent的三大基本工程问题与考察的能力：</p><ol><li><p><strong>不断地出数学题，并在另一个文件里写下答案</strong></p><ul><li>任务序列(自主决策和规划)</li><li>基本文件读写</li></ul></li><li><p><strong>给每一类里面带有苹果的数学题都添加一个题干数字</strong></p><ul><li>内容定位与修改</li></ul></li><li><p><strong>把问题和答案文件分散在一个传统的项目工程中</strong></p><ul><li>目录检索能力</li></ul></li></ol>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h1 id=&quot;Full-Auto-Agent&quot;&gt;&lt;a href=&quot;#Full-Auto-Agent&quot; class=&quot;headerlink&quot; title=&quot;Full Auto Agent&quot;&gt;&lt;/a&gt;Full Auto Agent&lt;/h1&gt;&lt;p&gt;全自动代理（Full Auto Ag</summary>
-      
-    
-    
-    
-    <category term="LLM" scheme="https://tobenot.github.io/categories/LLM/"/>
-    
-    
-    <category term="LLM" scheme="https://tobenot.github.io/tags/LLM/"/>
-    
-    <category term="技术" scheme="https://tobenot.github.io/tags/%E6%8A%80%E6%9C%AF/"/>
-    
-  </entry>
   
   <entry>
     <title>GPT的Function Call使用</title>
@@ -387,9 +361,9 @@
     <link href="https://tobenot.github.io/2023/11/26/231126-AI-Game-Dev-Log/"/>
     <id>https://tobenot.github.io/2023/11/26/231126-AI-Game-Dev-Log/</id>
     <published>2023-11-26T08:55:07.000Z</published>
-    <updated>2024-02-10T15:48:19.573Z</updated>
+    <updated>2024-02-10T15:51:58.141Z</updated>
     
-    <content type="html"><![CDATA[<p>目前都要玩家生成key</p><h2 id="2023-11-6"><a href="#2023-11-6" class="headerlink" title="2023.11.6"></a>2023.11.6</h2><p>roadmap规划<br>这时规划做成模板型<br>1.5h</p><h2 id="2023-11-9"><a href="#2023-11-9" class="headerlink" title="2023.11.9 *"></a>2023.11.9 *</h2><p><a href="https://github.com/tobenot/TobenotAIGameCollection/tree/main/AIChatCilent">GPT客户端</a><br>3.5h</p><h2 id="2023-11-13"><a href="#2023-11-13" class="headerlink" title="2023.11.13"></a>2023.11.13</h2><p><a href="https://github.com/tobenot/TobenotAIGameCollection/tree/main/AIPersuadeGame">AI说服小游戏</a></p><p>有点bug，开始五分钟后游戏会不响应任何操作，下个版本修</p><p>先做了一个Agent，技术路线可以往任何方案拓展<br>画面表现我也是想做一些的，纯黑底白字看着不太吸引人<br>4h</p><h2 id="2023-11-18"><a href="#2023-11-18" class="headerlink" title="2023.11.18"></a>2023.11.18</h2><p>roadmap规划<br>往具有表现力方向规划了<br>2h</p><h2 id="2023-11-19"><a href="#2023-11-19" class="headerlink" title="2023.11.19"></a>2023.11.19</h2><p>插件C++化<br>遇到了委托的bug，修到1点<br>2.5h</p><h2 id="2023-11-26"><a href="#2023-11-26" class="headerlink" title="2023.11.26"></a>2023.11.26</h2><p>生成初始设置的C++化<br>3.5h</p><h2 id="中间还有一段，待有空了记录"><a href="#中间还有一段，待有空了记录" class="headerlink" title="中间还有一段，待有空了记录"></a>中间还有一段，待有空了记录</h2><h2 id="2023-12-9"><a href="#2023-12-9" class="headerlink" title="2023.12.9"></a>2023.12.9</h2><p>旅行两天</p><h2 id="2023-12-13"><a href="#2023-12-13" class="headerlink" title="2023.12.13 *"></a>2023.12.13 *</h2><p>研究了第三方key的性质<br>研究了实时生图方案<br>有很大进展<br>1.5h</p><h2 id="2023-12-17"><a href="#2023-12-17" class="headerlink" title="2023.12.17"></a>2023.12.17</h2><p>工程升5.3<br>0.3h<br>搞AI故事大赛去了，练下prompt水平和剧情生成<br>我这进度慢的我接受不了<br>但实在是太忙了</p><h2 id="2023-12-18"><a href="#2023-12-18" class="headerlink" title="2023.12.18"></a>2023.12.18</h2><p>搞AI故事大赛去了（昨天今天总共花了3小时），练下prompt水平和剧情生成<br>作品在参赛结束后发博客一份</p><h2 id="2023-12-20"><a href="#2023-12-20" class="headerlink" title="2023.12.20"></a>2023.12.20</h2><p>添加自动整理蓝图的插件，方便开发</p><p>加了个下载文本文件的接口<br>可以下公共key了<br>这下解压即可玩了<br>0.5h</p><h2 id="2023-12-25"><a href="#2023-12-25" class="headerlink" title="2023.12.25"></a>2023.12.25</h2><p>考研</p><h2 id="2023-12-30"><a href="#2023-12-30" class="headerlink" title="2023.12.30"></a>2023.12.30</h2><p>研究人物模型工具链<br>选VRoid<br>1.5h 大概明白怎么跑流程了，做了一个小女孩模型<br>还是先去搞机制吧，不然说服小游戏打包出来太大</p><p>1.5h 弄出来了json格式回复</p><p>1.5h prompt外置文件化，版本管理</p><h2 id="2023-12-31"><a href="#2023-12-31" class="headerlink" title="2023.12.31"></a>2023.12.31</h2><p>1.5h Json格式回复实装到聊天Agent上<br>0.5h 预生成选项</p><p>1h:<br>Log调整，在Http过程中添加心跳Log</p><p>给交谈的json回复提供例子</p><p>把AI的回复压缩存储</p><p>0.5h 让GPT选择回复模板，能调用外部工具进行进一步处理<br>1h 制作外部工具：骰子，让gpt能调用</p><h2 id="2024-1-1"><a href="#2024-1-1" class="headerlink" title="2024.1.1"></a>2024.1.1</h2><p>1h 骰子的文本展示和机制优化</p><p>0.8h 发消息时隐藏玩家选项，转加载圈圈</p><p>0.5h 游戏结束标志<br>1h 重构了一下消息接受，来支持报错机制。给报错加了一个窗口<br>下载key自动设置API网址<br>以及设置API网址的UI按钮提示文本优化</p><p>0.8h 封包demov4 修bug 发布v4的release</p><h2 id="2024-1-5"><a href="#2024-1-5" class="headerlink" title="2024.1.5"></a>2024.1.5</h2><p>01:20 - 02:00<br>0.6h 开始游戏就立刻下载key，优化一些加载进度条</p><p>下一步也许要自动检测来下载key</p><h2 id="2024-1-10"><a href="#2024-1-10" class="headerlink" title="2024.1.10"></a>2024.1.10</h2><p>01:40 - 04:26<br>3h 准备Steam商店页，送审<br>工作那边在攻坚，从1月2日到1月19日都没有休息日，只能熬夜搞</p><h2 id="2024-1-13"><a href="#2024-1-13" class="headerlink" title="2024.1.13"></a>2024.1.13</h2><p>Steam商店页审核失败</p><h2 id="2024-1-16"><a href="#2024-1-16" class="headerlink" title="2024.1.16"></a>2024.1.16</h2><p>Steam商店页审核成功，公布商店页<br>🎮<br>1月29是预计发行日期，其实18号的时候还没准备好游戏包送审，有点危险<br>笑死了，18号通宵把游戏生成版本搞了</p><h2 id="2024-1-18"><a href="#2024-1-18" class="headerlink" title="2024.1.18"></a>2024.1.18</h2><p>🚀💻🌟📝✨<br>通宵做出第一个游戏生成版本<br>大概弄了：</p><ul><li><strong>文本和资源改成对话纷争的样式</strong></li><li><strong>尝试修复野指针崩溃</strong></li><li><strong>本地化文本翻译</strong></li><li><strong>语言设置</strong></li><li><strong>内容安全审查</strong></li></ul><p>和GPT的一些聊天记录：</p><ul><li>好的，现在是2024年1月19日00:54:28，我准备今晚就要做完一个游戏的上线前送审的版本</li><li>现在是2024年1月19日01:38:21。我可能修复了一个崩溃问题，- 现在开始做本地化！</li><li>现在是2024年1月19日04:18:06，我的游戏基本做好了，我要录视频了！</li><li>现在是2024年1月19日04:58:57，我修了40分钟的prompt的bug，原来是个初始化问题，干</li><li>现在是2024年1月19日05:19:00，我准备送审了！</li><li>“辛苦你们审核我的游戏。如果你们需要公共key的话，可以直接在主菜单点击下载。如果你点了下载公共key，但是又希望用自己的openAI官方key的话，最好重新进一下游戏！或者在高级设置里点一下官方网址。因为公共key是一个API网址不同的高并发的转发openAI gpt服务，方便更多的玩家同时连接。公共key我目前只充了20美元进去。这个游戏需要装DX，我在steam应用设置里应该设置好了。至于为什么文字游戏要装DX，因为是基于虚幻引擎的，以后更新我会想加一些固定场景！总之，希望你们能成功连接上AI服务，并且在我的游戏中遇到一些有趣的事情！”</li><li>现在是2024年1月19日05:45:54，我又遇到了一点问题，中文好像切换不过去，我准备再修一下。英文的本地化也漏了一个字符串</li><li>好的，现在是2024年1月19日06:10:57。我发现问题所在了，是一个工程设置的问题</li><li>2024年1月19日06:16:24 全部搞定，睡觉，明天接着上班</li></ul><p>5h</p><h1 id="2024-1-21"><a href="#2024-1-21" class="headerlink" title="2024.1.21"></a>2024.1.21</h1><p>在做<a href="https://tobenot.top/2024/01/21/240121-Project-Alkaid-Dev-Log/">Project Alkaid</a><br>单休</p><h2 id="2024-1-27"><a href="#2024-1-27" class="headerlink" title="2024.1.27"></a>2024.1.27</h2><p>做了下<a href="https://tobenot.top/2024/01/21/240121-Project-Alkaid-Dev-Log/">Project Alkaid</a><br>这周末去打GGJ2024了</p><h1 id="2024-2-3"><a href="#2024-2-3" class="headerlink" title="2024.2.3"></a>2024.2.3</h1><p>今天收到了生成版本不过审的邮件，提了一些格式问题。审了十多天。</p><p>要改游戏名了，改成《挑战之旅》<br>16.33开始搞steam审核事务<br>17.30-18:00 搞了环境设置，定新名字，看输入api，开始重做商城资产<br>19:30装好ps了<br>20:30游戏商店素材替换<br>游戏内图像也要换<br>21:00搞完替换素材<br>21:45改游戏内文本修bug<br>总共 4.5h</p><h1 id="2024-2-4"><a href="#2024-2-4" class="headerlink" title="2024.2.4"></a>2024.2.4</h1><p>调休上班</p><h1 id="2024-2-8"><a href="#2024-2-8" class="headerlink" title="2024.2.8"></a>2024.2.8</h1><p>游戏改名成功<br>再次把生成版本送审<br>0.5h</p><p>整理挑战之旅设计稿，排单<br>2h</p><h1 id="2024-2-9"><a href="#2024-2-9" class="headerlink" title="2024.2.9"></a>2024.2.9</h1><p>3.5h<br>在整选择角色的界面，和搞地图素材，这里卡了一会</p><h1 id="2024-2-10"><a href="#2024-2-10" class="headerlink" title="2024.2.10"></a>2024.2.10</h1><p>素材提交了，地图画了一个精简的</p><p>milestone: 生成角色<br>创建玩家Controller、AIController、Character和观察类，选角色存档。添加生成角色逻辑，从控制器的组件发RPC到服务器。最初的对话Prompt提交。对对话回复的Json进行完整解析的尝试。</p><p>让<a href="https://tobenot.top/2024/01/21/240121-Project-Alkaid-Dev-Log/">Project Alkaid</a>算的：</p><p>user: 请帮我计算我今天开发了多少个小时多少分钟<br>assistant: 当天的开发时间可以计算为每个时间段的总时长相加。根据您提供的时间段，计算如下：</p><ul><li>上午11:00到下午12:50：开发了 1小时 50分钟</li><li>下午14:10到下午15:30：开发了 1小时 20分钟</li><li>下午16:00到晚上18:30：开发了 2小时 30分钟</li><li>晚上20:10到晚上21:00：开发了 50分钟</li><li>晚上21:30到晚上23:30：开发了 2小时</li></ul><p>将这些时间段的总时长相加，可以计算出您今天一共开发了多少个小时多少分钟。</p><p>总时长 &#x3D; 1小时 50分钟 + 1小时 20分钟 + 2小时 30分钟 + 50分钟 + 2小时<br>      &#x3D; 8小时 30分钟</p><p>所以，您今天一共开发了 8个小时 30分钟。<br>8.5h</p>]]></content>
+    <content type="html"><![CDATA[<p>目前都要玩家生成key</p><h2 id="2023-11-6"><a href="#2023-11-6" class="headerlink" title="2023.11.6"></a>2023.11.6</h2><p>roadmap规划<br>这时规划做成模板型<br>1.5h</p><h2 id="2023-11-9"><a href="#2023-11-9" class="headerlink" title="2023.11.9 *"></a>2023.11.9 *</h2><p><a href="https://github.com/tobenot/TobenotAIGameCollection/tree/main/AIChatCilent">GPT客户端</a><br>3.5h</p><h2 id="2023-11-13"><a href="#2023-11-13" class="headerlink" title="2023.11.13"></a>2023.11.13</h2><p><a href="https://github.com/tobenot/TobenotAIGameCollection/tree/main/AIPersuadeGame">AI说服小游戏</a></p><p>有点bug，开始五分钟后游戏会不响应任何操作，下个版本修</p><p>先做了一个Agent，技术路线可以往任何方案拓展<br>画面表现我也是想做一些的，纯黑底白字看着不太吸引人<br>4h</p><h2 id="2023-11-18"><a href="#2023-11-18" class="headerlink" title="2023.11.18"></a>2023.11.18</h2><p>roadmap规划<br>往具有表现力方向规划了<br>2h</p><h2 id="2023-11-19"><a href="#2023-11-19" class="headerlink" title="2023.11.19"></a>2023.11.19</h2><p>插件C++化<br>遇到了委托的bug，修到1点<br>2.5h</p><h2 id="2023-11-26"><a href="#2023-11-26" class="headerlink" title="2023.11.26"></a>2023.11.26</h2><p>生成初始设置的C++化<br>3.5h</p><h2 id="中间还有一段，待有空了记录"><a href="#中间还有一段，待有空了记录" class="headerlink" title="中间还有一段，待有空了记录"></a>中间还有一段，待有空了记录</h2><h2 id="2023-12-9"><a href="#2023-12-9" class="headerlink" title="2023.12.9"></a>2023.12.9</h2><p>旅行两天</p><h2 id="2023-12-13"><a href="#2023-12-13" class="headerlink" title="2023.12.13 *"></a>2023.12.13 *</h2><p>研究了第三方key的性质<br>研究了实时生图方案<br>有很大进展<br>1.5h</p><h2 id="2023-12-17"><a href="#2023-12-17" class="headerlink" title="2023.12.17"></a>2023.12.17</h2><p>工程升5.3<br>0.3h<br>搞AI故事大赛去了，练下prompt水平和剧情生成<br>我这进度慢的我接受不了<br>但实在是太忙了</p><h2 id="2023-12-18"><a href="#2023-12-18" class="headerlink" title="2023.12.18"></a>2023.12.18</h2><p>搞AI故事大赛去了（昨天今天总共花了3小时），练下prompt水平和剧情生成<br>作品在参赛结束后发博客一份</p><h2 id="2023-12-20"><a href="#2023-12-20" class="headerlink" title="2023.12.20"></a>2023.12.20</h2><p>添加自动整理蓝图的插件，方便开发</p><p>加了个下载文本文件的接口<br>可以下公共key了<br>这下解压即可玩了<br>0.5h</p><h2 id="2023-12-25"><a href="#2023-12-25" class="headerlink" title="2023.12.25"></a>2023.12.25</h2><p>考研</p><h2 id="2023-12-30"><a href="#2023-12-30" class="headerlink" title="2023.12.30"></a>2023.12.30</h2><p>研究人物模型工具链<br>选VRoid<br>1.5h 大概明白怎么跑流程了，做了一个小女孩模型<br>还是先去搞机制吧，不然说服小游戏打包出来太大</p><p>1.5h 弄出来了json格式回复</p><p>1.5h prompt外置文件化，版本管理</p><h2 id="2023-12-31"><a href="#2023-12-31" class="headerlink" title="2023.12.31"></a>2023.12.31</h2><p>1.5h Json格式回复实装到聊天Agent上<br>0.5h 预生成选项</p><p>1h:<br>Log调整，在Http过程中添加心跳Log</p><p>给交谈的json回复提供例子</p><p>把AI的回复压缩存储</p><p>0.5h 让GPT选择回复模板，能调用外部工具进行进一步处理<br>1h 制作外部工具：骰子，让gpt能调用</p><h2 id="2024-1-1"><a href="#2024-1-1" class="headerlink" title="2024.1.1"></a>2024.1.1</h2><p>1h 骰子的文本展示和机制优化</p><p>0.8h 发消息时隐藏玩家选项，转加载圈圈</p><p>0.5h 游戏结束标志<br>1h 重构了一下消息接受，来支持报错机制。给报错加了一个窗口<br>下载key自动设置API网址<br>以及设置API网址的UI按钮提示文本优化</p><p>0.8h 封包demov4 修bug 发布v4的release</p><h2 id="2024-1-5"><a href="#2024-1-5" class="headerlink" title="2024.1.5"></a>2024.1.5</h2><p>01:20 - 02:00<br>0.6h 开始游戏就立刻下载key，优化一些加载进度条</p><p>下一步也许要自动检测来下载key</p><h2 id="2024-1-10"><a href="#2024-1-10" class="headerlink" title="2024.1.10"></a>2024.1.10</h2><p>01:40 - 04:26<br>3h 准备Steam商店页，送审<br>工作那边在攻坚，从1月2日到1月19日都没有休息日，只能熬夜搞</p><h2 id="2024-1-13"><a href="#2024-1-13" class="headerlink" title="2024.1.13"></a>2024.1.13</h2><p>Steam商店页审核失败</p><h2 id="2024-1-16"><a href="#2024-1-16" class="headerlink" title="2024.1.16"></a>2024.1.16</h2><p>Steam商店页审核成功，公布商店页<br>🎮<br>1月29是预计发行日期，其实18号的时候还没准备好游戏包送审，有点危险<br>笑死了，18号通宵把游戏生成版本搞了</p><h2 id="2024-1-18"><a href="#2024-1-18" class="headerlink" title="2024.1.18"></a>2024.1.18</h2><p>🚀💻🌟📝✨<br>通宵做出第一个游戏生成版本<br>大概弄了：</p><ul><li><strong>文本和资源改成对话纷争的样式</strong></li><li><strong>尝试修复野指针崩溃</strong></li><li><strong>本地化文本翻译</strong></li><li><strong>语言设置</strong></li><li><strong>内容安全审查</strong></li></ul><p>和GPT的一些聊天记录：</p><ul><li>好的，现在是2024年1月19日00:54:28，我准备今晚就要做完一个游戏的上线前送审的版本</li><li>现在是2024年1月19日01:38:21。我可能修复了一个崩溃问题，- 现在开始做本地化！</li><li>现在是2024年1月19日04:18:06，我的游戏基本做好了，我要录视频了！</li><li>现在是2024年1月19日04:58:57，我修了40分钟的prompt的bug，原来是个初始化问题，干</li><li>现在是2024年1月19日05:19:00，我准备送审了！</li><li>“辛苦你们审核我的游戏。如果你们需要公共key的话，可以直接在主菜单点击下载。如果你点了下载公共key，但是又希望用自己的openAI官方key的话，最好重新进一下游戏！或者在高级设置里点一下官方网址。因为公共key是一个API网址不同的高并发的转发openAI gpt服务，方便更多的玩家同时连接。公共key我目前只充了20美元进去。这个游戏需要装DX，我在steam应用设置里应该设置好了。至于为什么文字游戏要装DX，因为是基于虚幻引擎的，以后更新我会想加一些固定场景！总之，希望你们能成功连接上AI服务，并且在我的游戏中遇到一些有趣的事情！”</li><li>现在是2024年1月19日05:45:54，我又遇到了一点问题，中文好像切换不过去，我准备再修一下。英文的本地化也漏了一个字符串</li><li>好的，现在是2024年1月19日06:10:57。我发现问题所在了，是一个工程设置的问题</li><li>2024年1月19日06:16:24 全部搞定，睡觉，明天接着上班</li></ul><p>5h</p><h1 id="2024-1-21"><a href="#2024-1-21" class="headerlink" title="2024.1.21"></a>2024.1.21</h1><p>在做<a href="https://tobenot.top/2024/01/21/240121-Project-Alkaid-Dev-Log/">Project Alkaid</a><br>单休</p><h2 id="2024-1-27"><a href="#2024-1-27" class="headerlink" title="2024.1.27"></a>2024.1.27</h2><p>做了下<a href="https://tobenot.top/2024/01/21/240121-Project-Alkaid-Dev-Log/">Project Alkaid</a><br>这周末去打GGJ2024了</p><h1 id="2024-2-3"><a href="#2024-2-3" class="headerlink" title="2024.2.3"></a>2024.2.3</h1><p>今天收到了生成版本不过审的邮件，提了一些格式问题。审了十多天。</p><p>要改游戏名了，改成《挑战之旅》<br>16.33开始搞steam审核事务<br>17.30-18:00 搞了环境设置，定新名字，看输入api，开始重做商城资产<br>19:30装好ps了<br>20:30游戏商店素材替换<br>游戏内图像也要换<br>21:00搞完替换素材<br>21:45改游戏内文本修bug<br>总共 4.5h</p><h1 id="2024-2-4"><a href="#2024-2-4" class="headerlink" title="2024.2.4"></a>2024.2.4</h1><p>调休上班</p><h1 id="2024-2-8"><a href="#2024-2-8" class="headerlink" title="2024.2.8"></a>2024.2.8</h1><p>游戏改名成功<br>再次把生成版本送审<br>0.5h</p><p>整理挑战之旅设计稿，排单<br>2h</p><h1 id="2024-2-9"><a href="#2024-2-9" class="headerlink" title="2024.2.9"></a>2024.2.9</h1><p>3.5h<br>在整选择角色的界面，和搞地图素材，这里卡了一会<br>我写角色介绍和搞角色的图可能都花了1.5小时，上头了</p><h1 id="2024-2-10"><a href="#2024-2-10" class="headerlink" title="2024.2.10"></a>2024.2.10</h1><p>素材提交了，地图画了一个精简的</p><p>milestone: 生成角色<br>创建玩家Controller、AIController、Character和观察类，选角色存档。添加生成角色逻辑，从控制器的组件发RPC到服务器。最初的对话Prompt提交。对对话回复的Json进行完整解析的尝试。</p><p>让<a href="https://tobenot.top/2024/01/21/240121-Project-Alkaid-Dev-Log/">Project Alkaid</a>算的：</p><p>user: 请帮我计算我今天开发了多少个小时多少分钟<br>assistant: 当天的开发时间可以计算为每个时间段的总时长相加。根据您提供的时间段，计算如下：</p><ul><li>上午11:00到下午12:50：开发了 1小时 50分钟</li><li>下午14:10到下午15:30：开发了 1小时 20分钟</li><li>下午16:00到晚上18:30：开发了 2小时 30分钟</li><li>晚上20:10到晚上21:00：开发了 50分钟</li><li>晚上21:30到晚上23:30：开发了 2小时</li></ul><p>将这些时间段的总时长相加，可以计算出您今天一共开发了多少个小时多少分钟。</p><p>总时长 &#x3D; 1小时 50分钟 + 1小时 20分钟 + 2小时 30分钟 + 50分钟 + 2小时<br>      &#x3D; 8小时 30分钟</p><p>所以，您今天一共开发了 8个小时 30分钟。<br>8.5h</p>]]></content>
     
     
       
@@ -560,6 +534,32 @@
       
       
     <summary type="html">&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;心界是一片连续存在的三维空间；一种透过其本身的性质，对现世造成主动或被动影响的空间。&lt;br&gt;&lt;strong&gt;非异常的心界是真实存在的。&lt;/s</summary>
+      
+    
+    
+    
+    <category term="灵界" scheme="https://tobenot.github.io/categories/%E7%81%B5%E7%95%8C/"/>
+    
+    
+    <category term="灵界" scheme="https://tobenot.github.io/tags/%E7%81%B5%E7%95%8C/"/>
+    
+    <category term="碎片" scheme="https://tobenot.github.io/tags/%E7%A2%8E%E7%89%87/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>心界史</title>
+    <link href="https://tobenot.github.io/2023/11/21/231121-Heart-World-History/"/>
+    <id>https://tobenot.github.io/2023/11/21/231121-Heart-World-History/</id>
+    <published>2023-11-21T15:10:58.000Z</published>
+    <updated>2023-12-31T09:51:07.244Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="回忆最初的心界"><a href="#回忆最初的心界" class="headerlink" title="回忆最初的心界"></a>回忆最初的心界</h1><h2 id="渡海"><a href="#渡海" class="headerlink" title="渡海"></a>渡海</h2><p>我渡过三角线条汇成的海<br>星星随着浪花跳跃翻滚<br>我要到的是彼岸<br>彼岸</p><p>注：SILVER将“浪花”写为“海花”</p><h1 id="风帆时代的心界"><a href="#风帆时代的心界" class="headerlink" title="风帆时代的心界"></a>风帆时代的心界</h1><h2 id="山坡上的树"><a href="#山坡上的树" class="headerlink" title="山坡上的树"></a>山坡上的树</h2><p>书沿着紫色纹路从树上掉下来，有一，二，三，三本书，它们悬停在空中，有一本是棕色封皮的</p><h2 id="废墟"><a href="#废墟" class="headerlink" title="废墟"></a>废墟</h2><p>也可能这里会成为废墟<br>但是以后还能建起这么大的吗<br>（█████在熙攘的花园之上对█████如是说。末日的幻景）</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;回忆最初的心界&quot;&gt;&lt;a href=&quot;#回忆最初的心界&quot; class=&quot;headerlink&quot; title=&quot;回忆最初的心界&quot;&gt;&lt;/a&gt;回忆最初的心界&lt;/h1&gt;&lt;h2 id=&quot;渡海&quot;&gt;&lt;a href=&quot;#渡海&quot; class=&quot;headerlink&quot; title=&quot;渡</summary>
       
     
     
