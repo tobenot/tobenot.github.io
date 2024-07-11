@@ -6,7 +6,7 @@
   <link href="https://tobenot.github.io/atom.xml" rel="self"/>
   
   <link href="https://tobenot.github.io/"/>
-  <updated>2024-07-02T14:46:50.665Z</updated>
+  <updated>2024-07-11T16:26:04.152Z</updated>
   <id>https://tobenot.github.io/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Tutorial-Vercel</title>
+    <link href="https://tobenot.github.io/2024/07/12/Tutorial-Vercel/"/>
+    <id>https://tobenot.github.io/2024/07/12/Tutorial-Vercel/</id>
+    <published>2024-07-11T16:25:00.000Z</published>
+    <updated>2024-07-11T16:26:04.152Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://jsd.onmicrosoft.cn/npm/hexo-theme-a4@latest/source/css/lightgallery.min.css" /><div class=".article-gallery"><h2 id="Vercel"><a href="#Vercel" class="headerlink" title="Vercel"></a>Vercel</h2><h3 id="Vercel-部署失败问题"><a href="#Vercel-部署失败问题" class="headerlink" title="Vercel 部署失败问题"></a>Vercel 部署失败问题</h3><p>部署失败时，可以使用 <code>vercel --prod</code> 命令在命令行查看问题。</p><h3 id="更换-Vercel-的地址到自己的"><a href="#更换-Vercel-的地址到自己的" class="headerlink" title="更换 Vercel 的地址到自己的"></a>更换 Vercel 的地址到自己的</h3><ol><li><p>访问 GName 官网 <a href="https://www.gname.com/user#/admin_ym">My Domains - GNAME control panel</a>。</p></li><li><p>在解析设置中添加一条记录：</p><ul><li>名称：anthurium（可以自定义）</li><li>类型：CNAME（实测 A 记录也行，但官方建议使用 CNAME）</li><li>值：<code>vercel.com</code> 或 <code>76.76.21.21</code></li></ul></li><li><p>在 Vercel 的部署服务器面板中，进入 <code>Settings</code> -&gt; <code>Domains</code>，假设域名是 <code>tobenot.top</code>，解析名是 <code>anthurium</code>，那么就添加一个 <code>anthurium.tobenot.top</code>。</p></li></ol><p>这样就可以将原本你使用的 Vercel 服务器地址都换成这个新的地址了。</p></div><script src="https://jsd.onmicrosoft.cn/npm/hexo-theme-a4@latest/source/js/lightgallery.min.js"></script><script>if (typeof lightGallery !== 'undefined') {        var options = {            selector: '.gallery-item'        };        lightGallery(document.getElementsByClassName('.article-gallery')[0], options);        }</script>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://jsd.onmicrosoft.cn/npm/hexo-theme-a4@latest/source/css/lightgallery.min.css&quot; /&gt;&lt;div cla</summary>
+      
+    
+    
+    
+    <category term="技术" scheme="https://tobenot.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="技术" scheme="https://tobenot.github.io/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+    <category term="碎片" scheme="https://tobenot.github.io/tags/%E7%A2%8E%E7%89%87/"/>
+    
+    <category term="Vercel" scheme="https://tobenot.github.io/tags/Vercel/"/>
+    
+  </entry>
   
   <entry>
     <title>在回家之前到家</title>
@@ -527,30 +555,6 @@
     <category term="LLM" scheme="https://tobenot.github.io/tags/LLM/"/>
     
     <category term="碎片" scheme="https://tobenot.github.io/tags/%E7%A2%8E%E7%89%87/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>碎碎念</title>
-    <link href="https://tobenot.github.io/2023/11/26/Record-Mutterings/"/>
-    <id>https://tobenot.github.io/2023/11/26/Record-Mutterings/</id>
-    <published>2023-11-26T07:31:20.000Z</published>
-    <updated>2024-02-08T08:30:49.007Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://jsd.onmicrosoft.cn/npm/hexo-theme-a4@latest/source/css/lightgallery.min.css" /><div class=".article-gallery"><p>相当于QQ空间</p><h2 id="作诗"><a href="#作诗" class="headerlink" title="作诗"></a>作诗</h2><h3 id="银光织梦"><a href="#银光织梦" class="headerlink" title="银光织梦"></a>银光织梦</h3><p>银玉盘上织幻巧，玻璃窗下捕梦痴。</p><p>银玉盘：指月亮</p><h2 id="2023-11"><a href="#2023-11" class="headerlink" title="2023.11"></a>2023.11</h2><p>26<br>Take a deep breath and work on this step by step, This is very import to my career.<br>这个prompt我不肯对gpt用，这像是在忽悠它，不真诚</p><p>在C++里写毕设很让人高兴和舒服<br>可能因为以前都是蓝图写的<br>而且提交的那一刻很舒服<br>diff的感觉</p><p>28<br>个人日志应该是对客人的，应该要文章化，而不是分类步进式更新。<br>我应该把碎片知识收到笔记里，把文章梳理出来展示给客人看。<br>这里就像自家花园，碎片化知识就像五彩的花朵，打理一下整齐点客人才爱看。</p><h1 id="最新位置"><a href="#最新位置" class="headerlink" title="最新位置"></a>最新位置</h1><h2 id="2024-1"><a href="#2024-1" class="headerlink" title="2024.1"></a>2024.1</h2><h3 id="为什么卖Key不是GPT游戏的商业模式"><a href="#为什么卖Key不是GPT游戏的商业模式" class="headerlink" title="为什么卖Key不是GPT游戏的商业模式"></a>为什么卖Key不是GPT游戏的商业模式</h3><p>2024-01-13 03:05:38</p><h4 id="Steam"><a href="#Steam" class="headerlink" title="Steam"></a>Steam</h4><p><a href="https://www.reddit.com/r/gamedev/comments/vunz9y/what_is_steams_policy_on_the_revenue_cut_from/">对于内购物品，Steam也会进行抽成</a></p><p>大概抽一半<br>要自己不亏，key价格得翻倍<br>亏的是玩家</p><h4 id="Gamefilp"><a href="#Gamefilp" class="headerlink" title="Gamefilp"></a>Gamefilp</h4><p>这个抽成应该少点<br>但是玩家为什么不直接去openAI那里买key呢？<br>外国玩家可以直接买，国内也有很多转发服务</p><p>GPT游戏的商业模式，大概还是原来的游戏的商业模式</p><h2 id="2024-2"><a href="#2024-2" class="headerlink" title="2024.2"></a>2024.2</h2><h3 id="Excel移动一行"><a href="#Excel移动一行" class="headerlink" title="Excel移动一行"></a>Excel移动一行</h3><p>鼠标悬停在行号右边，鼠标会变成四方向箭头<br>按住Shift和左键就可以把这一行拖来拖去了</p></div><script src="https://jsd.onmicrosoft.cn/npm/hexo-theme-a4@latest/source/js/lightgallery.min.js"></script><script>if (typeof lightGallery !== 'undefined') {        var options = {            selector: '.gallery-item'        };        lightGallery(document.getElementsByClassName('.article-gallery')[0], options);        }</script>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://jsd.onmicrosoft.cn/npm/hexo-theme-a4@latest/source/css/lightgallery.min.css&quot; /&gt;&lt;div cla</summary>
-      
-    
-    
-    
-    <category term="碎碎念" scheme="https://tobenot.github.io/categories/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
-    
-    
-    <category term="碎碎念" scheme="https://tobenot.github.io/tags/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
     
   </entry>
   
