@@ -6,7 +6,7 @@
   <link href="https://tobenot.github.io/atom.xml" rel="self"/>
   
   <link href="https://tobenot.github.io/"/>
-  <updated>2024-09-22T09:32:17.409Z</updated>
+  <updated>2024-09-22T14:54:54.707Z</updated>
   <id>https://tobenot.github.io/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>COT——思维链的极限</title>
+    <link href="https://tobenot.github.io/2024/09/22/Dev-Think-COT-END/"/>
+    <id>https://tobenot.github.io/2024/09/22/Dev-Think-COT-END/</id>
+    <published>2024-09-22T14:00:24.000Z</published>
+    <updated>2024-09-22T14:54:54.707Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://jsd.onmicrosoft.cn/npm/hexo-theme-a4@latest/source/css/lightgallery.min.css" /><div class=".article-gallery"><p>在大模型领域,COT(Chain of Thought,思维链)技术是提示词工程的常见方法.<br>简单来说就是多想几步。<br>一个常见COT示例：</p><p>思考过程：<br>   a. 理解问题：仔细阅读问题描述，确保完全理解问题的要求和给定的信息。<br>   b. 分解问题：将复杂问题拆分成更小、更容易管理的子问题。<br>   c. 制定策略：根据问题的性质和已知信息，选择合适的解决方法或算法。<br>   d. 执行计划：按照制定的策略逐步解决问题，记录每一步的推理过程。<br>   e. 验证结果：检查最终答案是否符合问题要求，并回顾整个解决过程是否合理。</p><p>如果不使用COT的话，相当于：<br>思考过程：<br>   a. 输出答案：写吧</p><p>不用说，使用长COT肯定是能提升智力的，相对的回复速度和消耗的tokens量会增大<br>用时间换质量</p><h2 id="COT的优势与局限"><a href="#COT的优势与局限" class="headerlink" title="COT的优势与局限"></a>COT的优势与局限</h2><p>COT允许AI模型像人类一样,通过步骤化思考来解决复杂问题。这种方法在数学推理、逻辑分析等领域表现出色。但是,COT也面临着以下限制:</p><ol><li>复杂性瓶颈: COT能提升的智力也是有限的，每个模型的注意力就那么多，想太多会忘事，人类尚且如此。<a href="https://arxiv.org/abs/1706.03762">Attention Is All You Need</a>。</li><li>领域局限性: 有些问题上COT也难解决，比如计算准确性，不可能让大模型直接做数学运算，或者位运算。</li><li>错误累积: 长链推理中的微小错误可能会在后续步骤中被放大,导致最终结果偏离正确答案。</li></ol><p>为什么写这篇文章呢？<br>因为我在做Beyond Books，有个特殊事件触发，我想下放给每个Agent自己去判断，结果发现在评估条件、触发条件上，角色就像是决策带宽已经占满了，就做不好，特别是数学敏感的条件。<br>其实也就是Agent自己思考的COT已经带宽不够了，只是它还限于文学性的时候问题还没暴露出来。</p><p>但是事实上我感觉不对<br>好像是我对“特殊事件”的理解与大模型不同，它不是一个阶段性的东西，而是一个触发式的东西，就是到达条件，就加点什么影响因素进来。它不是一个持续性的东西，而大模型可能认为需要进行阶段管理，所以它会迟迟不肯触发事件。specialEvents</p><p>和sonnet的对话记录：<br>我发现大模型很难理解这个“特殊事件触发”的逻辑，对于COT里面的currentProgress经常牛头不对马嘴</p><p>我理解您的担忧。确实，大模型可能在处理复杂的逻辑结构时会遇到困难，尤其是在理解和生成特定格式的数据时。针对这个问题，我们可以对代码进行一些调整，以简化逻辑并提高模型的理解能力。以下是一些建议：<br>。。。<br>特殊事件列表：</p><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">$&#123;specialEvents.<span class="title function_">filter</span>(<span class="function"><span class="params">event</span> =&gt;</span> !event.<span class="property">consumed</span>).<span class="title function_">map</span>(<span class="function"><span class="params">event</span> =&gt;</span> <span class="string">`</span></span><br><span class="line"><span class="string">- ID: <span class="subst">$&#123;event.id&#125;</span></span></span><br><span class="line"><span class="string">  触发条件: <span class="subst">$&#123;event.triggerCondition&#125;</span></span></span><br><span class="line"><span class="string">  当前进度: [未开始/进行中/即将触发/已触发]（请选择一个）`</span>).<span class="title function_">join</span>(<span class="string">&#x27;\n&#x27;</span>)&#125;</span><br></pre></td></tr></table></figure><p>。。。<br>我们简化了currentProgress的描述，使用更直观的状态描述，如”未开始”、”进行中”、”即将触发”和”已触发”。</p><p>实际上我这些事件是单次触发式的，不是一个有阶段管理需求的东西。更像是“到了这个条件，就添加一些新内容进来”这种逻辑，我是不是命名让人误解了？</p><p>然后我发现<br>我把specialEvents的命名改成plotTriggers<br>bug就修好了，大模型突然理解currentProgress要填“触发条件满足的进度”了</p></div><script src="https://jsd.onmicrosoft.cn/npm/hexo-theme-a4@latest/source/js/lightgallery.min.js"></script><script>if (typeof lightGallery !== 'undefined') {        var options = {            selector: '.gallery-item'        };        lightGallery(document.getElementsByClassName('.article-gallery')[0], options);        }</script>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://jsd.onmicrosoft.cn/npm/hexo-theme-a4@latest/source/css/lightgallery.min.css&quot; /&gt;&lt;div cla</summary>
+      
+    
+    
+    
+    <category term="AI技术" scheme="https://tobenot.github.io/categories/AI%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="LLM" scheme="https://tobenot.github.io/tags/LLM/"/>
+    
+    <category term="AI思维" scheme="https://tobenot.github.io/tags/AI%E6%80%9D%E7%BB%B4/"/>
+    
+    <category term="技术探讨" scheme="https://tobenot.github.io/tags/%E6%8A%80%E6%9C%AF%E6%8E%A2%E8%AE%A8/"/>
+    
+  </entry>
   
   <entry>
     <title>JS大模型基础实践(含Structured Outputs)</title>
@@ -531,34 +559,6 @@
     
     
     <category term="LLM" scheme="https://tobenot.github.io/tags/LLM/"/>
-    
-    <category term="碎片" scheme="https://tobenot.github.io/tags/%E7%A2%8E%E7%89%87/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>大模型技术开发日志</title>
-    <link href="https://tobenot.github.io/2023/11/26/Dev-Note-LLM-Tech/"/>
-    <id>https://tobenot.github.io/2023/11/26/Dev-Note-LLM-Tech/</id>
-    <published>2023-11-26T08:35:59.000Z</published>
-    <updated>2024-05-13T09:25:15.725Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://jsd.onmicrosoft.cn/npm/hexo-theme-a4@latest/source/css/lightgallery.min.css" /><div class=".article-gallery"><h1 id="关于LLM的思考"><a href="#关于LLM的思考" class="headerlink" title="关于LLM的思考"></a>关于LLM的思考</h1><p>智力即灵魂吗？</p><h1 id="LLM的用法"><a href="#LLM的用法" class="headerlink" title="LLM的用法"></a>LLM的用法</h1><p>LLM是电力发智机</p><h2 id="copilot"><a href="#copilot" class="headerlink" title="copilot"></a>copilot</h2><p>@real_kai42<br>认清 copilot 的定位，其是一个副驾驶的角色，自己的思维方式要从“如何去做这件事” &#x3D;&gt; “如何激发 copilot 去做这件事”</p><p>尝试 ai-native 的开发方式，从自己编码 + ai copilot 到自己编写 prompt、copilot 编码，然后自己去进行修改</p><p>copilot 的劳动力可以运用，灵活应用 “给我十个，再给我十个，再给我十个”，人类的挑选能力比较强</p><p>ai-native 不是让 ai 设计架构，而是与 ai 多次讨论，让自己的思路更加清晰。 </p><p><em>llm 不是人类，不用字斟句酌，有合适的关键词即可。如果不知道怎么表达，就用最暴力的表达方式即可</em></p><p>写 prompt 的时间 和 写 code 的时间，这两个随着深入使用，你会逐步找到自己舒服的状态。当你做一个事情的时候，你会知道是使用 llm 还是直接写 code 会更快&#x2F;质量更高。</p><p>一般理想的是 人类冷启动&#x2F;llm 冷启动 &#x3D;&gt; 人类编写细节&#x2F;llm 编写细节 &#x3D;&gt; 人类 polish &#x2F; llm polish </p><h1 id="LLM使用的技法"><a href="#LLM使用的技法" class="headerlink" title="LLM使用的技法"></a>LLM使用的技法</h1><h2 id="prompt修改助手"><a href="#prompt修改助手" class="headerlink" title="prompt修改助手"></a>prompt修改助手</h2><p>你是一名prmopt工程师，参与一个把GPT接入游戏NPC的游戏开发。<br>我希望你帮我修改一下我的prompt：{<br>Please create a character description for an NPC in a text-based generative narrative interactive game, who will participate in dramatic interactions, such as persuasion or arguing. Include their personality, appearance, and background, and ensure that this information is closely related to the game goal, so that players can better interact with the NPC to achieve the gamegoal which is [GameGoal]. Provide the description in Chinese and keep the response concise. DO NOT let NPC be a lawyer, consider other occupations.</p><p>}<br>我想：<br>让这个prompt能让gpt生成出NPC的描述，而非玩家的描述。<br>现在的prompt不够明确，可能会让gpt生成出NPC的描述来<br>我还希望你修改prompt，使gpt的输出控制在比较短的水平</p><p>请你：<br>1.先用中文复述你的任务<br>2.用中文思考你的修改方式<br>3.用英文书写你修改后的prompt，用{}包起来，记住{}里面都应该是英文的<br>4.并用中文告诉我你修改了哪些部分</p><p>ChatGPT<br>任务复述：修改一个用于GPT生成游戏NPC描述的提示，确保生成的是NPC描述而非玩家描述，同时保持简洁。</p><p>修改方式：强调生成NPC描述的要求，明确描述中需包括人物性格、外貌、背景等信息，并突出与游戏目标的关联。同时，限定职业避免生成律师角色，并确保输出的描述长度较短。</p><p>修改后的prompt：<br>{Create a concise character profile for an NPC in a text-based generative narrative interactive game. The NPC will engage in intense interactions, such as persuasion or arguments, contributing to the game goal [GameGoal]. Provide details about the NPC’s personality, appearance, and background, ensuring that the generated information pertains specifically to the NPC. Exclude occupations related to law.}</p><p>修改说明：在原有prompt的基础上，强调了生成NPC描述的目的，明确要求提供人物性格、外貌、背景等信息，确保与游戏目标的关联。通过添加”Exclude occupations related to law”的要求，避免生成律师角色。最后，使用英文表述，并将描述长度要求为concise。</p><h3 id="UE里面设置Json参数"><a href="#UE里面设置Json参数" class="headerlink" title="UE里面设置Json参数"></a>UE里面设置Json参数</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">// set the json-format setting</span><br><span class="line">if (IsJsonFormat) // Your Variable</span><br><span class="line">&#123;</span><br><span class="line">    const TSharedPtr&lt;FJsonObject&gt; JsonObj = MakeShareable(new FJsonObject());</span><br><span class="line">    JsonObj-&gt;SetStringField(TEXT(&quot;type&quot;), &quot;json_object&quot;);</span><br><span class="line">    _payloadObject-&gt;SetObjectField(TEXT(&quot;response_format&quot;), JsonObj);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>忘记在消息中让它用json格式回复，报错会报在Http层，你要在系统Prompt里加一句“请用json格式回复”</p><h3 id="JSON做函数参数报错"><a href="#JSON做函数参数报错" class="headerlink" title="JSON做函数参数报错"></a>JSON做函数参数报错</h3><p>  AILibrary.h(46): [] Unable to find ‘class’, ‘delegate’, ‘enum’, or ‘struct’ with name ‘FJsonObject’</p><p>  蓝图函数不能把FJsonObject做入参</p><h3 id="TSharedPtr做参数-报无法解析的外部符号"><a href="#TSharedPtr做参数-报无法解析的外部符号" class="headerlink" title="TSharedPtr做参数 报无法解析的外部符号"></a>TSharedPtr<FJsonObject>做参数 报无法解析的外部符号</h3><p>我本地是因为cpp实现函数的前面忘加namespace了<br>AIParser::GetMessageFromJson</p><h3 id="JSON解析失败"><a href="#JSON解析失败" class="headerlink" title="JSON解析失败"></a>JSON解析失败</h3><p>“&#96;&#96;&#96;json是没法解析的,开头得直接就是{}，建议添加示例引导”</p><h2 id="长期记忆原理和引子"><a href="#长期记忆原理和引子" class="headerlink" title="长期记忆原理和引子"></a>长期记忆原理和引子</h2><p>GPT的Embedding可用作长期记忆。</p><p>我们可以将它需要具备的知识背景存储在它的Embedding库里。并在每次你发送给它消息之前，将这些记忆“撞”出来，一起发送给它。让它结合这些记忆和你说话。</p><p>据说GPTS的知识库，就是这种原理。</p></div><script src="https://jsd.onmicrosoft.cn/npm/hexo-theme-a4@latest/source/js/lightgallery.min.js"></script><script>if (typeof lightGallery !== 'undefined') {        var options = {            selector: '.gallery-item'        };        lightGallery(document.getElementsByClassName('.article-gallery')[0], options);        }</script>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://jsd.onmicrosoft.cn/npm/hexo-theme-a4@latest/source/css/lightgallery.min.css&quot; /&gt;&lt;div cla</summary>
-      
-    
-    
-    
-    <category term="LLM" scheme="https://tobenot.github.io/categories/LLM/"/>
-    
-    
-    <category term="LLM" scheme="https://tobenot.github.io/tags/LLM/"/>
-    
-    <category term="技术" scheme="https://tobenot.github.io/tags/%E6%8A%80%E6%9C%AF/"/>
     
     <category term="碎片" scheme="https://tobenot.github.io/tags/%E7%A2%8E%E7%89%87/"/>
     
