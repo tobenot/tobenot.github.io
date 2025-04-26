@@ -6,7 +6,7 @@
   <link href="https://tobenot.github.io/atom.xml" rel="self"/>
   
   <link href="https://tobenot.github.io/"/>
-  <updated>2025-04-18T17:12:48.980Z</updated>
+  <updated>2025-04-26T07:19:08.270Z</updated>
   <id>https://tobenot.github.io/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Delta Sea 周刊 - AI动漫艺术家</title>
+    <link href="https://tobenot.github.io/2025/04/23/Weekly-250423-AiAnimationArtist/"/>
+    <id>https://tobenot.github.io/2025/04/23/Weekly-250423-AiAnimationArtist/</id>
+    <published>2025-04-23T13:04:11.000Z</published>
+    <updated>2025-04-26T07:19:08.270Z</updated>
+    
+    <content type="html"><![CDATA[<div class=".article-gallery"><h1 id="2025-04-18-2025-04-23"><a href="#2025-04-18-2025-04-23" class="headerlink" title="2025.04.18 - 2025.04.23"></a>2025.04.18 - 2025.04.23</h1><blockquote><p>撰稿人：萝北</p></blockquote><div align="center">  <a href="/img/characters/luobei-shark.webp" class="gallery-item" style="box-shadow: none;"> <img src="/img/characters/luobei-shark.webp"  width="150"></a>  <p><em>「希望大家都能多睡会」</em></p></div><hr><h2 id="📝-本期导读"><a href="#📝-本期导读" class="headerlink" title="📝 本期导读"></a>📝 本期导读</h2><ul><li><a href="#%E5%BF%83%E7%95%8C%E6%89%80%E8%A7%81">心界所见</a>：三角海的冒险与宁静时光</li><li><a href="#%E8%AF%BB%E8%AF%97">读诗</a>：苏轼的《记承天寺夜游》与心境</li><li><a href="#%E6%88%90%E4%B8%BAai-animation-artist3a%E4%BD%9C%E8%80%85">成为AI Animation Artist</a>：AI视频创作的狂热体验</li><li><a href="#%E7%BC%96%E7%A8%8B%E6%96%B9%E5%BC%8F%E7%9A%84%E8%BD%AC%E5%8F%98">编程方式的转变</a>：Cursor用的最少的一集</li><li><a href="#gemini%E8%80%81%E5%B8%88%E7%9A%84%E7%BC%96%E7%A8%8B%E8%83%BD%E5%8A%9B">gemini老师的编程能力</a>：AI编程助手的优势与局限</li><li><a href="#ai%E8%83%BD%E5%8A%9B%E7%9A%84%E6%80%9D%E8%80%83">AI能力的思考</a>：关于AI超越人类的反思</li><li><a href="#%E5%85%B3%E4%BA%8E%E8%BE%93%E5%85%A5%E4%B8%8E%E8%BE%93%E5%87%BA">关于输入与输出</a>：需要输入如何输出</li><li><a href="#%E9%9B%86%E4%B8%AD%E8%BE%93%E5%87%BA%E8%AE%A1%E5%88%92">集中输出计划</a>：公众号与深度文章的构想</li></ul><hr><h2 id="心界所见"><a href="#心界所见" class="headerlink" title="心界所见"></a>心界所见</h2><p>细雨，风景不坏。本周事件不多，难得的平静。</p><p>周末两天几乎没有被打扰，这在近期实属罕见。</p><p>之前她们在树林被视为敌人的，现在也暂时又被当做朋友。</p><div align="center">  <a href="/img/heart/250423-nightdemon.webp" class="gallery-item" style="box-shadow: none;"> <img src="/img/heart/250423-nightdemon.webp"></a>  <p><em>夜魔</em></p></div><p>借用夜魔力量（熬夜）已成为心界的惯例。很多人也对【晚上无日程】这种安排颇有微词。</p><p>但是金船长偏爱早晨，在朝圣时也向往着晨光。</p><div align="center">  <a href="/img/heart/250423-goldenDrinkInTheMorning.webp" class="gallery-item" style="box-shadow: none;"> <img src="/img/heart/250423-goldenDrinkInTheMorning.webp"></a>  <p><em>金船长在早间活动</em></p></div><p>朝圣的纪念日即将到来，不知道金船长在想些什么呢。</p><p>这段时间的宁静让我得以集中精力，弥补之前的失误。进行了一次规模可观的创作活动，这让我现在就比较满足！</p><hr><h2 id="读诗"><a href="#读诗" class="headerlink" title="读诗"></a>读诗</h2><blockquote><p>元丰六年十月十二日夜，解衣欲睡，月色入户，欣然起行。念无与乐者，遂至承天寺寻张怀民。怀民亦未寝，相与步于中庭。庭下如积水空明，水中藻荇交横，盖竹柏影也。何夜无月？何处无竹柏？但少闲人如吾两人耳。</p></blockquote><p>这首诗写于1083年，当时苏轼被贬至此地已有四年之久，而张怀民则刚刚被贬。苏轼前往寻访张怀民，正是前辈慰问后辈。我以前想来是读不懂的，现在读来，也深刻理解了”但少闲人如吾两人耳”的超然。</p><hr><h2 id="成为AI-Animation-Artist——3A作者"><a href="#成为AI-Animation-Artist——3A作者" class="headerlink" title="成为AI Animation Artist——3A作者"></a>成为AI Animation Artist——3A作者</h2><p>上周提到的AI生成视频网站Vidu会员，我不小心没关自动续费。不过恰逢近期有新项目启动，如”禁魔项圈”和”梦境漫游者”等，加上心界创作也需要大量素材，这个意外倒成了契机，可以说是因祸得福。</p><p>于是在周中时我准备了立绘素材，到周末便可以充分利用。这次的创作可谓狂热，原本规划的完善作品集、写文章输出等任务，全都被视频创作占据。统计下来，周末期间我生成了1800个4秒视频，全部经过筛选，将有价值的内容下载保存。还剪辑了”幸存者”的世界观预告片，一天内便完成了初步剪辑，只是字幕部分还需完善，这个可以慢慢来。</p><div align="center">  <a href="/img/weekly/20250423-AntimagicCollar-MagicAcademy.webp" class="gallery-item" style="box-shadow: none;"> <img src="/img/weekly/20250423-AntimagicCollar-MagicAcademy.webp"></a>  <p><em>《禁魔项圈》事件CG</em></p></div><div align="center">  <a href="/img/weekly/20250423-DreamWalkers-GrassTrain.webp" class="gallery-item" style="box-shadow: none;"> <img src="/img/weekly/20250423-DreamWalkers-GrassTrain.webp"></a>  <p><em>《梦境漫游者》世界观PV</em></p></div><p>这两天的生活模式简单而专注：</p><div align="center">  <blockquote>    醒来即开始生成视频、做视频，直到依依不舍地睡去。  </blockquote></div><p>每天只睡四个小时都远远不够用，这还仅仅是理想主义式的狂热，还不涉及到商业化的另一种狂热。有些人会因为商业化项目的成功而投入大量的精力，那当然是了，之前弹幕互动游戏能够赚到钱的时候，我也是每天一点都在线去关照付钱了的舰长们的。那还有是第一次遇到这么多玩家的开心感。</p><hr><h2 id="编程方式的转变"><a href="#编程方式的转变" class="headerlink" title="编程方式的转变"></a>编程方式的转变</h2><p>本月的Cursor使用量创下新低，以前一两天就能用完，而现在剩下一星期了额度还有不少。这并不意味着编程活动减少——只是形式发生了变化。一方面是因为周末全身心投入视频创作，另一方面上个周末又全部用于开发”梦境漫游者”——这是一个虚幻引擎项目，目前处于起步阶段，开发方式与传统编程大不相同。</p><div align="center">  <a href="/img/weekly/20250423-SaveCursorQuota.webp" class="gallery-item" style="box-shadow: none;"> <img src="/img/weekly/20250423-SaveCursorQuota.webp" width="400"></a>  <p><em>本月Cursor额度，现在还没用完</em></p></div><p>准确地说，我的编程活动更多地转向了对话框形式以及在引擎中的开发——这也是编程。</p><hr><h2 id="gemini老师的编程能力"><a href="#gemini老师的编程能力" class="headerlink" title="gemini老师的编程能力"></a>gemini老师的编程能力</h2><p>我对gemini的崇拜与日俱增。gemini-2.5-pro无疑是平价模型中最强的编码助手，尽管它在工具使用方面略显不足，常常需要我辅助它完成代码diff的添加。</p><div align="center">  <blockquote>    我给它端茶倒水！  </blockquote></div><p>gemini的一个显著特点是一次性修改代码量极大，而且它会毫不犹豫地重构所有看不顺眼的地方——通常情况下，如果你不明确要求，其他AI不会主动修改原有代码。gemini就是忍不了不行的代码。</p><p>但是呢他的重构又很有道理，看了只能被他折服。赶紧做笔记学习下来。</p><div align="center">  <a href="/img/weekly/20250423-Gemini Modifying a Large Amount of Code at Once.webp" class="gallery-item" style="box-shadow: none;"> <img src="/img/weekly/20250423-Gemini Modifying a Large Amount of Code at Once.webp"  height="500"></a>  <p><em>Gemini大规模重构代码示例</em></p></div><p>gemini也并非完美无缺。所以还是要仔细看他修改的每一处，反正也是学习嘛。<br>下面是它的两个疏忽：</p><details><summary>🔍 Gemini的两个疏忽</summary><p>第一个是误删了部分旧逻辑，不过考虑到它当时正在同时处理10个功能点的改动，这种疏忽可以理解；</p><div align="center">  <a href="/img/weekly/20250423-GeminiNegligence.webp" class="gallery-item" style="box-shadow: none;"> <img src="/img/weekly/20250423-GeminiNegligence.webp"></a>  <p><em>Gemini删除旧逻辑的疏忽</em></p></div><p>第二个是在编写代码时遗漏了一个函数，导致代码应用器出错。有趣的是，它的解释听起来有点像在甩锅，这反而让它更像一个真实的高级工程师。（？）</p><div align="center">  <a href="/img/weekly/20250423-GeminiNegligence2.webp" class="gallery-item" style="box-shadow: none;"> <img src="/img/weekly/20250423-GeminiNegligence2.webp"></a>  <p><em>Gemini遗漏函数的疏忽</em></p></div></details><hr><h2 id="AI能力的思考"><a href="#AI能力的思考" class="headerlink" title="AI能力的思考"></a>AI能力的思考</h2><p>当前的AI在编码领域已经远超人类水平。可以预见，未来几年内，AI很可能在文学、绘画等领域超越人类史上最杰出的艺术家。然而，这对我们真的有影响吗？”一个超强AI”和”一个超强人类”的区别在哪里？我们之所以感到不安，或许是因为我们习惯了与想象中的”超强人类”比较，现在面对硅基对手时，不得不承认自己的局限。但究竟有什么必要非要超越他人呢？</p><blockquote><p>⚡ <strong>思考点</strong>：从ChatGPT到现在的gemini老师，仅仅过了两年半时间。AI的进步速度远超我们的想象。</p></blockquote><p>出于对AI能力的好奇，我给不同模型相同的任务——制作一个前端界面，以比较这两年半的发展。</p><p>有趣的是，结果并不如预期那般惊艳。在没有明确指令的情况下，当前AI的表现与2.5年前相差不大。但是那种会发散的ai他就会做的比较帅一点，可能和提示词也有很大的关系，因为简单的任务给这个ai他能力再强也体现不出什么嘛。</p><p>就像我之前让它同时做10个功能点这种任务，才是能难住gemini老师的。</p><p>所以说Deepseek火了之后，很多人并不是用深度思考，而是用之前的V3——因为他们的这个任务都用不到这么强的智力。</p><p>类似地，当GPT推出pro模式时，奥特曼曾痛诉这相当于”把数学博士装进每个人的口袋，但大众却无动于衷！”。这很合理，那我能有什么反应呢？我又用不上博士，是吧。</p><p>AI比赛的视频录制了，还需要剪辑然后发到B站去。</p><hr><h2 id="关于输入与输出"><a href="#关于输入与输出" class="headerlink" title="关于输入与输出"></a>关于输入与输出</h2><p>我一直以来都较为忽视输入的重要性，不过最近开始有意识地增加阅读量。而且在输出之前，了解他人的输出方式也是一种重要的输入。各个领域都有值得学习的内容，需要广泛涉猎。</p><div align="center">  <a href="/img/heart/250423-luobeiReading.webp" class="gallery-item" style="box-shadow: none;"> <img src="/img/heart/250423-luobeiReading.webp"></a>  <p><em>我在看书！</em></p></div><div align="center">  <blockquote>    怎么说也得都看点，有好多需要看的。看其他人怎么宣发独游，怎么写文章...  </blockquote></div><hr><h2 id="集中输出计划"><a href="#集中输出计划" class="headerlink" title="集中输出计划"></a>集中输出计划</h2><p>我最近创建了一个公众号，计划将周刊等内容发布在那里，主要聚焦于AI+创作的主题。</p><p>我希望能够撰写一篇关于AI时代的深度文章，像那个探讨幸福本质的经典文章一样，具有足够的深度和思想性，能让读者反复耳鬓厮磨、不断获得启发。</p><p>公众号在这里：</p><div align="center">  <a href="/img/weekly/20250423-QRCodeForWeChatOfficialAccount.jpg" class="gallery-item" style="box-shadow: none;"> <img src="/img/weekly/20250423-QRCodeForWeChatOfficialAccount.jpg"></a>  <p><em>公众号二维码</em></p></div><p>那么，我们在那边见！</p></div>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;div class=&quot;.article-gallery&quot;&gt;&lt;h1 id=&quot;2025-04-18-2025-04-23&quot;&gt;&lt;a href=&quot;#2025-04-18-2025-04-23&quot; class=&quot;headerlink&quot; title=&quot;2025.04.18 - 2025.04</summary>
+      
+    
+    
+    
+    <category term="DeltaSea周刊" scheme="https://tobenot.github.io/categories/DeltaSea%E5%91%A8%E5%88%8A/"/>
+    
+    
+    <category term="DeltaSea周刊" scheme="https://tobenot.github.io/tags/DeltaSea%E5%91%A8%E5%88%8A/"/>
+    
+    <category term="weekly" scheme="https://tobenot.github.io/tags/weekly/"/>
+    
+  </entry>
   
   <entry>
     <title>Delta Sea 周刊 - 帆板</title>
@@ -597,34 +623,6 @@
     <category term="memorial" scheme="https://tobenot.github.io/tags/memorial/"/>
     
     <category term="年度总结" scheme="https://tobenot.github.io/tags/%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>我的笔记软件选择与应用场景</title>
-    <link href="https://tobenot.github.io/2023/12/28/Methodology-Optimal-Note-Choices/"/>
-    <id>https://tobenot.github.io/2023/12/28/Methodology-Optimal-Note-Choices/</id>
-    <published>2023-12-28T14:40:59.000Z</published>
-    <updated>2025-04-09T15:00:32.378Z</updated>
-    
-    <content type="html"><![CDATA[<div class=".article-gallery"><h1 id="笔记软件选择"><a href="#笔记软件选择" class="headerlink" title="笔记软件选择"></a>笔记软件选择</h1><p>在数字化时代，选择一款适合自己的笔记软件变得尤为重要。不同的软件有不同的特点和用途，而我则根据我的需求在多个软件中进行了选择和应用。以下是我对几种常用笔记软件的评价和应用场景。</p><h2 id="幕布"><a href="#幕布" class="headerlink" title="幕布"></a>幕布</h2><p><strong>用途：云粘贴板，大纲导图</strong></p><p><strong>特点：</strong></p><ul><li>无感云同步，十分方便，手机端编辑也得心应手，免费。</li><li>不适合写大段文本，更适合关键内容的记录，大纲式写作。</li><li>不过使用Shift+Enter还是可以输入大片文本。</li><li>我对它的定位是云粘贴板和大纲导图，全同步，是记录文字的外置器官，随身携带的小本本。</li></ul><h2 id="Obsidian-黑曜石"><a href="#Obsidian-黑曜石" class="headerlink" title="Obsidian 黑曜石"></a>Obsidian 黑曜石</h2><p><strong>用途：详细技术性笔记，建立知识体系</strong></p><p><strong>特点：</strong></p><ul><li>支持Markdown格式的笔记。</li><li>数据存储在本地，更安全，可以使用git同步。</li><li>适合写大段文本，特别是详细的技术性笔记，类似写技术博客。</li><li>提供很帅的联系图功能，非常适合学习和建立知识体系，新东西加进来还能复习下老东西。</li><li>我在公司用来记录笔记，但不进行同步，确保数据的安全性。</li></ul><h2 id="坚果云Markdown"><a href="#坚果云Markdown" class="headerlink" title="坚果云Markdown"></a>坚果云Markdown</h2><p><strong>用途：碎片时间写文章</strong></p><p><strong>特点：</strong></p><ul><li>是一个基于坚果云的Markdown编辑器。</li><li>无感云同步，手机端编辑Markdown很方便，适合利用碎片时间写文章。</li><li>我在家和手机之间同步，写文章的地方。</li></ul><h2 id="OneNote"><a href="#OneNote" class="headerlink" title="OneNote"></a>OneNote</h2><p><strong>用途：个人项目管理，思维梳理</strong></p><p><strong>特点：</strong></p><ul><li>未使用手写功能，不作手写评价。</li><li>适用于排代办和产出灵感，自由排版。高考结束时我选了它作为电子化的All-In-One工具。事实证明一个无限延展的白板很适合发挥创造力，反思与发散。</li><li>在家用来梳理思绪，进行对个人的”项目管理”。</li><li>同步功能可以视为没有，关闭同步更舒服，定期本地备份就是了。</li></ul><h2 id="Word"><a href="#Word" class="headerlink" title="Word"></a>Word</h2><p><strong>用途：工作进度管理</strong></p><p><strong>特点：</strong></p><ul><li>所见即所得的编辑方式。</li><li>开多个文档不太方便，联系上下文较为不便。</li><li>主要用于工作进度管理，在公司中负责管理工作进展。</li></ul><h2 id="Typora"><a href="#Typora" class="headerlink" title="Typora"></a>Typora</h2><p><strong>特点：</strong></p><ul><li>据说写Markdown很方便。</li><li>贵。</li></ul><h2 id="Notion"><a href="#Notion" class="headerlink" title="Notion"></a>Notion</h2><p><strong>用途：团队项目管理</strong></p><p><strong>特点：</strong></p><ul><li>类似于TAPD，适用于团队项目管理。</li></ul><h1 id="不同应用场景的总结"><a href="#不同应用场景的总结" class="headerlink" title="不同应用场景的总结"></a>不同应用场景的总结</h1><ul><li><p><strong>在家：</strong></p><ul><li>幕布：云粘贴板，用于记录碎片化的东西。以及把碎片的东西取出来梳理一下。（比如这篇文章就是大纲转过来的）<br><a href="/img/Article/Optimal-Note-Choices.webp" title="这篇文章的幕布大纲" class="gallery-item" style="box-shadow: none;"> <img src="/img/Article/Optimal-Note-Choices.webp" alt="这篇文章的幕布大纲"></a></li><li>OneNote：主要用于个人日程管理和思维梳理。</li></ul></li><li><p><strong>在公司：</strong></p><ul><li>幕布：云粘贴板，用于记录碎片化的东西。</li><li>Obsidian：用于写详细的Markdown技术性笔记</li><li>Word：用于工作进度管理，做到哪啦？</li></ul></li><li><p><strong>在手机上：</strong></p><ul><li>幕布：云粘贴板，用于记录碎片化的东西。</li><li>坚果云Markdown：方便的Markdown同步功能，适合在手机上利用碎片时间写文章。</li></ul></li></ul><h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><p>在不同场景中，我会灵活运用这些笔记软件，以满足我的不同需求。无论是记录碎片化的灵感，整理技术性的知识，还是进行团队项目管理，每款软件都有其独特的价值。选择适合自己需求的笔记软件，就像选择合适的工具一样，能够事半功倍地提高工作和学习效率。</p><h1 id="补充"><a href="#补充" class="headerlink" title="补充"></a>补充</h1><h2 id="2024-1-19"><a href="#2024-1-19" class="headerlink" title="2024.1.19"></a>2024.1.19</h2><p>幕布确实好列代办，可以在碎片时间列代办<br>但真要开干还是得移动到OneNote，好做各种标记</p><h2 id="2024-1-25"><a href="#2024-1-25" class="headerlink" title="2024.1.25"></a>2024.1.25</h2><p>这三天用notion给GGJ2024的校队拆单<br>发现notion作为团队协作还是很好用的<br>但是有些bug很难受，比如task有时候会被拆散父子关系，没法回退<br>而且免费的团队协作就1000个字能写<br>我们的单没拆一半就满了<br>5个人，开通无限空间，最便宜的套餐50美元一个月，太坑啦<br>不过可以开多个workspace，新的又能写1000个字<br>就是不太好管理就是了</p></div>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;div class=&quot;.article-gallery&quot;&gt;&lt;h1 id=&quot;笔记软件选择&quot;&gt;&lt;a href=&quot;#笔记软件选择&quot; class=&quot;headerlink&quot; title=&quot;笔记软件选择&quot;&gt;&lt;/a&gt;笔记软件选择&lt;/h1&gt;&lt;p&gt;在数字化时代，选择一款适合自己的笔记软件变得尤为</summary>
-      
-    
-    
-    
-    <category term="Workflow" scheme="https://tobenot.github.io/categories/Workflow/"/>
-    
-    
-    <category term="工作流" scheme="https://tobenot.github.io/tags/%E5%B7%A5%E4%BD%9C%E6%B5%81/"/>
-    
-    <category term="完整" scheme="https://tobenot.github.io/tags/%E5%AE%8C%E6%95%B4/"/>
-    
-    <category term="before69" scheme="https://tobenot.github.io/tags/before69/"/>
     
   </entry>
   
