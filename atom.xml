@@ -6,7 +6,7 @@
   <link href="https://tobenot.github.io/atom.xml" rel="self"/>
   
   <link href="https://tobenot.github.io/"/>
-  <updated>2025-05-13T15:41:33.942Z</updated>
+  <updated>2025-05-13T18:30:28.039Z</updated>
   <id>https://tobenot.github.io/</id>
   
   <author>
@@ -15,6 +15,64 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Delta Sea 周刊 - 彗星与剪辑</title>
+    <link href="https://tobenot.github.io/2025/05/14/Weekly-250430-Comet&amp;Montage/"/>
+    <id>https://tobenot.github.io/2025/05/14/Weekly-250430-Comet&amp;Montage/</id>
+    <published>2025-05-13T18:23:22.000Z</published>
+    <updated>2025-05-13T18:30:28.039Z</updated>
+    
+    <content type="html"><![CDATA[<div class=".article-gallery"><h1 id="2025-04-24-2025-04-30"><a href="#2025-04-24-2025-04-30" class="headerlink" title="2025.04.24 - 2025.04.30"></a>2025.04.24 - 2025.04.30</h1><blockquote><p>撰稿人（语音输入、二润）：萝北<br>润色（增补、行文、格式）：Gemini</p></blockquote><div align="center">  <a href="/img/characters/luobei-heart.webp" class="gallery-item" style="box-shadow: none;"> <img src="/img/characters/luobei-heart.webp" width="300"></a>  <p><em>「若纸飞机能载我飞上天空」</em></p></div><hr><h2 id="📝-本期导读"><a href="#📝-本期导读" class="headerlink" title="📝 本期导读"></a>📝 本期导读</h2><ul><li><strong>心界所见：</strong> 夜空中的彗星。</li><li><strong>拾贝集：</strong> INFP大神的博客漫游其一。</li><li><strong>技艺与工具：</strong> 终身会员的价值剖析，以及剪辑技能的“无师自通”。</li><li><strong>三分钟热度轮到谁了：</strong> 主要是剪视频。</li><li><strong>生活片段：</strong> 关于《蔚蓝档案》视频的小小“失算”。</li><li><strong>哲思漫谈：</strong> 高考作文与“伟大”的文章。</li></ul><hr><h3 id="🌟-心界所见-Heart-World-Glimpses"><a href="#🌟-心界所见-Heart-World-Glimpses" class="headerlink" title="🌟 心界所见 &#x2F; Heart World Glimpses"></a>🌟 <strong>心界所见 &#x2F; Heart World Glimpses</strong></h3><p>我看到光，从天空的一边划到另一边，是慧星，彗星来了。我难道还能坐在船舱里不动，忽视这美景吗？<br>去吧，去远方吧。</p><div align="center">  <a href="/img/heart/250430-NightlessNight2025.webp" class="gallery-item" style="box-shadow: none;"> <img src="/img/heart/250430-NightlessNight2025.webp"></a>  <p><em>AI作品：「2025年的无夜之夜（彗星）」</em></p></div><hr><h3 id="📚-拾贝集-Inspiration-Thoughts"><a href="#📚-拾贝集-Inspiration-Thoughts" class="headerlink" title="📚 拾贝集 &#x2F; Inspiration &amp; Thoughts"></a>📚 <strong>拾贝集 &#x2F; Inspiration &amp; Thoughts</strong></h3><p>这周，我依然在细细品读同为INFP的<a href="https://dtysky.moe/">瞬光寂暗 (dtysky.moe)</a>大神的博客。内容浩瀚，远未及尽头，引我感触良多。</p><p>我注意到大佬的技术分享，很多时候会偏重技术实现与代码展示，较少铺陈项目全貌或设计理念。这样做，确实更能凸显技术价值，也更符合知乎等平台上技术爱好者的口味吧。</p><p>另外，发现一个有趣的网站，可以折出各种各样的纸飞机：<a href="https://www.foldnfly.com/">Fold’N Fly</a>，简单纯粹的快乐！</p><hr><h3 id="🛠️-技艺与工具-Tech-Tools"><a href="#🛠️-技艺与工具-Tech-Tools" class="headerlink" title="🛠️ 技艺与工具 &#x2F; Tech &amp; Tools"></a>🛠️ <strong>技艺与工具 &#x2F; Tech &amp; Tools</strong></h3><h4 id="万物皆可Cursor？"><a href="#万物皆可Cursor？" class="headerlink" title="万物皆可Cursor？"></a>万物皆可Cursor？</h4><p>这个扣子（Coze）空间怎么有点像Cursor的Agent模式，万物抄Cursor是吧</p><p>不过工具链本身就不是什么新鲜事。<br>新鲜的是还有谁不做Cursor那种Agent模式！<br>连Trae都越做越好了。等下这好像也是同一个公司的。</p><h4 id="你会为软件选择终身会员吗？"><a href="#你会为软件选择终身会员吗？" class="headerlink" title="你会为软件选择终身会员吗？"></a>你会为软件选择终身会员吗？</h4><p>最近入手了AI配音软件DubbingX的终身会员。这款工具之前在我制作<a href="https://www.bilibili.com/video/BV1psoBY8E9L/">“不止于纸上的故事：童年篇”</a>动漫PV时，为英语台词配音效果就相当不错，很有感觉。</p><p>为什么直接选择终身版？我曾与AI助手探讨过这个问题，它的分析很有道理：</p><blockquote><p>7天会员确实会把咱”卡死”。当购买了7天会员后，会有一种必须在这7天内(实际上咱可能只有精力用2天)充分利用的压力，这可能会:</p><ul><li>让咱匆忙完成配音工作，影响质量；</li><li>造成心理压力，影响创作体验；</li><li>迫使咱在不理想的时间点进行工作。</li></ul><p>相比之下，终身会员这种自由度是有价值的。</p><ul><li><strong>创作体验：</strong> 如果这个工具能让咱的创作过程更加顺畅、愉快，减少技术障碍，那么它就有其价值！</li><li><strong>创作自由：</strong> 终身会员带来的时间自由度，让咱可以在灵感和节奏来临时立即创作，而不必受限于会员期限。</li><li><strong>心理负担：</strong> 如果短期会员会给咱带来时间压力和心理负担，影响创作体验，那么长期会员可能更适合。</li><li><strong>创作的持续性：</strong> 如果咱打算长期坚持创作，那么一个长期可用的工具可能更有价值。</li></ul></blockquote><p>我深以为然。“‘我有这个工具，我可以做什么？’的思考本身就是创意的源泉”，就像解剖学知识对绘画技艺的贡献一样，拥有工具的掌控权，能极大地拓宽创作的可能性。</p><p>（顺带一提，买了之后确实没怎么用（草），就像在Steam上我都花钱买了为什么还要花时间玩游戏）</p><h4 id="剪辑技能：我的“无师自通”？"><a href="#剪辑技能：我的“无师自通”？" class="headerlink" title="剪辑技能：我的“无师自通”？"></a>剪辑技能：我的“无师自通”？</h4><p>我身上似乎有一个莫名其妙就掌握了的技能——视频剪辑。我确信自己没有系统学习过，大概就是打开软件，把所有按钮都摸索试用了一遍，然后就会了，这种学习法用于许多软件都适合，像RPG Maker什么的，真所见即所得。</p><p>尽管剪辑水平也相当基础，但是完全够用了，不会的东西就直接上网查，比如时间滚动，任何人花五分钟就能学会。</p><p>所以说在做任何一件事之前你就已经有了做那件事的能力。</p><hr><h3 id="🔥-三分钟热度轮到谁了-Current-Creative-Spurts"><a href="#🔥-三分钟热度轮到谁了-Current-Creative-Spurts" class="headerlink" title="🔥 三分钟热度轮到谁了 &#x2F; Current Creative Spurts"></a>🔥 <strong>三分钟热度轮到谁了 &#x2F; Current Creative Spurts</strong></h3><h4 id="动漫创作的小波折与视频剪辑的碎碎念"><a href="#动漫创作的小波折与视频剪辑的碎碎念" class="headerlink" title="动漫创作的小波折与视频剪辑的碎碎念"></a>动漫创作的小波折与视频剪辑的碎碎念</h4><p>之前兴致勃勃剪辑的动漫短片，可惜没能在比赛中获奖，所以童年篇的动漫企划宣告暂停！可能这一部童年篇会加速转向文字游戏方向。获奖的有一个国内的岳飞传，还有一个忘了。</p><p>比赛链接在这里：<a href="https://www.tokyo-epic.com/pocketanime-competition-ch">官网</a></p><p>这比赛奖品本来包含配音软件和Vidu（AI视频生成）的会员，这下计划落空，只能自掏腰包了——这也是上文购入DubbingX会员的直接原因。</p><p>最近两周，我对视频创作的欲望格外强烈，剪辑工作自然也多了起来。无论是《梦境漫游者》的PV，《蔚蓝档案》的游戏视频，还是AI大赛的参赛作品，都倾注了不少心血。特别是处理我的配音口吃问题，往往需要把不流畅的部分一一剪掉。</p><h4 id="AI大赛视频反馈与我的回应"><a href="#AI大赛视频反馈与我的回应" class="headerlink" title="AI大赛视频反馈与我的回应"></a>AI大赛视频反馈与我的回应</h4><p>我做了一个<a href="https://www.bilibili.com/video/BV1hsjAzDEyM/">AI大赛</a>视频，发布后收到了一些非常宝贵的批评意见：</p><blockquote><ul><li>设计不够简约美观</li><li>背景声音太大</li><li>表达流利度待加强，声音不够自信。有些地方界面太小。</li><li>感觉不懂的人看了也不懂，懂了的人也不需要看了。</li></ul></blockquote><p><strong>我的回应与反思：</strong></p><p>确实，这些意见都非常中肯。</p><ul><li><strong>视觉设计：</strong> 我在制作封面时就感觉头图元素过多，还特意遮挡隐藏了一些。画面中的底图、模型图标等元素堆叠，考虑到观众可能会有较长的停留时间，当时觉得尚可，但现在看来，确实有“花哨”之嫌，未来会更注重简约。</li><li><strong>背景音乐：</strong> 我的初衷是希望背景音乐能成为烘托氛围的主调，当时已经调低了10分贝。如果依然过大，下次可以尝试纯音乐，或者进一步降低音量，让它成为一种“隐约可闻”的陪伴，减少听众的辨认负担，尤其是在长达半小时只有一个BGM的情况下。</li><li><strong>口播表达：</strong> 啊，口吃真是我的老朋友了……我已经努力剪掉了一半口吃的部分。想要完全流畅，或许真的只能求助于AI配音了。我在现实中讲话时也经常重复，这在之前的视频中就有所体现。或许放慢语速会有所改善。<br>关于“自信”和“激情”，录制这个视频时，我的心态更多是“不意外”甚至对GPT-4o的表现有些“小失望”，直到后面看到Claude Sonnet 3.7的惊艳发挥又变得“无话可说”。但我很难像其他博主那样表现出极度亢奋。录制时我已经有意识地抬高语调，尤其注意了开头的抑扬顿挫。实况录制而非后期配音，也难免会影响流畅度。我更像是一个“看看会怎么样”的观察者，而非“快来看这个多神奇”的展示者，情感表达上自然会平淡些。<ul><li><em>小结：</em> 真人直录虽然方便，但要达到理想效果，对我来说挑战不小。逐句让AI配音又太耗费精力（之前的动漫预告片还算好，小而精）。我自己念稿，则难免口吃和INFP特有的“看客感”，而且思维发散应该也是一个原因，在说话之前我脑子里有一大堆互相冲突的想法，也会导致不知道怎么说。或许，未来可以研究让AI直接输出润色后的大段文字，我再进行语音输入念稿，这种就是后期配了。</li></ul></li><li><strong>内容呈现：</strong> 编程界面确实不是重点，我预估多数观众本身不在乎代码。不过，1分43秒处的具体问题确实存在，我在后续其实有引导观众视线，不过前面确实是也需要注意引导，总得满足好奇心吧！</li><li><strong>理解门槛：</strong> 我原以为视频内容，对不懂代码的观众也能看看各个AI的作品展示。如果这在普通观众看来依然“硬核”，那确实是我陷入“信息茧房”了。<ul><li>对于AI重度用户来说，这个视频可能确实只是“看个乐子”。</li><li>但我认为，对于那些因AI兴起而刚刚踏入或关注编程领域的“中间的入门程序员”来说，视频中适度的“贩卖焦虑”（展示AI的强大能力）或许能对上他们的胃口。</li></ul></li></ul><h4 id="“异常情绪自检SOP”网站诞生记！"><a href="#“异常情绪自检SOP”网站诞生记！" class="headerlink" title="“异常情绪自检SOP”网站诞生记！"></a>“异常情绪自检SOP”网站诞生记！</h4><p>某日在小红书闲逛，看到一个帖子就是如何检查自己的异常情绪来源，底下有人评论说如果点赞过多少就做成小程序。我一看，这个主意不错，而且技术上似乎不难。本想尝试一下小程序开发，但研究后发现流程还是相对正式和繁琐。</p><p>念头一转，何不快速做一个Web版呢？于是，在我的老朋友Claude Sonnet 3.7的强力辅助下，整个网站的核心框架几乎在一次对话中就输出完成了！<a href="https://tobenot.top/Mood-Check/">点此体验：异常情绪自检SOP</a> 。当然，后期我还进行了一些样式上的微调。不得不再次感叹，Claude在前端开发上的能力真是出神入化！</p><p>顺带一提，我使坏在那评论区也发了网址，那位说点赞过多少就做小程序的人过了两天把自己的评论删掉了…（其实已经超过他说的赞数了）</p><p>救命我好坏啊！</p><p>从某种角度看，他也挺聪明的——他这个“点赞过XX就做YY”的承（画）诺（饼），就是零成本市场调研啊！如果点赞数多，说明这个方向确实有需求；评论区也能顺势聚集起第一批对这个点子感兴趣的潜在用户。这多是一件美事啊！</p><p>然后，嗯，然后我就带着半小时速成的网站闪亮登场给他截胡了（笑）。那边后续的沉默，以及最终删除评论的举动，想必也是五味杂陈吧。恐怕他会想：“这人怎么回事？有现成的流量和潜在用户都不要，直接把答案拍脸上了？这不按套路出牌啊！简直不能理解这种有钱不挣的人的想法！”</p><p>要知道拿了答案，用户就已经得到自己想要的了，那点个赞都不一定了！（人之常情）</p><p>所以说我真是“我行我素”，开着AI横冲直撞！</p><h4 id="《梦境漫游者》开发中…"><a href="#《梦境漫游者》开发中…" class="headerlink" title="《梦境漫游者》开发中…"></a>《梦境漫游者》开发中…</h4><p>我的幸存者类游戏《梦境漫游者》依然在稳步推进。最近正准备为角色换上用VRoid制作的精美（可爱）模型。<br>在迁移UE5官方的Motion Matching示例（Game Animation Sample Motion）时，遇到不少预料之外的麻烦。幸好，在茫茫网络中找到了一个非常详细的教程（<a href="https://www.youtube.com/watch?v=V6fFHS_ytWw">教程链接，感谢原作者！</a>），解了燃眉之急。</p><hr><h3 id="🏖️-生活片段-Life-Snippets"><a href="#🏖️-生活片段-Life-Snippets" class="headerlink" title="🏖️ 生活片段 &#x2F; Life Snippets"></a>🏖️ <strong>生活片段 &#x2F; Life Snippets</strong></h3><p>前阵子玩《蔚蓝档案》(BA)，在“综合战术测试”中打出了一套自认思路清奇、操作亮眼的高光时刻，一时兴起便录制下来并发了视频。然而，当我信心满满地去搜索其他玩家的标题准备“借鉴”一番时，才猛然发现——我的天，这类视频不仅要打完，还得是追求极限高分的“作业”才值得被大家“抄”啊！</p><p>我这“娱乐通关”水平，怕是有点班门弄斧了。哎呀，但发都发了，就这样吧！</p><hr><h3 id="🧠-哲思漫谈-Creative-Philosophical-Reflections"><a href="#🧠-哲思漫谈-Creative-Philosophical-Reflections" class="headerlink" title="🧠 哲思漫谈 &#x2F; Creative &amp; Philosophical Reflections"></a>🧠 <strong>哲思漫谈 &#x2F; Creative &amp; Philosophical Reflections</strong></h3><p>谈到应试的时候，有时会说写作文如何限制了才华的发挥。但我想：</p><p>我们可以追求伟大，但不必执拗于在“应试作文”这一特定形式上就必须登峰造极。它更像是一个有明确规则、需要我们运用框架和策略去攻克的“敌人”。华丽的辞藻、深刻的立意，于我们而言，首先是内心的美学追求；但在“战场”上实际出手时，一招一式必然带着清晰的目的和指向性。</p><p>没有什么事情是“现在这个阶段做不了&#x2F;不该想”的。只是在特定时期（比如高考备战期），我们会理性地选择将最宝贵的时间和精力投放到优先级最高的目标上。重要的不是“不做什么”，而是“主动选择做什么”。这其中，是压抑还是释然？或许都有。压抑，也可以理解为对“敌人”（目标）的尊重与看重——为了达成目标，任何有效的战术策略都值得去尝试，兵不厌诈嘛！</p><p>重要的不是“不做什么”，是一个非常核心的心界方法论。重要的是“去做什么”。“不做什么”并不能带我们完成什么事。</p><hr><h2 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h2><p>本期周刊到此结束。彗星已逝，灵感长存，剪辑不息，创作不止。<br>扔出我们的纸飞机吧，在下一片海域上，又会有怎样的奇遇？<br>敬请期待。下期再见！</p></div>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;div class=&quot;.article-gallery&quot;&gt;&lt;h1 id=&quot;2025-04-24-2025-04-30&quot;&gt;&lt;a href=&quot;#2025-04-24-2025-04-30&quot; class=&quot;headerlink&quot; title=&quot;2025.04.24 - 2025.04</summary>
+      
+    
+    
+    
+    <category term="DeltaSea周刊" scheme="https://tobenot.github.io/categories/DeltaSea%E5%91%A8%E5%88%8A/"/>
+    
+    
+    <category term="DeltaSea周刊" scheme="https://tobenot.github.io/tags/DeltaSea%E5%91%A8%E5%88%8A/"/>
+    
+    <category term="weekly" scheme="https://tobenot.github.io/tags/weekly/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>特刊：关于 Delta Sea 周刊的栏目化革新！</title>
+    <link href="https://tobenot.github.io/2025/05/14/Weekly-250514-About/"/>
+    <id>https://tobenot.github.io/2025/05/14/Weekly-250514-About/</id>
+    <published>2025-05-13T16:40:25.000Z</published>
+    <updated>2025-05-13T17:23:22.853Z</updated>
+    
+    <content type="html"><![CDATA[<div class=".article-gallery"><blockquote><p>撰稿人（语音输入、二润）：萝北<br>润色（增补、行文、格式）：Gemini</p></blockquote><div align="center">  <a href="/img/heart/250514-LuobeiTakePhoto.webp" class="gallery-item" style="box-shadow: none;"> <img src="/img/heart/250514-LuobeiTakePhoto.webp"></a>  <p><em>「我没鸽，我只是写（玩）得（太）慢（嗨）！」</em></p></div><hr><h2 id="缘起：周刊的暂停与重启"><a href="#缘起：周刊的暂停与重启" class="headerlink" title="缘起：周刊的暂停与重启"></a>缘起：周刊的暂停与重启</h2><p>最近你可能发现，周刊“不慎”停更了三周。坦白说，我把所有的时间都投入到忘我的创作中去了（特别是中间还夹杂了一个超长假期！）。不过，即便周刊暂停，那些生活中的精彩瞬间、脑海里迸发的奇思妙想，依然如繁星般不断涌现。</p><p>所以，我决定不仅要补回这些“失落的篇章”，更要借此机会，对周刊进行一次小小的“栏目化”革新！</p><h2 id="为什么要栏目化？"><a href="#为什么要栏目化？" class="headerlink" title="为什么要栏目化？"></a>为什么要栏目化？</h2><p>我之前写周刊的方式是在周中把精彩瞬间、值得写的东西收集起来，然后写周刊的时候全部梳理出来。以后也会是这种方式。失去的这三周我也有收集，只是没成文而已啦！</p><p>但是我在思考，如果将周刊内容进行一些栏目化的梳理，会带来什么呢？</p><ul><li><strong>结构更清晰，导航更便捷：</strong> 读者可以像逛主题乐园一样，快速找到自己最感兴趣的“展区”。</li><li><strong>培养阅读期待，增强用户粘性：</strong> 固定的精彩栏目，会让大家每周都有所期盼。</li><li><strong>内容更聚焦，主题更深化：</strong> 每个栏目都能像一口深井，不断挖掘特定主题的深度与魅力。</li><li><strong>素材再利用，传播更多元：</strong> 精心打磨的栏目内容，可以轻松拆解，在不同平台焕发新的生命力。</li><li><strong>激发创作思路，打破写作瓶颈：</strong> 众所周知有个空就会想填！虽然我完全不缺灵感。</li></ul><p>总而言之，栏目化将助力周刊成长为一个更成熟、更易读、也更充满惊喜的内容生态。</p><h2 id="初步构想：从自然生长到特色栏目"><a href="#初步构想：从自然生长到特色栏目" class="headerlink" title="初步构想：从自然生长到特色栏目"></a>初步构想：从自然生长到特色栏目</h2><p>回顾我已发布的三期周刊 (<a href="/tags/weekly">最新周刊</a>)，我发现很多栏目的雏形已经悄然生长出来。现在，我尝试将它们正式定义下来：</p><ul><li><h3 id="🌟-心界所见-Heart-World-Glimpses"><a href="#🌟-心界所见-Heart-World-Glimpses" class="headerlink" title="🌟 心界所见 &#x2F; Heart World Glimpses"></a>🌟 <strong>心界所见 &#x2F; Heart World Glimpses</strong></h3><ul><li>这里将继续分享我在心界的奇幻旅程与所见所闻。</li><li><em>关于心界：</em> 如果你对我常提到的心界感到困惑，可以简单理解为：<strong>我对个人现实事件的文学化、符号化转述。</strong> 我在现实世界中的经历、感悟、甚至梦境，都会映射到心界的冒险故事与角色互动中。类似的概念，也可以是“游戏化转述”或“动漫化转述”——用更浩瀚的方式解读生活。</li></ul></li><li><h3 id="📚-拾贝集-Inspiration-Thoughts"><a href="#📚-拾贝集-Inspiration-Thoughts" class="headerlink" title="📚 拾贝集 &#x2F; Inspiration &amp; Thoughts"></a>📚 <strong>拾贝集 &#x2F; Inspiration &amp; Thoughts</strong></h3><ul><li>融合了之前的“所阅读的”，我其实更喜欢“所阅读的”这个名字，但是拾贝集听着就像飞鸟集一样有书香。</li><li>分享我近期阅读的文章、观看的影片、听到的播客，或是任何触动我的思考片段。</li><li>这里更倾向于<strong>推荐与引发思考</strong>，来一起捡拾取闪光的贝壳！</li></ul></li><li><h3 id="🔥-三分钟热度轮到谁了-Current-Creative-Spurts"><a href="#🔥-三分钟热度轮到谁了-Current-Creative-Spurts" class="headerlink" title="🔥 三分钟热度轮到谁了 &#x2F; Current Creative Spurts"></a>🔥 <strong>三分钟热度轮到谁了 &#x2F; Current Creative Spurts</strong></h3><ul><li>记录那些让我短期内热血沸腾、立刻动手尝试的新项目、新技术、新方向。比如之前提到的文字游戏、幸存者类游戏等。</li><li><strong>INFP</strong>的工作机理就是<strong>三分钟热度</strong>，所以这个栏目实际上也就是“我的游戏创作日志”、“我的独立开发之旅”之类的东西。</li><li>本栏目也将包含<strong>作品的片段展示</strong>：AI生成的音乐、游戏概念美术、开发中的截图等等，也许比任何其他平台都早！</li></ul></li><li><h3 id="🛠️-技艺与工具-Tech-Tools"><a href="#🛠️-技艺与工具-Tech-Tools" class="headerlink" title="🛠️ 技艺与工具 &#x2F; Tech &amp; Tools"></a>🛠️ <strong>技艺与工具 &#x2F; Tech &amp; Tools</strong></h3><ul><li>分享我在开发与创作过程中使用的各种工具（Cursor, Windsurf, Gemini, SunoAI, Vidu, Twine, Unreal Engine, Web开发等）的<strong>实战体验、独门技巧、踩坑记录以及解决方案</strong>。</li><li>AI工具就不单独分一个栏目了，但我有预感这个栏目会变成“AI与创作”这样的栏目。</li></ul></li><li><h3 id="🧠-哲思漫谈-Creative-Philosophical-Reflections"><a href="#🧠-哲思漫谈-Creative-Philosophical-Reflections" class="headerlink" title="🧠 哲思漫谈 &#x2F; Creative &amp; Philosophical Reflections"></a>🧠 <strong>哲思漫谈 &#x2F; Creative &amp; Philosophical Reflections</strong></h3><ul><li>大哲学家。这里指的范围更广，任何对于“问题”的“看法”都可以是。这里更侧重于<strong>梳理与输出</strong>我的各种思考。比如对INFP特质的洞察、熬夜与创作的永恒拉锯、对“剧透”文化的看法、以及AI时代下创作者的定位等。</li></ul></li><li><h3 id="🏖️-生活片段-Life-Snippets"><a href="#🏖️-生活片段-Life-Snippets" class="headerlink" title="🏖️ 生活片段 &#x2F; Life Snippets"></a>🏖️ <strong>生活片段 &#x2F; Life Snippets</strong></h3><ul><li>记录那些有意思的日常的、鲜活的生活瞬间。比如对极端天气的观察，或者因为忘记取消订阅而发出的“痛心疾首”的哀嚎（笑）。</li></ul></li></ul><p><strong>栏目运作小贴士：</strong></p><ul><li><strong>弹性更新：</strong> 每个栏目不必强求每期周刊都有，我会根据当周的实际内容和灵感火花来灵活编排。</li><li><strong>编号追踪：</strong> 为了方便回顾和系列阅读，部分有连续性的栏目（比如下面会提到的“我想做的100个游戏”）会考虑带上编号，如 <code>#1</code>, <code>#2</code> 等。</li></ul><h2 id="让栏目自然生长"><a href="#让栏目自然生长" class="headerlink" title="让栏目自然生长"></a>让栏目自然生长</h2><p>我始终相信，最好的栏目是那些能够<strong>自然生长、源于我内心真正热爱与关注的项目</strong>。</p><p>一个绝佳的例子就是——我知道自己内心和笔记软件上已经积攒了无数想制作的游戏创意（四位数的todolist大部分是游戏灵感），亟需系统梳理。于是，一个致力于整理我那些“想挖的坑”和“已经挖的坑”的个人项目，可以自然而然地催生这个新栏目：</p><ul><li><h3 id="🎮-我想做的100个游戏-My-Dream-Game-Backlog-100-Ideas"><a href="#🎮-我想做的100个游戏-My-Dream-Game-Backlog-100-Ideas" class="headerlink" title="🎮 我想做的100个游戏 &#x2F; My Dream Game Backlog (100 Ideas)"></a>🎮 <strong>我想做的100个游戏 &#x2F; My Dream Game Backlog (100 Ideas)</strong></h3><ul><li><strong>定位：</strong> 这是一个长期连载，目标是逐步梳理并呈现我脑海中<strong>所有的</strong>游戏创意，我是墓志铭那派的，不写出来真的就没机会了。</li><li><strong>博客周刊版：</strong> 将作为这个系列的<strong>首发地和完整档案馆</strong>。内容会更详尽，包含我的核心设计思考、关键机制剖析、期望营造的玩家体验、甚至一些概念性的美术方向。</li><li><strong>小红书版：</strong> 我会尝试将每个游戏创意浓缩成<strong>简短吸睛、图文并茂</strong>的笔记。利用几张概念图（AI辅助生成或手绘草图皆可）、核心玩法简介和引人入胜的标签，去触达更广泛的同好。</li></ul></li></ul><p>我还想再看看有没有可能漏掉的栏目，但是初步审视了一下我的【企划】笔记库，发现大部分零散的想法和材料（Material），似乎都能比较妥帖地归入上述这些栏目中。嗯，感觉良好！</p><h2 id="结语：期待与你共赴这场创作之旅！"><a href="#结语：期待与你共赴这场创作之旅！" class="headerlink" title="结语：期待与你共赴这场创作之旅！"></a>结语：期待与你共赴这场创作之旅！</h2><p>栏目化是一次新的尝试，我希望能借此让《Delta Sea 周刊》的内容更加精彩纷呈，也期待它能更精准地连接到每一位独特的你。</p><p>希望我的周刊能稳定地、充满活力地更新下去！我们在往回补的周刊里再见！</p></div>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;div class=&quot;.article-gallery&quot;&gt;&lt;blockquote&gt;
+&lt;p&gt;撰稿人（语音输入、二润）：萝北&lt;br&gt;润色（增补、行文、格式）：Gemini&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div align=&quot;center&quot;&gt;
+  &lt;a href=&quot;/img/</summary>
+      
+    
+    
+    
+    <category term="DeltaSea周刊" scheme="https://tobenot.github.io/categories/DeltaSea%E5%91%A8%E5%88%8A/"/>
+    
+    
+    <category term="DeltaSea周刊" scheme="https://tobenot.github.io/tags/DeltaSea%E5%91%A8%E5%88%8A/"/>
+    
+    <category term="weekly" scheme="https://tobenot.github.io/tags/weekly/"/>
+    
+    <category term="创作思考" scheme="https://tobenot.github.io/tags/%E5%88%9B%E4%BD%9C%E6%80%9D%E8%80%83/"/>
+    
+  </entry>
   
   <entry>
     <title>AI大世界游戏的5种可能范式：我的实践与思考</title>
@@ -123,7 +181,7 @@
     <link href="https://tobenot.github.io/2025/04/10/Weekly-250410-FirstWeekly/"/>
     <id>https://tobenot.github.io/2025/04/10/Weekly-250410-FirstWeekly/</id>
     <published>2025-04-09T18:34:28.000Z</published>
-    <updated>2025-04-17T18:49:05.173Z</updated>
+    <updated>2025-05-13T16:29:45.197Z</updated>
     
     <content type="html"><![CDATA[<div class=".article-gallery"><p>2025.04.01 - 2025.04.09</p><blockquote><p>撰稿人：萝北<br><a href="/img/characters/luobei2.jpg" class="gallery-item" style="box-shadow: none;"> <img src="/img/characters/luobei2.jpg" width="300"></a></p></blockquote><h2 id="心界所见"><a href="#心界所见" class="headerlink" title="心界所见"></a>心界所见</h2><p>终于出海了！我是第一次到三角海上，金船长是第三次！<br>金船长已经算是传奇人物了，找寻银，在海上死去又回归。<br>三月底的时候把69届心界大会开完了。<br>这时候也是我决定要写 Delta Sea 周刊 的时候！<br>如果不记下来，我们就会忘记一切。<br>但那是日刊的内容，周刊还是要输出的，要考虑销路呢…<br>所以本记者萝北，华丽上场！</p><h2 id="清明所见"><a href="#清明所见" class="headerlink" title="清明所见"></a>清明所见</h2><p>清明节都在玩Minecraft<br>这个包是爽包，和朋友玩个两三天的话，非常值得收藏哦！<br><a href="https://www.bilibili.com/video/BV11w4m1y7jT/?share_source=copy_web&vd_source=fb764b612948cbb4536fcaf4acccb5fa">【FPS整合包！超爽“突突突”！！1600+生物！！玩这个包请把脑子丢掉！丨喷气背包猫Jetpack Cat 我的世界整合包 试玩】</a></p><p>然后有空都在写信，《于荧露树林（下）》，信的本体是不公开的，不过里面梳理的精神自然会慢慢输出。<br>69届心界大会有不少非常值得写的内容，可以说是改天换地级别的了。</p><h2 id="返工"><a href="#返工" class="headerlink" title="返工"></a>返工</h2><p>节后返工的第一天效率最高，心流上了，我使用了AIBS去抵抗拖延倾向，提高做事情的效率，AIBS在这里：<br><a href="https://www.bilibili.com/video/BV1TpsQejErS/?share_source=copy_web&vd_source=fb764b612948cbb4536fcaf4acccb5fa">【也许真的让我找到了有效克服拖延的方法【旧世代电台·专注力专题】】</a><br>AIBS也值得有个专题来讲！</p><p>根据69届的作息SOP，后面的几天都在1点左右早睡了。<br>而“晚上无日程”这种精神让我毫无独立产出，就都在认真上班，下班了就洗澡刷手机准备睡。<br>所以今天（4.09 11:00 - 次日3点）觉得必须得干点东西了，报复性熬到了3点，把博客一次性从69届之间整理到新结构了。符合预期的停不下来了。点燃的心流如何浇灭呢？<br>“晚上无日程”这种还得细想，要不改成挪一小时来创作？但是又要问了，点燃的心流如何浇灭呢？<br>好久不创作，我是会很不舒服，会反弹的。想想也是从很久以前OMA（万象魔法学院）暂停后后面就没什么游戏项目。<br>明天工作顺利不加班的话，下班就开始做幸存者类游戏的初版demo吧！<br>希望整个体验会偏向东方那一种，说的不是那种弹幕游戏方式的，我说的是那种关卡流程。开头就是清一大堆小怪，然后以boss战为高潮。boss战就是那种单人mmo的体验。在战斗过程中也把剧情看了。</p><p>明天加班的话，那就更点博客算了。</p><h2 id="剧变"><a href="#剧变" class="headerlink" title="剧变"></a>剧变</h2><p>就是关税<br>感觉69届的规划更有意义了<br>我的评价就是我补仓了</p><h2 id="AI仙人"><a href="#AI仙人" class="headerlink" title="AI仙人"></a>AI仙人</h2><p>gemini-2.5-pro！<br>我之前奉claude-sonnet-3.7为码神，其他都是码农<br>挑战者竟然这么快就出现了，gemini-2.5-pro比3.7老师更收敛，更专业！<br>但是工程能力肯定是还不如3.7，所以我今晚修作品集&#x2F;做wiki的时候都还是用3.7老师<br>顶多设计的时候用下gemini-2.5-pro吧</p></div>]]></content>
     
@@ -582,66 +640,6 @@
     <category term="心界" scheme="https://tobenot.github.io/tags/%E5%BF%83%E7%95%8C/"/>
     
     <category term="before69" scheme="https://tobenot.github.io/tags/before69/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>谈谈生命卷轴</title>
-    <link href="https://tobenot.github.io/2024/01/03/Methodology-Lets-Talk-About-LifeScroll/"/>
-    <id>https://tobenot.github.io/2024/01/03/Methodology-Lets-Talk-About-LifeScroll/</id>
-    <published>2024-01-02T17:45:54.000Z</published>
-    <updated>2025-04-09T15:00:26.577Z</updated>
-    
-    <content type="html"><![CDATA[<div class=".article-gallery"><p>【这篇文字以一种平凡的笔墨书写在普通的A4纸上】</p><p>生命卷轴是一种游戏化的，后验的，记录式的数值化总结以及日记记录方式<br>三个部分：基础身体值、技能爱好值、快乐意义值<br>每天晚上维护一波<br>每天根据自己的睡眠时段，运动情况和总体感觉去评基础身体值的变化（本蝶在这里还有一项“灵力”）<br>每天只要做了什么事，对应的技能爱好值就加个10，做的比较猛的话加2030<br>满100升一级这样子，升级还要求在这方面有发生特别了不起的事情（里程碑），不然就在99卡着<br>（比如听歌 印象中在九级至少卡了半个月）<br>比如什么工程做到一个关键点了封包了，比如今天突然有升华似的进步什么的<br>每天给快乐意义评下级，快乐能负，意义就一直累积。在快乐那一栏开始写简短日记（评这俩总得有理有据）。其实这两项是先写的。快乐就如字面意思，意义就是推进爱好、推进理想、推进个人成长的程度。</p><p>我已经记了一年，目前我对其数值成长已经是一种麻木的状态</p><p>不过其最重要的作用应该是进行一定的警示，并且推进规划<br>有个东西半天不涨你总得有啥计划吧<br>我刚刚试用了一下“人升”APP<br>它的理念是task驱动的，完成自己定制的任务获得经验值和金币，是先验的<br>类似番茄钟的理念，我感觉对于我的日常生活来说是一种打扰</p><p>后验的生命卷轴机制对于日常生活不会造成打扰<br>大部分时候我都忘了有这个东西，到了睡觉前才想起来）<br>在平时无法完成对我们行动的激励，只有推进规划和反思总结的作用</p><p>也许下一步可以试着加入正反馈？当然还是维持后验，不打扰生活。<br>“人升”APP里面是可以用金币买自己定的奖励，也可以买别人定的奖励<br>网络交流这块挺有趣的，交流自己DIY的奖励和任务<br>但是对自己限制奖励，一定要完成什么才给奖励，感觉是一种不必要的折磨<br>比如一个人每天都喝杯蜜雪，突然跟他说要花金币来买才能喝<br>这种感觉</p><p>不过可以试试古代时用的心界奖励<br>“金币”可以买把心界里的剑什么的<br>当时叫极晶盐<br>感觉可以考古出来搞搞，顺便还能助推心界主线</p><p>还没和星髓渡海呢</p><p>【A4纸的右下角打印了一个八齿的太阳】</p></div>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;div class=&quot;.article-gallery&quot;&gt;&lt;p&gt;【这篇文字以一种平凡的笔墨书写在普通的A4纸上】&lt;/p&gt;
-&lt;p&gt;生命卷轴是一种游戏化的，后验的，记录式的数值化总结以及日记记录方式&lt;br&gt;三个部分：基础身体值、技能爱好值、快乐意义值&lt;br&gt;每天晚上维护一波&lt;br&gt;</summary>
-      
-    
-    
-    
-    <category term="蒸汽机" scheme="https://tobenot.github.io/categories/%E8%92%B8%E6%B1%BD%E6%9C%BA/"/>
-    
-    
-    <category term="完整" scheme="https://tobenot.github.io/tags/%E5%AE%8C%E6%95%B4/"/>
-    
-    <category term="思维" scheme="https://tobenot.github.io/tags/%E6%80%9D%E7%BB%B4/"/>
-    
-    <category term="before69" scheme="https://tobenot.github.io/tags/before69/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>RSS订阅是什么以及怎么用</title>
-    <link href="https://tobenot.github.io/2024/01/02/Tutorial-RSS/"/>
-    <id>https://tobenot.github.io/2024/01/02/Tutorial-RSS/</id>
-    <published>2024-01-02T15:03:36.000Z</published>
-    <updated>2025-04-27T12:28:51.930Z</updated>
-    
-    <content type="html"><![CDATA[<div class=".article-gallery"><h2 id="RSS订阅是什么"><a href="#RSS订阅是什么" class="headerlink" title="RSS订阅是什么"></a>RSS订阅是什么</h2><p>RSS订阅是古老的东西</p><p>大概作用是订阅信息源，信息源发布新文章时，在RSS阅读器里面可以收到推送<br>比起上各种平台被推荐算法带着走，RSS订阅是可以考虑的方法</p><p>感觉用RSS订阅大家的博客是最实用的用法了）<br>并不是所有网站都能用RSS订阅，如果一个人的博客没有RSS订阅，去催他加上</p><h3 id="RSS订阅的详细介绍"><a href="#RSS订阅的详细介绍" class="headerlink" title="RSS订阅的详细介绍"></a>RSS订阅的详细介绍</h3><p>这里有知乎的一个文章，一文读通：<br><a href="https://zhuanlan.zhihu.com/p/349349861">知道RSS的人越少，我就越希望它能被人知道！</a></p><h2 id="先推荐一个RSS阅读器"><a href="#先推荐一个RSS阅读器" class="headerlink" title="先推荐一个RSS阅读器"></a>先推荐一个RSS阅读器</h2><p><a href="https://www.agrreader.xyz/">AgrReader官网</a></p><h2 id="挖掘网站的RSS订阅网址"><a href="#挖掘网站的RSS订阅网址" class="headerlink" title="挖掘网站的RSS订阅网址"></a>挖掘网站的RSS订阅网址</h2><p>Rsshub-Radar插件</p><p>Chrome打开这个网址就能安装：<br><a href="https://chromewebstore.google.com/detail/rsshub-radar/kefjpfngnndepjbopdmoebkipbgkggaa">Rsshub-Radar插件</a><br>装好后打开网站时，如果有RSS网址，就能在网址右边的插件管理里面看到RSS有个红点，告诉你RSS订阅网址</p><p>把网址放进RSS阅读器里就能完成订阅！</p><h2 id="给hexo博客添加RSS订阅"><a href="#给hexo博客添加RSS订阅" class="headerlink" title="给hexo博客添加RSS订阅"></a>给hexo博客添加RSS订阅</h2><p>用插件：<br><a href="https://blog.csdn.net/qq_38140292/article/details/119076455">【hexo】基础教程-四-新增RSS订阅</a><br>本网站使用该插件生成RSS订阅链接，欢迎订阅</p><p><a href="https://tobenot.top/atom.xml">订阅作家之屋</a></p></div>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;div class=&quot;.article-gallery&quot;&gt;&lt;h2 id=&quot;RSS订阅是什么&quot;&gt;&lt;a href=&quot;#RSS订阅是什么&quot; class=&quot;headerlink&quot; title=&quot;RSS订阅是什么&quot;&gt;&lt;/a&gt;RSS订阅是什么&lt;/h2&gt;&lt;p&gt;RSS订阅是古老的东西&lt;/p&gt;
-</summary>
-      
-    
-    
-    
-    <category term="蒸汽机" scheme="https://tobenot.github.io/categories/%E8%92%B8%E6%B1%BD%E6%9C%BA/"/>
-    
-    
-    <category term="技术" scheme="https://tobenot.github.io/tags/%E6%8A%80%E6%9C%AF/"/>
-    
-    <category term="完整" scheme="https://tobenot.github.io/tags/%E5%AE%8C%E6%95%B4/"/>
-    
-    <category term="before69" scheme="https://tobenot.github.io/tags/before69/"/>
-    
-    <category term="article" scheme="https://tobenot.github.io/tags/article/"/>
     
   </entry>
   
