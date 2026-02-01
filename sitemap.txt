@@ -1,3 +1,6 @@
+https://tobenot.github.io/index/
+https://tobenot.github.io/about/
+https://tobenot.github.io/friends/
 https://tobenot.github.io/p/vercel-deployment-tutorial/
 https://tobenot.github.io/p/delta-sea-weekly-1/
 https://tobenot.github.io/p/ai-world-game-paradigms/
@@ -35,9 +38,6 @@ https://tobenot.github.io/p/advanced-mathematics-summary/
 https://tobenot.github.io/p/javascript-llm-practice-tutorial/
 https://tobenot.github.io/p/rss-subscription-guide/
 https://tobenot.github.io/p/llm-foundation-tutorial/
-https://tobenot.github.io/index/
-https://tobenot.github.io/friends/
-https://tobenot.github.io/about/
 https://tobenot.github.io/categories/
 https://tobenot.github.io/list/
 https://tobenot.github.io/
