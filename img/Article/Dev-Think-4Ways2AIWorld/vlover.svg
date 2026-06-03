@@ -1,1 +1,116 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="248pt" height="542pt" viewBox="0 0 247.52 542.06"><g class="graph" transform="translate(4 538.06)"><path fill="#fff" d="M-4 4v-542.06h247.52V4H-4z"/><text text-anchor="middle" x="119.76" y="-8.2" font-family="Times,serif" font-size="14">AI虚拟恋人交互闭环</text><g class="node"><ellipse fill="gold" stroke="#000" cx="84.5" cy="-504.65" rx="50.36" ry="29.42"/><text text-anchor="middle" x="84.5" y="-508.85" font-family="Times,serif" font-size="14">玩家输入</text><text text-anchor="middle" x="84.5" y="-492.05" font-family="Times,serif" font-size="14">(对话/动作)</text></g><g class="node"><path fill="#add8e6" stroke="#000" d="M111.41-438.23H57.59c-6 0-12 6-12 12v17.6c0 6 6 12 12 12h53.82c6 0 12-6 12-12v-17.6c0-6-6-12-12-12"/><text text-anchor="middle" x="84.5" y="-421.63" font-family="Times,serif" font-size="14">AI输入处理</text><text text-anchor="middle" x="84.5" y="-404.83" font-family="Times,serif" font-size="14">(意图识别等)</text></g><g class="edge"><path fill="none" stroke="#000" d="M84.5-474.8v24.81"/><path stroke="#000" d="m88-450.16-3.5 10-3.5-10h7z"/></g><g class="node"><path fill="#e0ffff" stroke="#000" d="M95-349.83H40c-6 0-12 6-12 12v17.6c0 6 6 12 12 12h55c6 0 12-6 12-12v-17.6c0-6-6-12-12-12"/><text text-anchor="middle" x="67.5" y="-333.23" font-family="Times,serif" font-size="14">长时记忆检索</text><text text-anchor="middle" x="67.5" y="-316.43" font-family="Times,serif" font-size="14">(关联信息)</text></g><g class="edge"><path fill="none" stroke="#000" d="M80.56-396.39c-2.05 10.39-4.59 23.33-6.89 35.01"/><path stroke="#000" d="m77.14-360.88-5.37 9.13-1.5-10.48 6.87 1.35z"/><text text-anchor="middle" x="90.52" y="-370.53" font-family="Times,serif" font-size="9">查询记忆</text></g><g class="node"><path fill="salmon" stroke="#000" d="M116.36-250.63H58.64c-6 0-12 6-12 12v17.6c0 6 6 12 12 12h57.72c6 0 12-6 12-12v-17.6c0-6-6-12-12-12"/><text text-anchor="middle" x="87.5" y="-234.03" font-family="Times,serif" font-size="14">思维链(CoT)</text><text text-anchor="middle" x="87.5" y="-217.23" font-family="Times,serif" font-size="14">+ 情感计算</text></g><g class="edge"><path fill="none" stroke="#000" d="M98.85-396.25c3.5 5.53 7 11.65 9.65 17.62 5.4 12.14 6.21 15.64 8 28.8 4.89 35.85 6.36 47.19-6 81.2-.93 2.56-2.04 5.13-3.27 7.67"/><path stroke="#000" d="m110.31-259.3-7.87 7.09 1.73-10.45 6.14 3.36z"/><text text-anchor="middle" x="133.58" y="-326.33" font-family="Times,serif" font-size="9">当前输入</text></g><g class="edge"><path fill="none" stroke="#000" d="M71.64-307.89c2.74 13.29 6.38 30.97 9.48 46.04"/><path stroke="#000" d="m84.47-262.93-1.41 10.5-5.45-9.09 6.86-1.41z"/><text text-anchor="middle" x="92.79" y="-276.73" font-family="Times,serif" font-size="9">记忆注入</text></g><g class="node"><path fill="#ffb6c1" stroke="#000" d="M67-159.43H12c-6 0-12 6-12 12v12c0 6 6 12 12 12h55c6 0 12-6 12-12v-12c0-6-6-12-12-12"/><text text-anchor="middle" x="39.5" y="-137.23" font-family="Times,serif" font-size="14">生成对话回应</text></g><g class="edge"><path fill="none" stroke="#000" d="M76.37-208.79c-6.45 11.6-14.66 26.38-21.69 39.04"/><path stroke="#000" d="m57.76-168.1-7.91 7.04 1.79-10.44 6.12 3.4z"/><text text-anchor="middle" x="83.25" y="-182.93" font-family="Times,serif" font-size="9">决定说什么</text></g><g class="node"><path fill="#90ee90" stroke="#000" d="M206.38-162.23h-97.76c-6 0-12 6-12 12v17.6c0 6 6 12 12 12h97.76c6 0 12-6 12-12v-17.6c0-6-6-12-12-12"/><text text-anchor="middle" x="157.5" y="-145.63" font-family="Times,serif" font-size="14">生成游戏行为</text><text text-anchor="middle" x="157.5" y="-128.83" font-family="Times,serif" font-size="14">(表情/L2D动作/其他)</text></g><g class="edge"><path fill="none" stroke="#000" d="M103.74-208.79c9.03 11.15 20.43 25.22 30.41 37.54"/><path stroke="#000" d="m136.58-173.81 3.58 9.97-9.02-5.56 5.44-4.41z"/><text text-anchor="middle" x="143.57" y="-182.93" font-family="Times,serif" font-size="9">决定做什么</text></g><g class="node"><ellipse fill="gold" stroke="#000" cx="97.5" cy="-54.22" rx="53.19" ry="29.42"/><text text-anchor="middle" x="97.5" y="-58.42" font-family="Times,serif" font-size="14">输出给玩家</text><text text-anchor="middle" x="97.5" y="-41.62" font-family="Times,serif" font-size="14">(对话+行为)</text></g><g class="edge"><path fill="none" stroke="#000" d="M51.24-123.19c6.19 9.11 14.04 20.64 21.51 31.6"/><path stroke="#000" d="m75.57-93.65 2.73 10.23-8.52-6.3 5.79-3.93z"/></g><g class="edge"><path fill="none" stroke="#000" d="M143.28-120.24c-6.09 8.66-13.4 19.03-20.37 28.93"/><path stroke="#000" d="m125.88-89.44-8.62 6.16 2.89-10.19 5.73 4.03z"/></g><g class="edge"><path fill="none" stroke="#000" stroke-dasharray="5,2" d="M146.48-66.2c28.99-9.28 63.39-25.82 81.02-54.43 9.7-15.74 3.05-23.37 0-41.6-21.4-127.95-34.83-161.07-95-276-5.44-10.39-12.42-20.94-19.36-30.45"/><path stroke="#000" d="m110.41-466.49-3.23-10.09 8.82 5.87-5.59 4.22z"/><text text-anchor="middle" x="222.65" y="-282.13" font-family="Times,serif" font-size="9">玩家观察并</text><text text-anchor="middle" x="222.65" y="-271.33" font-family="Times,serif" font-size="9">产生新输入</text></g></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="248pt" height="542pt" viewBox="0.00 0.00 247.52 542.06">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 538.06)">
+<title>Virtual_Lover_Interaction_Loop</title>
+<polygon fill="white" stroke="none" points="-4,4 -4,-538.06 243.52,-538.06 243.52,4 -4,4"/>
+<text text-anchor="middle" x="119.76" y="-8.2" font-family="Times,serif" font-size="14.00">AI虚拟恋人交互闭环</text>
+<!-- Input -->
+<g id="node1" class="node">
+<title>Input</title>
+<ellipse fill="gold" stroke="black" cx="84.5" cy="-504.65" rx="50.36" ry="29.42"/>
+<text text-anchor="middle" x="84.5" y="-508.85" font-family="Times,serif" font-size="14.00">玩家输入</text>
+<text text-anchor="middle" x="84.5" y="-492.05" font-family="Times,serif" font-size="14.00">(对话/动作)</text>
+</g>
+<!-- Process -->
+<g id="node2" class="node">
+<title>Process</title>
+<path fill="lightblue" stroke="black" d="M111.41,-438.23C111.41,-438.23 57.59,-438.23 57.59,-438.23 51.59,-438.23 45.59,-432.23 45.59,-426.23 45.59,-426.23 45.59,-408.63 45.59,-408.63 45.59,-402.63 51.59,-396.63 57.59,-396.63 57.59,-396.63 111.41,-396.63 111.41,-396.63 117.41,-396.63 123.41,-402.63 123.41,-408.63 123.41,-408.63 123.41,-426.23 123.41,-426.23 123.41,-432.23 117.41,-438.23 111.41,-438.23"/>
+<text text-anchor="middle" x="84.5" y="-421.63" font-family="Times,serif" font-size="14.00">AI输入处理</text>
+<text text-anchor="middle" x="84.5" y="-404.83" font-family="Times,serif" font-size="14.00">(意图识别等)</text>
+</g>
+<!-- Input&#45;&gt;Process -->
+<g id="edge1" class="edge">
+<title>Input-&gt;Process</title>
+<path fill="none" stroke="black" d="M84.5,-474.8C84.5,-466.82 84.5,-458.11 84.5,-449.99"/>
+<polygon fill="black" stroke="black" points="88,-450.16 84.5,-440.16 81,-450.16 88,-450.16"/>
+</g>
+<!-- Memory -->
+<g id="node3" class="node">
+<title>Memory</title>
+<path fill="lightcyan" stroke="black" d="M95,-349.83C95,-349.83 40,-349.83 40,-349.83 34,-349.83 28,-343.83 28,-337.83 28,-337.83 28,-320.23 28,-320.23 28,-314.23 34,-308.23 40,-308.23 40,-308.23 95,-308.23 95,-308.23 101,-308.23 107,-314.23 107,-320.23 107,-320.23 107,-337.83 107,-337.83 107,-343.83 101,-349.83 95,-349.83"/>
+<text text-anchor="middle" x="67.5" y="-333.23" font-family="Times,serif" font-size="14.00">长时记忆检索</text>
+<text text-anchor="middle" x="67.5" y="-316.43" font-family="Times,serif" font-size="14.00">(关联信息)</text>
+</g>
+<!-- Process&#45;&gt;Memory -->
+<g id="edge2" class="edge">
+<title>Process-&gt;Memory</title>
+<path fill="none" stroke="black" d="M80.56,-396.39C78.51,-386 75.97,-373.06 73.67,-361.38"/>
+<polygon fill="black" stroke="black" points="77.14,-360.88 71.77,-351.75 70.27,-362.23 77.14,-360.88"/>
+<text text-anchor="middle" x="90.52" y="-370.53" font-family="Times,serif" font-size="9.00">查询记忆</text>
+</g>
+<!-- Think -->
+<g id="node4" class="node">
+<title>Think</title>
+<path fill="salmon" stroke="black" d="M116.36,-250.63C116.36,-250.63 58.64,-250.63 58.64,-250.63 52.64,-250.63 46.64,-244.63 46.64,-238.63 46.64,-238.63 46.64,-221.03 46.64,-221.03 46.64,-215.03 52.64,-209.03 58.64,-209.03 58.64,-209.03 116.36,-209.03 116.36,-209.03 122.36,-209.03 128.36,-215.03 128.36,-221.03 128.36,-221.03 128.36,-238.63 128.36,-238.63 128.36,-244.63 122.36,-250.63 116.36,-250.63"/>
+<text text-anchor="middle" x="87.5" y="-234.03" font-family="Times,serif" font-size="14.00">思维链(CoT)</text>
+<text text-anchor="middle" x="87.5" y="-217.23" font-family="Times,serif" font-size="14.00">+ 情感计算</text>
+</g>
+<!-- Process&#45;&gt;Think -->
+<g id="edge4" class="edge">
+<title>Process-&gt;Think</title>
+<path fill="none" stroke="black" d="M98.85,-396.25C102.35,-390.72 105.85,-384.6 108.5,-378.63 113.9,-366.49 114.71,-362.99 116.5,-349.83 121.39,-313.98 122.86,-302.64 110.5,-268.63 109.57,-266.07 108.46,-263.5 107.23,-260.96"/>
+<polygon fill="black" stroke="black" points="110.31,-259.3 102.44,-252.21 104.17,-262.66 110.31,-259.3"/>
+<text text-anchor="middle" x="133.58" y="-326.33" font-family="Times,serif" font-size="9.00">当前输入</text>
+</g>
+<!-- Memory&#45;&gt;Think -->
+<g id="edge3" class="edge">
+<title>Memory-&gt;Think</title>
+<path fill="none" stroke="black" d="M71.64,-307.89C74.38,-294.6 78.02,-276.92 81.12,-261.85"/>
+<polygon fill="black" stroke="black" points="84.47,-262.93 83.06,-252.43 77.61,-261.52 84.47,-262.93"/>
+<text text-anchor="middle" x="92.79" y="-276.73" font-family="Times,serif" font-size="9.00">记忆注入</text>
+</g>
+<!-- Response -->
+<g id="node5" class="node">
+<title>Response</title>
+<path fill="lightpink" stroke="black" d="M67,-159.43C67,-159.43 12,-159.43 12,-159.43 6,-159.43 0,-153.43 0,-147.43 0,-147.43 0,-135.43 0,-135.43 0,-129.43 6,-123.43 12,-123.43 12,-123.43 67,-123.43 67,-123.43 73,-123.43 79,-129.43 79,-135.43 79,-135.43 79,-147.43 79,-147.43 79,-153.43 73,-159.43 67,-159.43"/>
+<text text-anchor="middle" x="39.5" y="-137.23" font-family="Times,serif" font-size="14.00">生成对话回应</text>
+</g>
+<!-- Think&#45;&gt;Response -->
+<g id="edge5" class="edge">
+<title>Think-&gt;Response</title>
+<path fill="none" stroke="black" d="M76.37,-208.79C69.92,-197.19 61.71,-182.41 54.68,-169.75"/>
+<polygon fill="black" stroke="black" points="57.76,-168.1 49.85,-161.06 51.64,-171.5 57.76,-168.1"/>
+<text text-anchor="middle" x="83.25" y="-182.93" font-family="Times,serif" font-size="9.00">决定说什么</text>
+</g>
+<!-- Action -->
+<g id="node6" class="node">
+<title>Action</title>
+<path fill="lightgreen" stroke="black" d="M206.38,-162.23C206.38,-162.23 108.62,-162.23 108.62,-162.23 102.62,-162.23 96.62,-156.23 96.62,-150.23 96.62,-150.23 96.62,-132.63 96.62,-132.63 96.62,-126.63 102.62,-120.63 108.62,-120.63 108.62,-120.63 206.38,-120.63 206.38,-120.63 212.38,-120.63 218.38,-126.63 218.38,-132.63 218.38,-132.63 218.38,-150.23 218.38,-150.23 218.38,-156.23 212.38,-162.23 206.38,-162.23"/>
+<text text-anchor="middle" x="157.5" y="-145.63" font-family="Times,serif" font-size="14.00">生成游戏行为</text>
+<text text-anchor="middle" x="157.5" y="-128.83" font-family="Times,serif" font-size="14.00">(表情/L2D动作/其他)</text>
+</g>
+<!-- Think&#45;&gt;Action -->
+<g id="edge6" class="edge">
+<title>Think-&gt;Action</title>
+<path fill="none" stroke="black" d="M103.74,-208.79C112.77,-197.64 124.17,-183.57 134.15,-171.25"/>
+<polygon fill="black" stroke="black" points="136.58,-173.81 140.16,-163.84 131.14,-169.4 136.58,-173.81"/>
+<text text-anchor="middle" x="143.57" y="-182.93" font-family="Times,serif" font-size="9.00">决定做什么</text>
+</g>
+<!-- Output -->
+<g id="node7" class="node">
+<title>Output</title>
+<ellipse fill="gold" stroke="black" cx="97.5" cy="-54.22" rx="53.19" ry="29.42"/>
+<text text-anchor="middle" x="97.5" y="-58.42" font-family="Times,serif" font-size="14.00">输出给玩家</text>
+<text text-anchor="middle" x="97.5" y="-41.62" font-family="Times,serif" font-size="14.00">(对话+行为)</text>
+</g>
+<!-- Response&#45;&gt;Output -->
+<g id="edge7" class="edge">
+<title>Response-&gt;Output</title>
+<path fill="none" stroke="black" d="M51.24,-123.19C57.43,-114.08 65.28,-102.55 72.75,-91.59"/>
+<polygon fill="black" stroke="black" points="75.57,-93.65 78.3,-83.42 69.78,-89.72 75.57,-93.65"/>
+</g>
+<!-- Action&#45;&gt;Output -->
+<g id="edge8" class="edge">
+<title>Action-&gt;Output</title>
+<path fill="none" stroke="black" d="M143.28,-120.24C137.19,-111.58 129.88,-101.21 122.91,-91.31"/>
+<polygon fill="black" stroke="black" points="125.88,-89.44 117.26,-83.28 120.15,-93.47 125.88,-89.44"/>
+</g>
+<!-- Output&#45;&gt;Input -->
+<g id="edge9" class="edge">
+<title>Output-&gt;Input</title>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M146.48,-66.2C175.47,-75.48 209.87,-92.02 227.5,-120.63 237.2,-136.37 230.55,-144 227.5,-162.23 206.1,-290.18 192.67,-323.3 132.5,-438.23 127.06,-448.62 120.08,-459.17 113.14,-468.68"/>
+<polygon fill="black" stroke="black" points="110.41,-466.49 107.18,-476.58 116,-470.71 110.41,-466.49"/>
+<text text-anchor="middle" x="222.65" y="-282.13" font-family="Times,serif" font-size="9.00">玩家观察并</text>
+<text text-anchor="middle" x="222.65" y="-271.33" font-family="Times,serif" font-size="9.00">产生新输入</text>
+</g>
+</g>
+</svg>

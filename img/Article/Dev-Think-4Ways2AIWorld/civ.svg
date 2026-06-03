@@ -1,1 +1,138 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="341pt" height="464pt" viewBox="0 0 340.96 464.46"><g class="graph" transform="translate(4 460.46)"><path fill="#fff" d="M-4 4v-464.46h340.96V4H-4z"/><text text-anchor="middle" x="166.48" y="-8.2" font-family="Times,serif" font-size="14">&quot;标签碰撞&quot; 驱动涌现示例</text><g class="node"><path fill="#add8e6" stroke="#000" d="M70.32-456.46H24.89c-6 0-12 6-12 12v17.6c0 6 6 12 12 12h45.43c6 0 12-6 12-12v-17.6c0-6-6-12-12-12"/><text text-anchor="middle" x="47.61" y="-439.86" font-family="Times,serif" font-size="14">玩家行动:</text><text text-anchor="middle" x="47.61" y="-423.06" font-family="Times,serif" font-size="14">&quot;建立城市&quot;</text></g><g class="node"><ellipse fill="#ff0" stroke="#000" cx="47.61" cy="-348.45" rx="47.61" ry="29.42"/><text text-anchor="middle" x="47.61" y="-352.65" font-family="Times,serif" font-size="14">标签:</text><text text-anchor="middle" x="47.61" y="-335.85" font-family="Times,serif" font-size="14">[城市建立]</text></g><g class="edge"><path fill="none" stroke="#000" d="M47.61-414.47v25.05"/><path stroke="#000" d="m47.61-379.42 4.5-10-4.5 6.22v-6.22 6.22l-4.5-6.22 4.5 10z"/></g><g class="node"><path fill="#add8e6" stroke="#000" d="M200.52-456.46H126.7c-6 0-12 6-12 12v17.6c0 6 6 12 12 12h73.82c6 0 12-6 12-12v-17.6c0-6-6-12-12-12"/><text text-anchor="middle" x="163.61" y="-439.86" font-family="Times,serif" font-size="14">玩家行动:</text><text text-anchor="middle" x="163.61" y="-423.06" font-family="Times,serif" font-size="14">&quot;研究科技: 农业&quot;</text></g><g class="node"><ellipse fill="#ff0" stroke="#000" cx="163.61" cy="-348.45" rx="50.36" ry="29.42"/><text text-anchor="middle" x="163.61" y="-352.65" font-family="Times,serif" font-size="14">标签:</text><text text-anchor="middle" x="163.61" y="-335.85" font-family="Times,serif" font-size="14">[科技:农业]</text></g><g class="edge"><path fill="none" stroke="#000" d="M163.61-414.47v25.05"/><path stroke="#000" d="m163.61-379.42 4.5-10-4.5 6.22v-6.22 6.22l-4.5-6.22 4.5 10z"/></g><g class="node"><path fill="#d3d3d3" stroke="#000" d="M301.55-456.46h-37.89c-6 0-12 6-12 12v17.6c0 6 6 12 12 12h37.89c6 0 12-6 12-12v-17.6c0-6-6-12-12-12"/><text text-anchor="middle" x="282.61" y="-439.86" font-family="Times,serif" font-size="14">随机事件:</text><text text-anchor="middle" x="282.61" y="-423.06" font-family="Times,serif" font-size="14">&quot;丰收&quot;</text></g><g class="node"><ellipse fill="#ff0" stroke="#000" cx="282.61" cy="-348.45" rx="50.36" ry="29.42"/><text text-anchor="middle" x="282.61" y="-352.65" font-family="Times,serif" font-size="14">标签:</text><text text-anchor="middle" x="282.61" y="-335.85" font-family="Times,serif" font-size="14">[事件:丰收]</text></g><g class="edge"><path fill="none" stroke="#000" d="M282.61-414.47v25.05"/><path stroke="#000" d="m282.61-379.42 4.5-10-4.5 6.22v-6.22 6.22l-4.5-6.22 4.5 10z"/></g><g class="node"><path fill="salmon" stroke="#000" d="M196.3-250.63h-65.39v41.6h65.39v-41.6z"/><text text-anchor="middle" x="163.61" y="-234.03" font-family="Times,serif" font-size="14">规则引擎 /</text><text text-anchor="middle" x="163.61" y="-217.23" font-family="Times,serif" font-size="14">AI 裁判</text></g><g class="edge"><path fill="none" stroke="#000" stroke-dasharray="5,2" d="M71.92-323c18.69 18.78 44.51 44.74 63.99 64.33"/><path stroke="#000" d="m142.71-251.84-3.87-10.26 1.2 7.58-4.39-4.41 4.39 4.41-7.58-1.24 10.25 3.92z"/></g><g class="edge"><path fill="none" stroke="#000" stroke-dasharray="5,2" d="M163.61-318.62v56.58"/><path stroke="#000" d="m163.61-252.14 4.5-10-4.5 6.22v-6.22 6.22l-4.5-6.22 4.5 10z"/></g><g class="edge"><path fill="none" stroke="#000" stroke-dasharray="5,2" d="M257.37-322.72c-19.19 18.81-45.59 44.68-65.49 64.18"/><path stroke="#000" d="m184.93-251.73 10.29-3.79-7.59 1.14 4.44-4.35-4.44 4.35 1.3-7.56-4 10.21z"/><text text-anchor="middle" x="260.3" y="-292.93" font-family="Times,serif" font-size="9">  碰撞检测:</text><text text-anchor="middle" x="260.3" y="-282.13" font-family="Times,serif" font-size="9">  [城市] + [农业]</text><text text-anchor="middle" x="260.3" y="-271.33" font-family="Times,serif" font-size="9">  + [丰收]</text></g><g class="node"><ellipse fill="#ff0" stroke="#000" cx="109.61" cy="-54.22" rx="47.61" ry="29.42"/><text text-anchor="middle" x="109.61" y="-58.42" font-family="Times,serif" font-size="14">标签:</text><text text-anchor="middle" x="109.61" y="-41.62" font-family="Times,serif" font-size="14">[人口增长]</text></g><g class="node"><path fill="#90ee90" stroke="#000" d="M165.32-162.23H53.89v41.6h111.43v-41.6z"/><text text-anchor="middle" x="109.61" y="-145.63" font-family="Times,serif" font-size="14">新事件/状态更新:</text><text text-anchor="middle" x="109.61" y="-128.83" font-family="Times,serif" font-size="14">&quot;城市人口显著增长&quot;</text></g><g class="edge"><path fill="none" stroke="#000" d="M137.92-208.69c-5.43 5.26-10.68 11.27-14.57 17.66-3.3 5.43-5.83 11.68-7.77 17.86"/><path stroke="#000" d="m113.02-163.52 6.91-8.51-5.94 4.86 1.59-6.01-1.59 6.01-2.76-7.17 1.79 10.82z"/><text text-anchor="middle" x="159.48" y="-182.93" font-family="Times,serif" font-size="9">判定: 满足人口增长条件</text></g><g class="node"><path fill="#ffb6c1" stroke="#000" d="M246.32-162.23h-63.43v41.6h69.43v-35.6l-6-6z"/><path fill="none" stroke="#000" d="M246.32-162.23v6M252.32-156.23h-6"/><text text-anchor="middle" x="217.61" y="-145.63" font-family="Times,serif" font-size="14">触发CG:</text><text text-anchor="middle" x="217.61" y="-128.83" font-family="Times,serif" font-size="14">&quot;庆祝丰收&quot;</text></g><g class="edge"><path fill="none" stroke="#000" d="M182.3-208.84c4.67 5.54 9.45 11.7 13.31 17.81 3.61 5.72 6.95 12.13 9.88 18.37"/><path stroke="#000" d="m209.52-163.58.06-10.96-1.59 7.5-2.52-5.68 2.52 5.68-6.64-3.86 8.17 7.32z"/><text text-anchor="middle" x="228.41" y="-182.93" font-family="Times,serif" font-size="9">触发相关视觉表现</text></g><g class="edge"><path fill="none" stroke="#000" d="M109.61-120.24v25.05"/><path stroke="#000" d="m109.61-85.19 4.5-10-4.5 6.22v-6.22 6.22l-4.5-6.22 4.5 10z"/></g></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="341pt" height="464pt" viewBox="0.00 0.00 340.96 464.46">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 460.46)">
+<title>Civilization_Tag_Collision</title>
+<polygon fill="white" stroke="none" points="-4,4 -4,-460.46 336.96,-460.46 336.96,4 -4,4"/>
+<text text-anchor="middle" x="166.48" y="-8.2" font-family="Times,serif" font-size="14.00">"标签碰撞" 驱动涌现示例</text>
+<!-- Action1 -->
+<g id="node1" class="node">
+<title>Action1</title>
+<path fill="lightblue" stroke="black" d="M70.32,-456.46C70.32,-456.46 24.89,-456.46 24.89,-456.46 18.89,-456.46 12.89,-450.46 12.89,-444.46 12.89,-444.46 12.89,-426.86 12.89,-426.86 12.89,-420.86 18.89,-414.86 24.89,-414.86 24.89,-414.86 70.32,-414.86 70.32,-414.86 76.32,-414.86 82.32,-420.86 82.32,-426.86 82.32,-426.86 82.32,-444.46 82.32,-444.46 82.32,-450.46 76.32,-456.46 70.32,-456.46"/>
+<text text-anchor="middle" x="47.61" y="-439.86" font-family="Times,serif" font-size="14.00">玩家行动:</text>
+<text text-anchor="middle" x="47.61" y="-423.06" font-family="Times,serif" font-size="14.00">"建立城市"</text>
+</g>
+<!-- Tag_City -->
+<g id="node4" class="node">
+<title>Tag_City</title>
+<ellipse fill="yellow" stroke="black" cx="47.61" cy="-348.45" rx="47.61" ry="29.42"/>
+<text text-anchor="middle" x="47.61" y="-352.65" font-family="Times,serif" font-size="14.00">标签:</text>
+<text text-anchor="middle" x="47.61" y="-335.85" font-family="Times,serif" font-size="14.00">[城市建立]</text>
+</g>
+<!-- Action1&#45;&gt;Tag_City -->
+<g id="edge1" class="edge">
+<title>Action1-&gt;Tag_City</title>
+<path fill="none" stroke="black" d="M47.61,-414.47C47.61,-406.94 47.61,-398.1 47.61,-389.42"/>
+<polygon fill="black" stroke="black" points="47.61,-379.42 52.11,-389.42 47.61,-383.2 47.61,-389.42 47.61,-389.42 47.61,-389.42 47.61,-383.2 43.11,-389.42 47.61,-379.42"/>
+</g>
+<!-- Action2 -->
+<g id="node2" class="node">
+<title>Action2</title>
+<path fill="lightblue" stroke="black" d="M200.52,-456.46C200.52,-456.46 126.7,-456.46 126.7,-456.46 120.7,-456.46 114.7,-450.46 114.7,-444.46 114.7,-444.46 114.7,-426.86 114.7,-426.86 114.7,-420.86 120.7,-414.86 126.7,-414.86 126.7,-414.86 200.52,-414.86 200.52,-414.86 206.52,-414.86 212.52,-420.86 212.52,-426.86 212.52,-426.86 212.52,-444.46 212.52,-444.46 212.52,-450.46 206.52,-456.46 200.52,-456.46"/>
+<text text-anchor="middle" x="163.61" y="-439.86" font-family="Times,serif" font-size="14.00">玩家行动:</text>
+<text text-anchor="middle" x="163.61" y="-423.06" font-family="Times,serif" font-size="14.00">"研究科技: 农业"</text>
+</g>
+<!-- Tag_Tech -->
+<g id="node5" class="node">
+<title>Tag_Tech</title>
+<ellipse fill="yellow" stroke="black" cx="163.61" cy="-348.45" rx="50.36" ry="29.42"/>
+<text text-anchor="middle" x="163.61" y="-352.65" font-family="Times,serif" font-size="14.00">标签:</text>
+<text text-anchor="middle" x="163.61" y="-335.85" font-family="Times,serif" font-size="14.00">[科技:农业]</text>
+</g>
+<!-- Action2&#45;&gt;Tag_Tech -->
+<g id="edge2" class="edge">
+<title>Action2-&gt;Tag_Tech</title>
+<path fill="none" stroke="black" d="M163.61,-414.47C163.61,-406.94 163.61,-398.1 163.61,-389.42"/>
+<polygon fill="black" stroke="black" points="163.61,-379.42 168.11,-389.42 163.61,-383.2 163.61,-389.42 163.61,-389.42 163.61,-389.42 163.61,-383.2 159.11,-389.42 163.61,-379.42"/>
+</g>
+<!-- Event1 -->
+<g id="node3" class="node">
+<title>Event1</title>
+<path fill="lightgrey" stroke="black" d="M301.55,-456.46C301.55,-456.46 263.66,-456.46 263.66,-456.46 257.66,-456.46 251.66,-450.46 251.66,-444.46 251.66,-444.46 251.66,-426.86 251.66,-426.86 251.66,-420.86 257.66,-414.86 263.66,-414.86 263.66,-414.86 301.55,-414.86 301.55,-414.86 307.55,-414.86 313.55,-420.86 313.55,-426.86 313.55,-426.86 313.55,-444.46 313.55,-444.46 313.55,-450.46 307.55,-456.46 301.55,-456.46"/>
+<text text-anchor="middle" x="282.61" y="-439.86" font-family="Times,serif" font-size="14.00">随机事件:</text>
+<text text-anchor="middle" x="282.61" y="-423.06" font-family="Times,serif" font-size="14.00">"丰收"</text>
+</g>
+<!-- Tag_Harvest -->
+<g id="node6" class="node">
+<title>Tag_Harvest</title>
+<ellipse fill="yellow" stroke="black" cx="282.61" cy="-348.45" rx="50.36" ry="29.42"/>
+<text text-anchor="middle" x="282.61" y="-352.65" font-family="Times,serif" font-size="14.00">标签:</text>
+<text text-anchor="middle" x="282.61" y="-335.85" font-family="Times,serif" font-size="14.00">[事件:丰收]</text>
+</g>
+<!-- Event1&#45;&gt;Tag_Harvest -->
+<g id="edge3" class="edge">
+<title>Event1-&gt;Tag_Harvest</title>
+<path fill="none" stroke="black" d="M282.61,-414.47C282.61,-406.94 282.61,-398.1 282.61,-389.42"/>
+<polygon fill="black" stroke="black" points="282.61,-379.42 287.11,-389.42 282.61,-383.2 282.61,-389.42 282.61,-389.42 282.61,-389.42 282.61,-383.2 278.11,-389.42 282.61,-379.42"/>
+</g>
+<!-- RuleEngine -->
+<g id="node8" class="node">
+<title>RuleEngine</title>
+<polygon fill="salmon" stroke="black" points="196.3,-250.63 130.91,-250.63 130.91,-209.03 196.3,-209.03 196.3,-250.63"/>
+<text text-anchor="middle" x="163.61" y="-234.03" font-family="Times,serif" font-size="14.00">规则引擎 /</text>
+<text text-anchor="middle" x="163.61" y="-217.23" font-family="Times,serif" font-size="14.00">AI 裁判</text>
+</g>
+<!-- Tag_City&#45;&gt;RuleEngine -->
+<g id="edge4" class="edge">
+<title>Tag_City-&gt;RuleEngine</title>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M71.92,-323C90.61,-304.22 116.43,-278.26 135.91,-258.67"/>
+<polygon fill="black" stroke="black" points="142.71,-251.84 138.84,-262.1 140.04,-254.52 135.65,-258.93 135.65,-258.93 135.65,-258.93 140.04,-254.52 132.46,-255.76 142.71,-251.84"/>
+</g>
+<!-- Tag_Tech&#45;&gt;RuleEngine -->
+<g id="edge5" class="edge">
+<title>Tag_Tech-&gt;RuleEngine</title>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M163.61,-318.62C163.61,-301.44 163.61,-279.63 163.61,-262.04"/>
+<polygon fill="black" stroke="black" points="163.61,-252.14 168.11,-262.14 163.61,-255.92 163.61,-262.14 163.61,-262.14 163.61,-262.14 163.61,-255.92 159.11,-262.14 163.61,-252.14"/>
+</g>
+<!-- Tag_Harvest&#45;&gt;RuleEngine -->
+<g id="edge6" class="edge">
+<title>Tag_Harvest-&gt;RuleEngine</title>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M257.37,-322.72C238.18,-303.91 211.78,-278.04 191.88,-258.54"/>
+<polygon fill="black" stroke="black" points="184.93,-251.73 195.22,-255.52 187.63,-254.38 192.07,-258.73 192.07,-258.73 192.07,-258.73 187.63,-254.38 188.93,-261.94 184.93,-251.73"/>
+<text text-anchor="middle" x="260.3" y="-292.93" font-family="Times,serif" font-size="9.00">  碰撞检测:</text>
+<text text-anchor="middle" x="260.3" y="-282.13" font-family="Times,serif" font-size="9.00">  [城市] + [农业]</text>
+<text text-anchor="middle" x="260.3" y="-271.33" font-family="Times,serif" font-size="9.00">  + [丰收]</text>
+</g>
+<!-- Tag_Pop -->
+<g id="node7" class="node">
+<title>Tag_Pop</title>
+<ellipse fill="yellow" stroke="black" cx="109.61" cy="-54.22" rx="47.61" ry="29.42"/>
+<text text-anchor="middle" x="109.61" y="-58.42" font-family="Times,serif" font-size="14.00">标签:</text>
+<text text-anchor="middle" x="109.61" y="-41.62" font-family="Times,serif" font-size="14.00">[人口增长]</text>
+</g>
+<!-- Outcome -->
+<g id="node9" class="node">
+<title>Outcome</title>
+<polygon fill="lightgreen" stroke="black" points="165.32,-162.23 53.89,-162.23 53.89,-120.63 165.32,-120.63 165.32,-162.23"/>
+<text text-anchor="middle" x="109.61" y="-145.63" font-family="Times,serif" font-size="14.00">新事件/状态更新:</text>
+<text text-anchor="middle" x="109.61" y="-128.83" font-family="Times,serif" font-size="14.00">"城市人口显著增长"</text>
+</g>
+<!-- RuleEngine&#45;&gt;Outcome -->
+<g id="edge7" class="edge">
+<title>RuleEngine-&gt;Outcome</title>
+<path fill="none" stroke="black" d="M137.92,-208.69C132.49,-203.43 127.24,-197.42 123.35,-191.03 120.05,-185.6 117.52,-179.35 115.58,-173.17"/>
+<polygon fill="black" stroke="black" points="113.02,-163.52 119.93,-172.03 113.99,-167.17 115.58,-173.18 115.58,-173.18 115.58,-173.18 113.99,-167.17 111.23,-174.34 113.02,-163.52"/>
+<text text-anchor="middle" x="159.48" y="-182.93" font-family="Times,serif" font-size="9.00">判定: 满足人口增长条件</text>
+</g>
+<!-- CG -->
+<g id="node10" class="node">
+<title>CG</title>
+<polygon fill="lightpink" stroke="black" points="246.32,-162.23 182.89,-162.23 182.89,-120.63 252.32,-120.63 252.32,-156.23 246.32,-162.23"/>
+<polyline fill="none" stroke="black" points="246.32,-162.23 246.32,-156.23"/>
+<polyline fill="none" stroke="black" points="252.32,-156.23 246.32,-156.23"/>
+<text text-anchor="middle" x="217.61" y="-145.63" font-family="Times,serif" font-size="14.00">触发CG:</text>
+<text text-anchor="middle" x="217.61" y="-128.83" font-family="Times,serif" font-size="14.00">"庆祝丰收"</text>
+</g>
+<!-- RuleEngine&#45;&gt;CG -->
+<g id="edge9" class="edge">
+<title>RuleEngine-&gt;CG</title>
+<path fill="none" stroke="black" d="M182.3,-208.84C186.97,-203.3 191.75,-197.14 195.61,-191.03 199.22,-185.31 202.56,-178.9 205.49,-172.66"/>
+<polygon fill="black" stroke="black" points="209.52,-163.58 209.58,-174.54 207.99,-167.04 205.47,-172.72 205.47,-172.72 205.47,-172.72 207.99,-167.04 201.35,-170.9 209.52,-163.58"/>
+<text text-anchor="middle" x="228.41" y="-182.93" font-family="Times,serif" font-size="9.00">触发相关视觉表现</text>
+</g>
+<!-- Outcome&#45;&gt;Tag_Pop -->
+<g id="edge8" class="edge">
+<title>Outcome-&gt;Tag_Pop</title>
+<path fill="none" stroke="black" d="M109.61,-120.24C109.61,-112.71 109.61,-103.87 109.61,-95.19"/>
+<polygon fill="black" stroke="black" points="109.61,-85.19 114.11,-95.19 109.61,-88.97 109.61,-95.19 109.61,-95.19 109.61,-95.19 109.61,-88.97 105.11,-95.19 109.61,-85.19"/>
+</g>
+</g>
+</svg>

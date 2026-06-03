@@ -1,1 +1,185 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="529pt" height="920" viewBox="0 0 528.53 689.63"><g class="graph" transform="translate(4 685.63)"><path fill="#fff" d="M-4 4v-689.63h528.53V4H-4z"/><text text-anchor="middle" x="260.26" y="-663.23" font-family="Times,serif" font-size="16">网状叙事系统核心流程</text><g class="cluster"><path fill="#add8e6" stroke="#add8e6" d="M8-8v-638.43h190V-8H8z"/><text text-anchor="middle" x="103" y="-628.03" font-family="Times,serif" font-size="16">事件记录阶段</text></g><g class="cluster"><path fill="#90ee90" stroke="#90ee90" d="M206-10.8v-635.63h288V-10.8H206z"/><text text-anchor="middle" x="350" y="-628.03" font-family="Times,serif" font-size="16">事件触发阶段</text></g><g class="node"><ellipse fill="#fff" stroke="#000" cx="103" cy="-581.82" rx="87.2" ry="29.42"/><text text-anchor="middle" x="103" y="-586.02" font-family="Times,serif" font-size="14">游戏内事件发生</text><text text-anchor="middle" x="103" y="-569.22" font-family="Times,serif" font-size="14">(对话, 互动, 机制变化)</text></g><g class="node"><path fill="#fff" stroke="#000" d="M125.25-482h-44.5c-6 0-12 6-12 12v12c0 6 6 12 12 12h44.5c6 0 12-6 12-12v-12c0-6-6-12-12-12"/><text text-anchor="middle" x="103" y="-459.8" font-family="Times,serif" font-size="14">事件监听器</text></g><g class="edge"><path fill="none" stroke="#000" d="M103-552.19v58.59"/><path stroke="#000" d="m106.5-493.69-3.5 10-3.5-10h7z"/><text text-anchor="middle" x="109.75" y="-526.3" font-family="Times,serif" font-size="9">捕获</text></g><g class="node"><path fill="gold" stroke="#000" d="M145.28-375.6H60.72c-6 0-12 6-12 12v12c0 6 6 12 12 12h84.56c6 0 12-6 12-12v-12c0-6-6-12-12-12"/><text text-anchor="middle" x="103" y="-353.4" font-family="Times,serif" font-size="14">LLM分析事件结果</text></g><g class="edge"><path fill="none" stroke="#000" d="M103-445.76v58.45"/><path stroke="#000" d="m106.5-387.38-3.5 10-3.5-10h7z"/><text text-anchor="middle" x="123.25" y="-396.3" font-family="Times,serif" font-size="9">上报事件数据</text></g><g class="node"><path fill="#ff0" stroke="#000" d="m137.25-284.4-3-4h-21l-3 4h-41.5v41.6h68.5v-41.6z"/><text text-anchor="middle" x="103" y="-267.8" font-family="Times,serif" font-size="14">生成标签组</text><text text-anchor="middle" x="103" y="-251" font-family="Times,serif" font-size="14">(遵循原则)</text></g><g class="edge"><path fill="none" stroke="#000" d="M103-339.3v43.1"/><path stroke="#000" d="m106.5-296.22-3.5 10-3.5-10h7z"/><text text-anchor="middle" x="119.88" y="-313.5" font-family="Times,serif" font-size="9">拆分与标注</text></g><g class="node"><path fill="#e0ffff" stroke="#000" d="M135.75-164h-65.5c-6 0-12 6-12 12v12c0 6 6 12 12 12h65.5c6 0 12-6 12-12v-12c0-6-6-12-12-12"/><text text-anchor="middle" x="103" y="-141.8" font-family="Times,serif" font-size="14">标签词嵌入处理</text></g><g class="edge"><path fill="none" stroke="#000" d="M103-242.46v66.87"/><path stroke="#000" d="m106.5-175.78-3.5 10-3.5-10h7z"/><text text-anchor="middle" x="113.12" y="-208.3" font-family="Times,serif" font-size="9">向量化</text></g><g class="node"><path fill="#d3d3d3" stroke="#000" d="M130.5-57.6h-55c-6 0-12 6-12 12V-28c0 6 6 12 12 12h55c6 0 12-6 12-12v-17.6c0-6-6-12-12-12"/><text text-anchor="middle" x="103" y="-41" font-family="Times,serif" font-size="14">事件记录存储</text><text text-anchor="middle" x="103" y="-24.2" font-family="Times,serif" font-size="14">(含嵌入向量)</text></g><g class="edge"><path fill="none" stroke="#000" d="M103-127.78v58.4"/><path stroke="#000" d="m106.5-69.42-3.5 10-3.5-10h7z"/><text text-anchor="middle" x="116.5" y="-78.3" font-family="Times,serif" font-size="9">存入记录</text></g><g class="node"><path fill="gold" stroke="#000" d="M346.19-292.8h-94.38c-6 0-12 6-12 12v34.4c0 6 6 12 12 12h94.38c6 0 12-6 12-12v-34.4c0-6-6-12-12-12"/><text text-anchor="middle" x="299" y="-276.2" font-family="Times,serif" font-size="14">在事件记录中</text><text text-anchor="middle" x="299" y="-259.4" font-family="Times,serif" font-size="14">匹配标签组</text><text text-anchor="middle" x="299" y="-242.6" font-family="Times,serif" font-size="14">(词嵌相似度 &gt; 65%)</text></g><g class="edge"><path fill="none" stroke="#000" stroke-dasharray="5,2" d="M142.83-46.68c18-3.78 39.58-7.98 59.17-10.92 29.58-4.43 235.69-1.17 269-46.8 21.8-29.87 20.26-52.27 0-83.2-22.58-34.48-64.85-53.2-101.83-63.31"/><path stroke="#000" d="m368.69-247.42-8.83-5.87 10.56-.91-1.73 6.78z"/><text text-anchor="middle" x="503.65" y="-143.3" font-family="Times,serif" font-size="9">查询记录库</text></g><g class="node"><ellipse fill="#fff" stroke="#000" cx="350" cy="-581.82" rx="89.68" ry="29.42"/><text text-anchor="middle" x="350" y="-586.02" font-family="Times,serif" font-size="14">系统检测触发条件</text><text text-anchor="middle" x="350" y="-569.22" font-family="Times,serif" font-size="14">(如进入区域, 完成任务)</text></g><g class="node"><path fill="#fff" stroke="#000" d="M474.04-505.6H281.63c-6 0-15.34 4.99-18.67 9.97l-42.33 63.26c-3.34 4.98-.67 9.97 5.33 9.97h192.41c6 0 15.34-4.99 18.67-9.97l42.33-63.26c3.34-4.98.67-9.97-5.33-9.97"/><text text-anchor="middle" x="350" y="-468.2" font-family="Times,serif" font-size="14">待触发事件的</text><text text-anchor="middle" x="350" y="-451.4" font-family="Times,serif" font-size="14">前置条件 (标签组+逻辑)</text></g><g class="edge"><path fill="none" stroke="#000" d="M350-552.19v34.88"/><path stroke="#000" d="m353.5-517.49-3.5 10-3.5-10h7z"/><text text-anchor="middle" x="373.62" y="-526.3" font-family="Times,serif" font-size="9">获取待验证事件</text></g><g class="node"><path fill="#e0ffff" stroke="#000" d="M343-375.6h-76c-6 0-12 6-12 12v12c0 6 6 12 12 12h76c6 0 12-6 12-12v-12c0-6-6-12-12-12"/><text text-anchor="middle" x="305" y="-353.4" font-family="Times,serif" font-size="14">前置条件标签嵌入</text></g><g class="edge"><path fill="none" stroke="#000" d="M332.34-422.04c-5.17 12-10.7 24.83-15.42 35.78"/><path stroke="#000" d="m320.28-385.21-7.17 7.8.74-10.57 6.43 2.77z"/><text text-anchor="middle" x="343.72" y="-396.3" font-family="Times,serif" font-size="9">处理条件标签</text></g><g class="node"><path fill="gold" stroke="#000" d="m338.76-183.41-89.17 33.22c-5.62 2.1-5.62 6.28 0 8.38l89.17 33.22c5.62 2.1 16.86 2.1 22.48 0l89.17-33.22c5.62-2.1 5.62-6.28 0-8.38l-89.17-33.22c-5.62-2.1-16.86-2.1-22.48 0"/><text text-anchor="middle" x="350" y="-150.2" font-family="Times,serif" font-size="14">布尔逻辑判断</text><text text-anchor="middle" x="350" y="-133.4" font-family="Times,serif" font-size="14">(AND/OR/NOT)</text></g><g class="edge"><path fill="none" stroke="#000" d="M364.26-422.06c1.54 5.87 2.87 11.87 3.74 17.66.71 4.75.01 6 0 10.8-.22 83.56 10.98 105.31-1 188-.52 3.62-1.22 7.32-2.02 11.03"/><path stroke="#000" d="m368.42-193.9-5.78 8.89-1.02-10.55 6.8 1.66z"/><text text-anchor="middle" x="391.48" y="-313.5" font-family="Times,serif" font-size="9">应用逻辑规则</text></g><g class="edge"><path fill="none" stroke="#000" d="M303.87-339.3c-.64 9.87-1.48 22.66-2.27 34.86"/><path stroke="#000" d="m305.1-304.3-4.15 9.75-2.84-10.21 6.99.46z"/><text text-anchor="middle" x="316.21" y="-313.5" font-family="Times,serif" font-size="9">查询条件</text></g><g class="edge"><path fill="none" stroke="#000" d="M311.61-234.02c5.5 12.46 12.08 27.39 18.24 41.34"/><path stroke="#000" d="m332.99-194.22.84 10.57-7.24-7.74 6.4-2.83z"/><text text-anchor="middle" x="343.22" y="-208.3" font-family="Times,serif" font-size="9">返回匹配结果</text></g><g class="node"><path fill="salmon" stroke="#000" d="m350-54.8-71.37 18 71.37 18 71.37-18-71.37-18z"/><path fill="none" stroke="#000" d="M290.27-39.73v5.86M338.36-21.73h23.28M409.73-33.87v-5.86M361.64-51.87h-23.28"/><text text-anchor="middle" x="350" y="-32.6" font-family="Times,serif" font-size="14">触发新事件!</text></g><g class="edge"><path fill="none" stroke="#000" d="M350-104.17v37.68"/><path stroke="#000" d="m353.5-66.8-3.5 10-3.5-10h7z"/><text text-anchor="middle" x="363.5" y="-78.3" font-family="Times,serif" font-size="9">条件满足</text></g></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="529pt" height="690pt" viewBox="0.00 0.00 528.53 689.63">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 685.63)">
+<title>Narrative_Graph_System_Flow</title>
+<polygon fill="white" stroke="none" points="-4,4 -4,-685.63 524.53,-685.63 524.53,4 -4,4"/>
+<text text-anchor="middle" x="260.26" y="-663.23" font-family="Times,serif" font-size="16.00">网状叙事系统核心流程</text>
+<g id="clust1" class="cluster">
+<title>cluster_recording</title>
+<polygon fill="lightblue" stroke="lightblue" points="8,-8 8,-646.43 198,-646.43 198,-8 8,-8"/>
+<text text-anchor="middle" x="103" y="-628.03" font-family="Times,serif" font-size="16.00">事件记录阶段</text>
+</g>
+<g id="clust2" class="cluster">
+<title>cluster_triggering</title>
+<polygon fill="lightgreen" stroke="lightgreen" points="206,-10.8 206,-646.43 494,-646.43 494,-10.8 206,-10.8"/>
+<text text-anchor="middle" x="350" y="-628.03" font-family="Times,serif" font-size="16.00">事件触发阶段</text>
+</g>
+<!-- GameEvent -->
+<g id="node1" class="node">
+<title>GameEvent</title>
+<ellipse fill="white" stroke="black" cx="103" cy="-581.82" rx="87.2" ry="29.42"/>
+<text text-anchor="middle" x="103" y="-586.02" font-family="Times,serif" font-size="14.00">游戏内事件发生</text>
+<text text-anchor="middle" x="103" y="-569.22" font-family="Times,serif" font-size="14.00">(对话, 互动, 机制变化)</text>
+</g>
+<!-- Listener -->
+<g id="node2" class="node">
+<title>Listener</title>
+<path fill="white" stroke="black" d="M125.25,-482C125.25,-482 80.75,-482 80.75,-482 74.75,-482 68.75,-476 68.75,-470 68.75,-470 68.75,-458 68.75,-458 68.75,-452 74.75,-446 80.75,-446 80.75,-446 125.25,-446 125.25,-446 131.25,-446 137.25,-452 137.25,-458 137.25,-458 137.25,-470 137.25,-470 137.25,-476 131.25,-482 125.25,-482"/>
+<text text-anchor="middle" x="103" y="-459.8" font-family="Times,serif" font-size="14.00">事件监听器</text>
+</g>
+<!-- GameEvent&#45;&gt;Listener -->
+<g id="edge1" class="edge">
+<title>GameEvent-&gt;Listener</title>
+<path fill="none" stroke="black" d="M103,-552.19C103,-534.34 103,-511.45 103,-493.6"/>
+<polygon fill="black" stroke="black" points="106.5,-493.69 103,-483.69 99.5,-493.69 106.5,-493.69"/>
+<text text-anchor="middle" x="109.75" y="-526.3" font-family="Times,serif" font-size="9.00">捕获</text>
+</g>
+<!-- LLM_Analyze -->
+<g id="node3" class="node">
+<title>LLM_Analyze</title>
+<path fill="gold" stroke="black" d="M145.28,-375.6C145.28,-375.6 60.72,-375.6 60.72,-375.6 54.72,-375.6 48.72,-369.6 48.72,-363.6 48.72,-363.6 48.72,-351.6 48.72,-351.6 48.72,-345.6 54.72,-339.6 60.72,-339.6 60.72,-339.6 145.28,-339.6 145.28,-339.6 151.28,-339.6 157.28,-345.6 157.28,-351.6 157.28,-351.6 157.28,-363.6 157.28,-363.6 157.28,-369.6 151.28,-375.6 145.28,-375.6"/>
+<text text-anchor="middle" x="103" y="-353.4" font-family="Times,serif" font-size="14.00">LLM分析事件结果</text>
+</g>
+<!-- Listener&#45;&gt;LLM_Analyze -->
+<g id="edge2" class="edge">
+<title>Listener-&gt;LLM_Analyze</title>
+<path fill="none" stroke="black" d="M103,-445.76C103,-429.89 103,-406.05 103,-387.31"/>
+<polygon fill="black" stroke="black" points="106.5,-387.38 103,-377.38 99.5,-387.38 106.5,-387.38"/>
+<text text-anchor="middle" x="123.25" y="-396.3" font-family="Times,serif" font-size="9.00">上报事件数据</text>
+</g>
+<!-- Tags -->
+<g id="node4" class="node">
+<title>Tags</title>
+<polygon fill="yellow" stroke="black" points="137.25,-284.4 134.25,-288.4 113.25,-288.4 110.25,-284.4 68.75,-284.4 68.75,-242.8 137.25,-242.8 137.25,-284.4"/>
+<text text-anchor="middle" x="103" y="-267.8" font-family="Times,serif" font-size="14.00">生成标签组</text>
+<text text-anchor="middle" x="103" y="-251" font-family="Times,serif" font-size="14.00">(遵循原则)</text>
+</g>
+<!-- LLM_Analyze&#45;&gt;Tags -->
+<g id="edge3" class="edge">
+<title>LLM_Analyze-&gt;Tags</title>
+<path fill="none" stroke="black" d="M103,-339.3C103,-327.18 103,-310.64 103,-296.2"/>
+<polygon fill="black" stroke="black" points="106.5,-296.22 103,-286.22 99.5,-296.22 106.5,-296.22"/>
+<text text-anchor="middle" x="119.88" y="-313.5" font-family="Times,serif" font-size="9.00">拆分与标注</text>
+</g>
+<!-- Embedding -->
+<g id="node5" class="node">
+<title>Embedding</title>
+<path fill="lightcyan" stroke="black" d="M135.75,-164C135.75,-164 70.25,-164 70.25,-164 64.25,-164 58.25,-158 58.25,-152 58.25,-152 58.25,-140 58.25,-140 58.25,-134 64.25,-128 70.25,-128 70.25,-128 135.75,-128 135.75,-128 141.75,-128 147.75,-134 147.75,-140 147.75,-140 147.75,-152 147.75,-152 147.75,-158 141.75,-164 135.75,-164"/>
+<text text-anchor="middle" x="103" y="-141.8" font-family="Times,serif" font-size="14.00">标签词嵌入处理</text>
+</g>
+<!-- Tags&#45;&gt;Embedding -->
+<g id="edge4" class="edge">
+<title>Tags-&gt;Embedding</title>
+<path fill="none" stroke="black" d="M103,-242.46C103,-223.97 103,-196.37 103,-175.59"/>
+<polygon fill="black" stroke="black" points="106.5,-175.78 103,-165.78 99.5,-175.78 106.5,-175.78"/>
+<text text-anchor="middle" x="113.12" y="-208.3" font-family="Times,serif" font-size="9.00">向量化</text>
+</g>
+<!-- EventLog -->
+<g id="node6" class="node">
+<title>EventLog</title>
+<path fill="lightgrey" stroke="black" d="M130.5,-57.6C130.5,-57.6 75.5,-57.6 75.5,-57.6 69.5,-57.6 63.5,-51.6 63.5,-45.6 63.5,-45.6 63.5,-28 63.5,-28 63.5,-22 69.5,-16 75.5,-16 75.5,-16 130.5,-16 130.5,-16 136.5,-16 142.5,-22 142.5,-28 142.5,-28 142.5,-45.6 142.5,-45.6 142.5,-51.6 136.5,-57.6 130.5,-57.6"/>
+<text text-anchor="middle" x="103" y="-41" font-family="Times,serif" font-size="14.00">事件记录存储</text>
+<text text-anchor="middle" x="103" y="-24.2" font-family="Times,serif" font-size="14.00">(含嵌入向量)</text>
+</g>
+<!-- Embedding&#45;&gt;EventLog -->
+<g id="edge5" class="edge">
+<title>Embedding-&gt;EventLog</title>
+<path fill="none" stroke="black" d="M103,-127.78C103,-112.07 103,-88.47 103,-69.38"/>
+<polygon fill="black" stroke="black" points="106.5,-69.42 103,-59.42 99.5,-69.42 106.5,-69.42"/>
+<text text-anchor="middle" x="116.5" y="-78.3" font-family="Times,serif" font-size="9.00">存入记录</text>
+</g>
+<!-- Matcher -->
+<g id="node10" class="node">
+<title>Matcher</title>
+<path fill="gold" stroke="black" d="M346.19,-292.8C346.19,-292.8 251.81,-292.8 251.81,-292.8 245.81,-292.8 239.81,-286.8 239.81,-280.8 239.81,-280.8 239.81,-246.4 239.81,-246.4 239.81,-240.4 245.81,-234.4 251.81,-234.4 251.81,-234.4 346.19,-234.4 346.19,-234.4 352.19,-234.4 358.19,-240.4 358.19,-246.4 358.19,-246.4 358.19,-280.8 358.19,-280.8 358.19,-286.8 352.19,-292.8 346.19,-292.8"/>
+<text text-anchor="middle" x="299" y="-276.2" font-family="Times,serif" font-size="14.00">在事件记录中</text>
+<text text-anchor="middle" x="299" y="-259.4" font-family="Times,serif" font-size="14.00">匹配标签组</text>
+<text text-anchor="middle" x="299" y="-242.6" font-family="Times,serif" font-size="14.00">(词嵌相似度 &gt; 65%)</text>
+</g>
+<!-- EventLog&#45;&gt;Matcher -->
+<g id="edge9" class="edge">
+<title>EventLog-&gt;Matcher</title>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M142.83,-46.68C160.83,-50.46 182.41,-54.66 202,-57.6 231.58,-62.03 437.69,-58.77 471,-104.4 492.8,-134.27 491.26,-156.67 471,-187.6 448.42,-222.08 406.15,-240.8 369.17,-250.91"/>
+<polygon fill="black" stroke="black" points="368.69,-247.42 359.86,-253.29 370.42,-254.2 368.69,-247.42"/>
+<text text-anchor="middle" x="503.65" y="-143.3" font-family="Times,serif" font-size="9.00">查询记录库</text>
+</g>
+<!-- CheckTrigger -->
+<g id="node7" class="node">
+<title>CheckTrigger</title>
+<ellipse fill="white" stroke="black" cx="350" cy="-581.82" rx="89.68" ry="29.42"/>
+<text text-anchor="middle" x="350" y="-586.02" font-family="Times,serif" font-size="14.00">系统检测触发条件</text>
+<text text-anchor="middle" x="350" y="-569.22" font-family="Times,serif" font-size="14.00">(如进入区域, 完成任务)</text>
+</g>
+<!-- Precondition -->
+<g id="node8" class="node">
+<title>Precondition</title>
+<path fill="white" stroke="black" d="M474.04,-505.6C474.04,-505.6 281.63,-505.6 281.63,-505.6 275.63,-505.6 266.29,-500.61 262.96,-495.63 262.96,-495.63 220.63,-432.37 220.63,-432.37 217.29,-427.39 219.96,-422.4 225.96,-422.4 225.96,-422.4 418.37,-422.4 418.37,-422.4 424.37,-422.4 433.71,-427.39 437.04,-432.37 437.04,-432.37 479.37,-495.63 479.37,-495.63 482.71,-500.61 480.04,-505.6 474.04,-505.6"/>
+<text text-anchor="middle" x="350" y="-468.2" font-family="Times,serif" font-size="14.00">待触发事件的</text>
+<text text-anchor="middle" x="350" y="-451.4" font-family="Times,serif" font-size="14.00">前置条件 (标签组+逻辑)</text>
+</g>
+<!-- CheckTrigger&#45;&gt;Precondition -->
+<g id="edge6" class="edge">
+<title>CheckTrigger-&gt;Precondition</title>
+<path fill="none" stroke="black" d="M350,-552.19C350,-541.63 350,-529.31 350,-517.31"/>
+<polygon fill="black" stroke="black" points="353.5,-517.49 350,-507.49 346.5,-517.49 353.5,-517.49"/>
+<text text-anchor="middle" x="373.62" y="-526.3" font-family="Times,serif" font-size="9.00">获取待验证事件</text>
+</g>
+<!-- Embed_Pre -->
+<g id="node9" class="node">
+<title>Embed_Pre</title>
+<path fill="lightcyan" stroke="black" d="M343,-375.6C343,-375.6 267,-375.6 267,-375.6 261,-375.6 255,-369.6 255,-363.6 255,-363.6 255,-351.6 255,-351.6 255,-345.6 261,-339.6 267,-339.6 267,-339.6 343,-339.6 343,-339.6 349,-339.6 355,-345.6 355,-351.6 355,-351.6 355,-363.6 355,-363.6 355,-369.6 349,-375.6 343,-375.6"/>
+<text text-anchor="middle" x="305" y="-353.4" font-family="Times,serif" font-size="14.00">前置条件标签嵌入</text>
+</g>
+<!-- Precondition&#45;&gt;Embed_Pre -->
+<g id="edge7" class="edge">
+<title>Precondition-&gt;Embed_Pre</title>
+<path fill="none" stroke="black" d="M332.34,-422.04C327.17,-410.04 321.64,-397.21 316.92,-386.26"/>
+<polygon fill="black" stroke="black" points="320.28,-385.21 313.11,-377.41 313.85,-387.98 320.28,-385.21"/>
+<text text-anchor="middle" x="343.72" y="-396.3" font-family="Times,serif" font-size="9.00">处理条件标签</text>
+</g>
+<!-- BooleanLogic -->
+<g id="node11" class="node">
+<title>BooleanLogic</title>
+<path fill="gold" stroke="black" d="M338.76,-183.41C338.76,-183.41 249.59,-150.19 249.59,-150.19 243.97,-148.09 243.97,-143.91 249.59,-141.81 249.59,-141.81 338.76,-108.59 338.76,-108.59 344.38,-106.49 355.62,-106.49 361.24,-108.59 361.24,-108.59 450.41,-141.81 450.41,-141.81 456.03,-143.91 456.03,-148.09 450.41,-150.19 450.41,-150.19 361.24,-183.41 361.24,-183.41 355.62,-185.51 344.38,-185.51 338.76,-183.41"/>
+<text text-anchor="middle" x="350" y="-150.2" font-family="Times,serif" font-size="14.00">布尔逻辑判断</text>
+<text text-anchor="middle" x="350" y="-133.4" font-family="Times,serif" font-size="14.00">(AND/OR/NOT)</text>
+</g>
+<!-- Precondition&#45;&gt;BooleanLogic -->
+<g id="edge11" class="edge">
+<title>Precondition-&gt;BooleanLogic</title>
+<path fill="none" stroke="black" d="M364.26,-422.06C365.8,-416.19 367.13,-410.19 368,-404.4 368.71,-399.65 368.01,-398.4 368,-393.6 367.78,-310.04 378.98,-288.29 367,-205.6 366.48,-201.98 365.78,-198.28 364.98,-194.57"/>
+<polygon fill="black" stroke="black" points="368.42,-193.9 362.64,-185.01 361.62,-195.56 368.42,-193.9"/>
+<text text-anchor="middle" x="391.48" y="-313.5" font-family="Times,serif" font-size="9.00">应用逻辑规则</text>
+</g>
+<!-- Embed_Pre&#45;&gt;Matcher -->
+<g id="edge8" class="edge">
+<title>Embed_Pre-&gt;Matcher</title>
+<path fill="none" stroke="black" d="M303.87,-339.3C303.23,-329.43 302.39,-316.64 301.6,-304.44"/>
+<polygon fill="black" stroke="black" points="305.1,-304.3 300.95,-294.55 298.11,-304.76 305.1,-304.3"/>
+<text text-anchor="middle" x="316.21" y="-313.5" font-family="Times,serif" font-size="9.00">查询条件</text>
+</g>
+<!-- Matcher&#45;&gt;BooleanLogic -->
+<g id="edge10" class="edge">
+<title>Matcher-&gt;BooleanLogic</title>
+<path fill="none" stroke="black" d="M311.61,-234.02C317.11,-221.56 323.69,-206.63 329.85,-192.68"/>
+<polygon fill="black" stroke="black" points="332.99,-194.22 333.83,-183.65 326.59,-191.39 332.99,-194.22"/>
+<text text-anchor="middle" x="343.22" y="-208.3" font-family="Times,serif" font-size="9.00">返回匹配结果</text>
+</g>
+<!-- TriggerEvent -->
+<g id="node12" class="node">
+<title>TriggerEvent</title>
+<polygon fill="salmon" stroke="black" points="350,-54.8 278.63,-36.8 350,-18.8 421.37,-36.8 350,-54.8"/>
+<polyline fill="none" stroke="black" points="290.27,-39.73 290.27,-33.87"/>
+<polyline fill="none" stroke="black" points="338.36,-21.73 361.64,-21.73"/>
+<polyline fill="none" stroke="black" points="409.73,-33.87 409.73,-39.73"/>
+<polyline fill="none" stroke="black" points="361.64,-51.87 338.36,-51.87"/>
+<text text-anchor="middle" x="350" y="-32.6" font-family="Times,serif" font-size="14.00">触发新事件!</text>
+</g>
+<!-- BooleanLogic&#45;&gt;TriggerEvent -->
+<g id="edge12" class="edge">
+<title>BooleanLogic-&gt;TriggerEvent</title>
+<path fill="none" stroke="black" d="M350,-104.17C350,-91.61 350,-78.05 350,-66.49"/>
+<polygon fill="black" stroke="black" points="353.5,-66.8 350,-56.8 346.5,-66.8 353.5,-66.8"/>
+<text text-anchor="middle" x="363.5" y="-78.3" font-family="Times,serif" font-size="9.00">条件满足</text>
+</g>
+</g>
+</svg>

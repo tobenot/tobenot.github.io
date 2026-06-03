@@ -1,1 +1,168 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="917pt" height="313pt" viewBox="0 0 916.72 313"><g class="graph" transform="translate(4 309)"><path fill="#fff" d="M-4 4v-313h916.72V4H-4z"/><g class="cluster"><path fill="none" stroke="#00f" stroke-dasharray="5,2" d="M115.83-214v-83h491.14v83H115.83z"/><text text-anchor="middle" x="361.4" y="-280.4" font-family="Times,serif" font-size="14" fill="#00f">&quot;原书&quot; 剧本</text></g><g class="cluster"><path fill="none" stroke="red" stroke-dasharray="5,2" d="M115.83-8v-99h784.89v99H115.83z"/><text text-anchor="middle" x="508.28" y="-90.4" font-family="Times,serif" font-size="14" fill="red">玩家行为与实际世界线</text></g><g class="node"><path fill="none" stroke="#000" d="M169.83-259h-34c-6 0-12 6-12 12v12c0 6 6 12 12 12h34c6 0 12-6 12-12v-12c0-6-6-12-12-12"/><text text-anchor="middle" x="152.83" y="-236.8" font-family="Times,serif" font-size="14">原书起点</text></g><g class="node"><path fill="none" stroke="#000" d="M169.83-71h-34c-6 0-12 6-12 12v12c0 6 6 12 12 12h34c6 0 12-6 12-12v-12c0-6-6-12-12-12"/><text text-anchor="middle" x="152.83" y="-48.8" font-family="Times,serif" font-size="14">实际起点</text></g><g class="node"><path fill="none" stroke="#000" d="M297.54-263.8h-47.61c-6 0-12 6-12 12v17.6c0 6 6 12 12 12h47.61c6 0 12-6 12-12v-17.6c0-6-6-12-12-12"/><text text-anchor="middle" x="273.74" y="-247.2" font-family="Times,serif" font-size="14">原书事件 A</text><text text-anchor="middle" x="273.74" y="-230.4" font-family="Times,serif" font-size="14">(T1 发生)</text></g><g class="node"><path fill="none" stroke="#000" d="M438.86-65.8h-65.48c-6 0-12 6-12 12v17.6c0 6 6 12 12 12h65.48c6 0 12-6 12-12v-17.6c0-6-6-12-12-12"/><text text-anchor="middle" x="406.12" y="-49.2" font-family="Times,serif" font-size="14">实际事件 A&apos;</text><text text-anchor="middle" x="406.12" y="-32.4" font-family="Times,serif" font-size="14">(受X影响, T1)</text></g><g class="node"><path fill="none" stroke="#000" d="M429.54-263.8H382.7c-6 0-12 6-12 12v17.6c0 6 6 12 12 12h46.84c6 0 12-6 12-12v-17.6c0-6-6-12-12-12"/><text text-anchor="middle" x="406.12" y="-247.2" font-family="Times,serif" font-size="14">原书事件 B</text><text text-anchor="middle" x="406.12" y="-230.4" font-family="Times,serif" font-size="14">(T2 发生)</text></g><g class="node"><path fill="none" stroke="#000" d="M761.61-73.8h-65.87c-6 0-12 6-12 12v17.6c0 6 6 12 12 12h65.87c6 0 12-6 12-12v-17.6c0-6-6-12-12-12"/><text text-anchor="middle" x="728.68" y="-57.2" font-family="Times,serif" font-size="14">实际事件 B&apos;</text><text text-anchor="middle" x="728.68" y="-40.4" font-family="Times,serif" font-size="14">(发生改变, T2)</text></g><g class="node"><path fill="none" stroke="#000" d="M586.97-263.8h-46.84c-6 0-12 6-12 12v17.6c0 6 6 12 12 12h46.84c6 0 12-6 12-12v-17.6c0-6-6-12-12-12"/><text text-anchor="middle" x="563.55" y="-247.2" font-family="Times,serif" font-size="14">原书事件 C</text><text text-anchor="middle" x="563.55" y="-230.4" font-family="Times,serif" font-size="14">(T3 发生)</text></g><g class="node"><path fill="none" stroke="#000" d="M880.72-65.8h-58.11c-6 0-12 6-12 12v17.6c0 6 6 12 12 12h58.11c6 0 12-6 12-12v-17.6c0-6-6-12-12-12"/><text text-anchor="middle" x="851.67" y="-49.2" font-family="Times,serif" font-size="14">衍生新事件 D</text><text text-anchor="middle" x="851.67" y="-32.4" font-family="Times,serif" font-size="14">(T3 发生)</text></g><g class="edge"><path fill="none" stroke="#000" d="M182.31-241.48c13.25-.22 29.35-.49 44.27-.74"/><path stroke="#000" d="m226.12-245.72 10.06 3.33-9.94 3.67-.12-7z"/></g><g class="edge"><path fill="none" stroke="#000" d="M310.02-243h48.89"/><path stroke="#000" d="m358.75-246.5 10 3.5-10 3.5v-7z"/></g><g class="edge"><path fill="none" stroke="#000" d="M442-243h74.51"/><path stroke="#000" d="m516.27-246.5 10 3.5-10 3.5v-7z"/></g><g class="node"><path fill="gold" stroke="red" d="M598.24-68.2h-81.38v46.4h81.38l12-23.2-12-23.2z"/><text text-anchor="middle" x="563.55" y="-57.6" font-family="Times,serif" font-size="14">AI Diff评估</text><text text-anchor="middle" x="563.55" y="-40.8" font-family="Times,serif" font-size="14">与因果推演</text><text text-anchor="middle" x="563.55" y="-24" font-family="Times,serif" font-size="14">(对比E2与现状)</text></g><g class="edge"><path fill="none" stroke="#00f" stroke-dasharray="1,5" d="M423.75-221.81c26.01 33.13 76.68 97.68 109.07 138.94"/><path fill="none" stroke="#00f" d="m539.24-74.69-6.17-7.87M532.22-75.53c-3.92-5.25 3.56-11.42 7.87-6.18"/><text text-anchor="middle" x="483.86" y="-164.73" font-family="Times,serif" font-size="10">原书参照</text></g><g class="node"><ellipse fill="#f08080" stroke="red" cx="273.74" cy="-45" rx="50.64" ry="29.42"/><text text-anchor="middle" x="273.74" y="-49.2" font-family="Times,serif" font-size="14">玩家行动 X</text><text text-anchor="middle" x="273.74" y="-32.4" font-family="Times,serif" font-size="14">(T1 前)</text></g><g class="edge"><path fill="none" stroke="#000" d="M182.31-51.08c8.98.6 19.27 1.29 29.62 1.99"/><path stroke="#000" d="m211.86-52.6 9.74 4.16-10.21 2.82.47-6.98z"/></g><g class="edge"><path fill="none" stroke="#000" d="M451.3-43.4c5.9.17 11.88.31 17.56.4 11.84.19 24.51.11 36.59-.1"/><path stroke="#000" d="m505.22-46.59 10.07 3.29-9.92 3.7-.15-6.99z"/></g><g class="edge"><path fill="none" stroke="red" stroke-dasharray="1,5" d="M451.24-45h54.78"/><path fill="none" stroke="red" d="M516.42-45h-10M511.42-40c-6.67 0-6.67-10 0-10"/><text text-anchor="middle" x="483.86" y="-48" font-family="Times,serif" font-size="10">实际状态</text></g><g class="edge"><path fill="none" stroke="#000" d="M774.04-50.07c8.07.54 16.55 1.1 24.81 1.64"/><path stroke="#000" d="m799.06-51.92 9.75 4.15-10.21 2.83.46-6.98z"/></g><g class="edge"><path fill="none" stroke="#000" d="M324.77-45h24.76"/><path stroke="#000" d="m349.45-48.5 10 3.5-10 3.5v-7z"/></g><g class="edge"><path fill="none" stroke="#000" d="M610.42-47.25c19.07-.93 41.37-2.03 61.38-3.01"/><path stroke="#000" d="m671.6-53.75 10.16 3-9.82 3.99-.34-6.99z"/><text text-anchor="middle" x="646.99" y="-52.95" font-family="Times,serif" font-size="10">推演出改变</text></g></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="917pt" height="313pt" viewBox="0.00 0.00 916.72 313.00">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 309)">
+<title>Book_Diff_Timeline</title>
+<polygon fill="white" stroke="none" points="-4,4 -4,-309 912.72,-309 912.72,4 -4,4"/>
+<g id="clust1" class="cluster">
+<title>cluster_timeline</title>
+</g>
+<g id="clust2" class="cluster">
+<title>cluster_book</title>
+<polygon fill="none" stroke="blue" stroke-dasharray="5,2" points="115.83,-214 115.83,-297 606.97,-297 606.97,-214 115.83,-214"/>
+<text text-anchor="middle" x="361.4" y="-280.4" font-family="Times,serif" font-size="14.00" fill="blue">"原书" 剧本</text>
+</g>
+<g id="clust3" class="cluster">
+<title>cluster_actual</title>
+<polygon fill="none" stroke="red" stroke-dasharray="5,2" points="115.83,-8 115.83,-107 900.72,-107 900.72,-8 115.83,-8"/>
+<text text-anchor="middle" x="508.28" y="-90.4" font-family="Times,serif" font-size="14.00" fill="red">玩家行为与实际世界线</text>
+</g>
+<!-- T0 -->
+<!-- T1 -->
+<!-- T0&#45;&gt;T1 -->
+<!-- Book_Start -->
+<g id="node5" class="node">
+<title>Book_Start</title>
+<path fill="none" stroke="black" d="M169.83,-259C169.83,-259 135.83,-259 135.83,-259 129.83,-259 123.83,-253 123.83,-247 123.83,-247 123.83,-235 123.83,-235 123.83,-229 129.83,-223 135.83,-223 135.83,-223 169.83,-223 169.83,-223 175.83,-223 181.83,-229 181.83,-235 181.83,-235 181.83,-247 181.83,-247 181.83,-253 175.83,-259 169.83,-259"/>
+<text text-anchor="middle" x="152.83" y="-236.8" font-family="Times,serif" font-size="14.00">原书起点</text>
+</g>
+<!-- T0&#45;&gt;Book_Start -->
+<!-- Actual_Start -->
+<g id="node9" class="node">
+<title>Actual_Start</title>
+<path fill="none" stroke="black" d="M169.83,-71C169.83,-71 135.83,-71 135.83,-71 129.83,-71 123.83,-65 123.83,-59 123.83,-59 123.83,-47 123.83,-47 123.83,-41 129.83,-35 135.83,-35 135.83,-35 169.83,-35 169.83,-35 175.83,-35 181.83,-41 181.83,-47 181.83,-47 181.83,-59 181.83,-59 181.83,-65 175.83,-71 169.83,-71"/>
+<text text-anchor="middle" x="152.83" y="-48.8" font-family="Times,serif" font-size="14.00">实际起点</text>
+</g>
+<!-- T0&#45;&gt;Actual_Start -->
+<!-- T2 -->
+<!-- T1&#45;&gt;T2 -->
+<!-- Book_E1 -->
+<g id="node6" class="node">
+<title>Book_E1</title>
+<path fill="none" stroke="black" d="M297.54,-263.8C297.54,-263.8 249.93,-263.8 249.93,-263.8 243.93,-263.8 237.93,-257.8 237.93,-251.8 237.93,-251.8 237.93,-234.2 237.93,-234.2 237.93,-228.2 243.93,-222.2 249.93,-222.2 249.93,-222.2 297.54,-222.2 297.54,-222.2 303.54,-222.2 309.54,-228.2 309.54,-234.2 309.54,-234.2 309.54,-251.8 309.54,-251.8 309.54,-257.8 303.54,-263.8 297.54,-263.8"/>
+<text text-anchor="middle" x="273.74" y="-247.2" font-family="Times,serif" font-size="14.00">原书事件 A</text>
+<text text-anchor="middle" x="273.74" y="-230.4" font-family="Times,serif" font-size="14.00">(T1 发生)</text>
+</g>
+<!-- T1&#45;&gt;Book_E1 -->
+<!-- Actual_E1 -->
+<g id="node10" class="node">
+<title>Actual_E1</title>
+<path fill="none" stroke="black" d="M438.86,-65.8C438.86,-65.8 373.38,-65.8 373.38,-65.8 367.38,-65.8 361.38,-59.8 361.38,-53.8 361.38,-53.8 361.38,-36.2 361.38,-36.2 361.38,-30.2 367.38,-24.2 373.38,-24.2 373.38,-24.2 438.86,-24.2 438.86,-24.2 444.86,-24.2 450.86,-30.2 450.86,-36.2 450.86,-36.2 450.86,-53.8 450.86,-53.8 450.86,-59.8 444.86,-65.8 438.86,-65.8"/>
+<text text-anchor="middle" x="406.12" y="-49.2" font-family="Times,serif" font-size="14.00">实际事件 A'</text>
+<text text-anchor="middle" x="406.12" y="-32.4" font-family="Times,serif" font-size="14.00">(受X影响, T1)</text>
+</g>
+<!-- T1&#45;&gt;Actual_E1 -->
+<!-- T3 -->
+<!-- T2&#45;&gt;T3 -->
+<!-- Book_E2 -->
+<g id="node7" class="node">
+<title>Book_E2</title>
+<path fill="none" stroke="black" d="M429.54,-263.8C429.54,-263.8 382.7,-263.8 382.7,-263.8 376.7,-263.8 370.7,-257.8 370.7,-251.8 370.7,-251.8 370.7,-234.2 370.7,-234.2 370.7,-228.2 376.7,-222.2 382.7,-222.2 382.7,-222.2 429.54,-222.2 429.54,-222.2 435.54,-222.2 441.54,-228.2 441.54,-234.2 441.54,-234.2 441.54,-251.8 441.54,-251.8 441.54,-257.8 435.54,-263.8 429.54,-263.8"/>
+<text text-anchor="middle" x="406.12" y="-247.2" font-family="Times,serif" font-size="14.00">原书事件 B</text>
+<text text-anchor="middle" x="406.12" y="-230.4" font-family="Times,serif" font-size="14.00">(T2 发生)</text>
+</g>
+<!-- T2&#45;&gt;Book_E2 -->
+<!-- Actual_E2_Alt -->
+<g id="node11" class="node">
+<title>Actual_E2_Alt</title>
+<path fill="none" stroke="black" d="M761.61,-73.8C761.61,-73.8 695.74,-73.8 695.74,-73.8 689.74,-73.8 683.74,-67.8 683.74,-61.8 683.74,-61.8 683.74,-44.2 683.74,-44.2 683.74,-38.2 689.74,-32.2 695.74,-32.2 695.74,-32.2 761.61,-32.2 761.61,-32.2 767.61,-32.2 773.61,-38.2 773.61,-44.2 773.61,-44.2 773.61,-61.8 773.61,-61.8 773.61,-67.8 767.61,-73.8 761.61,-73.8"/>
+<text text-anchor="middle" x="728.68" y="-57.2" font-family="Times,serif" font-size="14.00">实际事件 B'</text>
+<text text-anchor="middle" x="728.68" y="-40.4" font-family="Times,serif" font-size="14.00">(发生改变, T2)</text>
+</g>
+<!-- T2&#45;&gt;Actual_E2_Alt -->
+<!-- Book_E3 -->
+<g id="node8" class="node">
+<title>Book_E3</title>
+<path fill="none" stroke="black" d="M586.97,-263.8C586.97,-263.8 540.13,-263.8 540.13,-263.8 534.13,-263.8 528.13,-257.8 528.13,-251.8 528.13,-251.8 528.13,-234.2 528.13,-234.2 528.13,-228.2 534.13,-222.2 540.13,-222.2 540.13,-222.2 586.97,-222.2 586.97,-222.2 592.97,-222.2 598.97,-228.2 598.97,-234.2 598.97,-234.2 598.97,-251.8 598.97,-251.8 598.97,-257.8 592.97,-263.8 586.97,-263.8"/>
+<text text-anchor="middle" x="563.55" y="-247.2" font-family="Times,serif" font-size="14.00">原书事件 C</text>
+<text text-anchor="middle" x="563.55" y="-230.4" font-family="Times,serif" font-size="14.00">(T3 发生)</text>
+</g>
+<!-- T3&#45;&gt;Book_E3 -->
+<!-- Actual_E3_New -->
+<g id="node12" class="node">
+<title>Actual_E3_New</title>
+<path fill="none" stroke="black" d="M880.72,-65.8C880.72,-65.8 822.61,-65.8 822.61,-65.8 816.61,-65.8 810.61,-59.8 810.61,-53.8 810.61,-53.8 810.61,-36.2 810.61,-36.2 810.61,-30.2 816.61,-24.2 822.61,-24.2 822.61,-24.2 880.72,-24.2 880.72,-24.2 886.72,-24.2 892.72,-30.2 892.72,-36.2 892.72,-36.2 892.72,-53.8 892.72,-53.8 892.72,-59.8 886.72,-65.8 880.72,-65.8"/>
+<text text-anchor="middle" x="851.67" y="-49.2" font-family="Times,serif" font-size="14.00">衍生新事件 D</text>
+<text text-anchor="middle" x="851.67" y="-32.4" font-family="Times,serif" font-size="14.00">(T3 发生)</text>
+</g>
+<!-- T3&#45;&gt;Actual_E3_New -->
+<!-- Book_Start&#45;&gt;Book_E1 -->
+<g id="edge8" class="edge">
+<title>Book_Start-&gt;Book_E1</title>
+<path fill="none" stroke="black" d="M182.31,-241.48C195.56,-241.7 211.66,-241.97 226.58,-242.22"/>
+<polygon fill="black" stroke="black" points="226.12,-245.72 236.18,-242.39 226.24,-238.72 226.12,-245.72"/>
+</g>
+<!-- Book_E1&#45;&gt;Book_E2 -->
+<g id="edge9" class="edge">
+<title>Book_E1-&gt;Book_E2</title>
+<path fill="none" stroke="black" d="M310.02,-243C325.07,-243 342.84,-243 358.91,-243"/>
+<polygon fill="black" stroke="black" points="358.75,-246.5 368.75,-243 358.75,-239.5 358.75,-246.5"/>
+</g>
+<!-- Book_E2&#45;&gt;Book_E3 -->
+<g id="edge10" class="edge">
+<title>Book_E2-&gt;Book_E3</title>
+<path fill="none" stroke="black" d="M442,-243C464,-243 492.66,-243 516.51,-243"/>
+<polygon fill="black" stroke="black" points="516.27,-246.5 526.27,-243 516.27,-239.5 516.27,-246.5"/>
+</g>
+<!-- Diff_Engine -->
+<g id="node14" class="node">
+<title>Diff_Engine</title>
+<polygon fill="gold" stroke="red" points="598.24,-68.2 516.86,-68.2 516.86,-21.8 598.24,-21.8 610.24,-45 598.24,-68.2"/>
+<text text-anchor="middle" x="563.55" y="-57.6" font-family="Times,serif" font-size="14.00">AI Diff评估</text>
+<text text-anchor="middle" x="563.55" y="-40.8" font-family="Times,serif" font-size="14.00">与因果推演</text>
+<text text-anchor="middle" x="563.55" y="-24" font-family="Times,serif" font-size="14.00">(对比E2与现状)</text>
+</g>
+<!-- Book_E2&#45;&gt;Diff_Engine -->
+<g id="edge20" class="edge">
+<title>Book_E2-&gt;Diff_Engine</title>
+<path fill="none" stroke="blue" stroke-dasharray="1,5" d="M423.75,-221.81C449.76,-188.68 500.43,-124.13 532.82,-82.87"/>
+<polyline fill="none" stroke="blue" points="539.24,-74.69 533.07,-82.56"/>
+<path fill="none" stroke="blue" d="M532.22,-75.53C528.3,-80.78 535.78,-86.95 540.09,-81.71"/>
+<text text-anchor="middle" x="483.86" y="-164.73" font-family="Times,serif" font-size="10.00">原书参照</text>
+</g>
+<!-- Player_Act1 -->
+<g id="node13" class="node">
+<title>Player_Act1</title>
+<ellipse fill="lightcoral" stroke="red" cx="273.74" cy="-45" rx="50.64" ry="29.42"/>
+<text text-anchor="middle" x="273.74" y="-49.2" font-family="Times,serif" font-size="14.00">玩家行动 X</text>
+<text text-anchor="middle" x="273.74" y="-32.4" font-family="Times,serif" font-size="14.00">(T1 前)</text>
+</g>
+<!-- Actual_Start&#45;&gt;Player_Act1 -->
+<g id="edge15" class="edge">
+<title>Actual_Start-&gt;Player_Act1</title>
+<path fill="none" stroke="black" d="M182.31,-51.08C191.29,-50.48 201.58,-49.79 211.93,-49.09"/>
+<polygon fill="black" stroke="black" points="211.86,-52.6 221.6,-48.44 211.39,-45.62 211.86,-52.6"/>
+</g>
+<!-- Actual_E1&#45;&gt;Diff_Engine -->
+<g id="edge17" class="edge">
+<title>Actual_E1-&gt;Diff_Engine</title>
+<path fill="none" stroke="black" d="M451.3,-43.4C457.2,-43.23 463.18,-43.09 468.86,-43 480.7,-42.81 493.37,-42.89 505.45,-43.1"/>
+<polygon fill="black" stroke="black" points="505.22,-46.59 515.29,-43.3 505.37,-39.6 505.22,-46.59"/>
+</g>
+<!-- Actual_E1&#45;&gt;Diff_Engine -->
+<g id="edge21" class="edge">
+<title>Actual_E1-&gt;Diff_Engine</title>
+<path fill="none" stroke="red" stroke-dasharray="1,5" d="M451.24,-45C468.27,-45 487.97,-45 506.02,-45"/>
+<polyline fill="none" stroke="red" points="516.42,-45 506.42,-45"/>
+<path fill="none" stroke="red" d="M511.42,-40C504.75,-40 504.75,-50 511.42,-50"/>
+<text text-anchor="middle" x="483.86" y="-48" font-family="Times,serif" font-size="10.00">实际状态</text>
+</g>
+<!-- Actual_E2_Alt&#45;&gt;Actual_E3_New -->
+<g id="edge19" class="edge">
+<title>Actual_E2_Alt-&gt;Actual_E3_New</title>
+<path fill="none" stroke="black" d="M774.04,-50.07C782.11,-49.53 790.59,-48.97 798.85,-48.43"/>
+<polygon fill="black" stroke="black" points="799.06,-51.92 808.81,-47.77 798.6,-44.94 799.06,-51.92"/>
+</g>
+<!-- Player_Act1&#45;&gt;Actual_E1 -->
+<g id="edge16" class="edge">
+<title>Player_Act1-&gt;Actual_E1</title>
+<path fill="none" stroke="black" d="M324.77,-45C332.88,-45 341.31,-45 349.53,-45"/>
+<polygon fill="black" stroke="black" points="349.45,-48.5 359.45,-45 349.45,-41.5 349.45,-48.5"/>
+</g>
+<!-- Diff_Engine&#45;&gt;Actual_E2_Alt -->
+<g id="edge18" class="edge">
+<title>Diff_Engine-&gt;Actual_E2_Alt</title>
+<path fill="none" stroke="black" d="M610.42,-47.25C629.49,-48.18 651.79,-49.28 671.8,-50.26"/>
+<polygon fill="black" stroke="black" points="671.6,-53.75 681.76,-50.75 671.94,-46.76 671.6,-53.75"/>
+<text text-anchor="middle" x="646.99" y="-52.95" font-family="Times,serif" font-size="10.00">推演出改变</text>
+</g>
+</g>
+</svg>

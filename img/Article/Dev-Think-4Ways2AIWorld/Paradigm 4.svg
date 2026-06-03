@@ -1,1 +1,126 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="584pt" height="428" viewBox="0 0 584.2 321.21"><g class="graph" transform="translate(4 317.21)"><path fill="#fff" d="M-4 4v-321.21h584.2V4H-4z"/><text text-anchor="middle" x="288.1" y="-296.61" font-family="Times,serif" font-size="14">AI戏剧/肥皂剧范式</text><g class="node"><ellipse fill="#add8e6" stroke="#000" cx="304.37" cy="-95.83" rx="52.83" ry="29.42"/><text text-anchor="middle" x="304.37" y="-100.03" font-family="Times,serif" font-size="14">角色 A</text><text text-anchor="middle" x="304.37" y="-83.23" font-family="Times,serif" font-size="14">(状态: 平静)</text></g><g class="node"><ellipse fill="#ffb6c1" stroke="#000" cx="490.65" cy="-93.07" rx="85.55" ry="29.42"/><text text-anchor="middle" x="490.65" y="-97.27" font-family="Times,serif" font-size="14">角色 B</text><text text-anchor="middle" x="490.65" y="-80.47" font-family="Times,serif" font-size="14">(AI 恋人, 状态: 开心)</text></g><g class="edge"><path fill="none" stroke="#00f" stroke-width="1.8" d="M357.25-95.05c11.02.17 22.96.34 35.03.52"/><path fill="#00f" stroke="#00f" stroke-width="1.8" d="m392.19-98.03 9.94 3.65-10.05 3.35.11-7z"/><text x="366.26" y="-86.69" font-family="Times,serif" font-size="9">信任度: 70</text><text x="367.39" y="-75.89" font-family="Times,serif" font-size="9" fill="#00f">关系: 朋友</text></g><g class="node"><ellipse fill="#d3d3d3" stroke="#000" cx="153.33" cy="-29.42" rx="52.83" ry="29.42"/><text text-anchor="middle" x="153.33" y="-33.62" font-family="Times,serif" font-size="14">角色 C</text><text text-anchor="middle" x="153.33" y="-16.82" font-family="Times,serif" font-size="14">(状态: 焦虑)</text></g><g class="edge"><path fill="none" stroke="gray" stroke-dasharray="1,5" d="M262.7-77.51c-17.67 7.77-38.47 16.92-57.15 25.13"/><path fill="gray" stroke="gray" d="m207.08-49.23-10.56.83 7.74-7.23 2.82 6.4z"/><text x="194.5" y="-78.44" font-family="Times,serif" font-size="9">信任度: 40</text><text x="188.87" y="-67.64" font-family="Times,serif" font-size="9" fill="gray">关系: 互相提防</text></g><g class="node"><circle fill="gold" stroke="#000" cx="306.13" cy="-236.64" r="41.61"/><circle fill="none" stroke="#000" cx="306.13" cy="-236.64" r="45.61"/><text text-anchor="middle" x="306.13" y="-232.44" font-family="Times,serif" font-size="14">玩家 (你)</text></g><g class="edge"><path fill="none" stroke="#00f" stroke-width="1.5" d="M305.56-190.93c-.22 17.15-.46 36.54-.67 53.32"/><path fill="#00f" stroke="#00f" stroke-width="1.5" d="m308.39-137.6-3.62 9.96-3.38-10.05 7 .09z"/><text x="271.22" y="-177.77" font-family="Times,serif" font-size="9">信任度: 60</text><text x="272.35" y="-166.97" font-family="Times,serif" font-size="9" fill="#00f">关系: 朋友</text></g><g class="edge"><path fill="none" stroke="#006400" stroke-width="3" d="M342.14-208.62c29.24 22.75 70.66 54.98 102.33 79.63"/><path fill="#006400" stroke="#006400" stroke-width="3" d="m446.33-131.98 5.75 8.9-10.04-3.38 4.29-5.52z"/><text x="359.31" y="-182.31" font-family="Times,serif" font-size="9">信任度: 95</text><text x="360.43" y="-171.51" font-family="Times,serif" font-size="9" fill="#006400">关系: 恋人</text></g><g class="edge"><path fill="none" stroke="orange" stroke-width=".8" stroke-dasharray="5,2" d="M278.81-199.6c-27.97 37.94-71.17 96.53-98.88 134.11"/><path fill="orange" stroke="orange" stroke-width=".8" d="m183.06-63.83-8.76 5.98 3.12-10.13 5.64 4.15z"/><text x="193.12" y="-146.04" font-family="Times,serif" font-size="9">信任度: 20</text><text x="190.87" y="-135.24" font-family="Times,serif" font-size="9" fill="orange">关系: 不信任</text></g><g class="node"><path fill="#ffffe0" stroke="#000" d="m540.78-270.41-34.4-18h-68.81l-34.4 18 34.4 18h68.81l34.4-18z"/><text text-anchor="middle" x="471.98" y="-266.21" font-family="Times,serif" font-size="14">事件: 节日派对</text></g><g class="edge"><path fill="none" stroke="purple" stroke-dasharray="5,2" d="M454.36-252.05c-27.74 28.89-82.04 85.45-117.14 122"/><path fill="purple" stroke="purple" d="m330.46-123 10.17-4.1-7.56 1.37 4.31-4.49-4.31 4.49 1.07-7.6-3.68 10.33z"/></g><g class="edge"><path fill="none" stroke="purple" stroke-dasharray="5,2" d="M473.9-252.1c2.92 27.75 8.55 81.16 12.47 118.39"/><path fill="purple" stroke="purple" d="m487.4-123.93 3.42-10.42-3.82 6.66-.65-6.19.65 6.19-5.13-5.72 5.53 9.48z"/></g><g class="edge"><path fill="none" stroke="purple" stroke-dasharray="5,2" d="M421.77-260.19c-18.9 3.85-40.49 8.25-59.87 12.19"/><path fill="purple" stroke="purple" d="m352.29-246.04 10.7 2.41-6.99-3.17 6.09-1.24-6.09 1.24 5.19-5.65-8.9 6.41z"/><text text-anchor="middle" x="381.15" y="-245.99" font-family="Times,serif" font-size="9"> 提供互动情境</text></g><g class="node"><path fill="tomato" stroke="#000" d="m137.62-177.72-34.41-18H34.4l-34.4 18 34.4 18h68.81l34.41-18z"/><text text-anchor="middle" x="68.81" y="-173.52" font-family="Times,serif" font-size="14">事件: 突发危机</text></g><g class="edge"><path fill="none" stroke="red" stroke-dasharray="5,2" d="M110.65-163.17c38.51 13.38 95.91 33.34 138.24 48.05"/><path fill="red" stroke="red" d="m258.15-111.9-7.96-7.53 4.39 6.29-5.87-2.04 5.87 2.04-7.35 2.21 10.92-.97z"/><text text-anchor="middle" x="158.4" y="-141.85" font-family="Times,serif" font-size="9"> 增加关系紧张</text></g><g class="edge"><path fill="none" stroke="red" stroke-dasharray="5,2" d="M84.77-159.5c15.32 22.59 37.95 61.59 53.09 91.03"/><path fill="red" stroke="red" d="m142.33-59.58-.48-10.96-1.22 7.58-2.8-5.56 2.8 5.56-6.82-3.53 8.52 6.91z"/><text text-anchor="middle" x="89.94" y="-116.68" font-family="Times,serif" font-size="9"> 引发焦虑状态</text></g><g class="edge"><path fill="none" stroke="red" stroke-dasharray="5,2" d="M74.19-159.39c10.48 23.29 32.99 63.89 51.43 93.55"/><path fill="red" stroke="red" d="m130.79-57.66-1.54-10.86-.48 7.66-3.32-5.25 3.32 5.25-7.13-2.85 9.15 6.05z"/></g></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="584pt" height="321pt" viewBox="0.00 0.00 584.20 321.21">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 317.21)">
+<title>AI_Drama_Network_With_Events</title>
+<polygon fill="white" stroke="none" points="-4,4 -4,-317.21 580.2,-317.21 580.2,4 -4,4"/>
+<text text-anchor="middle" x="288.1" y="-296.61" font-family="Times,serif" font-size="14.00">AI戏剧/肥皂剧范式</text>
+<!-- A -->
+<g id="node1" class="node">
+<title>A</title>
+<ellipse fill="lightblue" stroke="black" cx="304.37" cy="-95.83" rx="52.83" ry="29.42"/>
+<text text-anchor="middle" x="304.37" y="-100.03" font-family="Times,serif" font-size="14.00">角色 A</text>
+<text text-anchor="middle" x="304.37" y="-83.23" font-family="Times,serif" font-size="14.00">(状态: 平静)</text>
+</g>
+<!-- B -->
+<g id="node2" class="node">
+<title>B</title>
+<ellipse fill="lightpink" stroke="black" cx="490.65" cy="-93.07" rx="85.55" ry="29.42"/>
+<text text-anchor="middle" x="490.65" y="-97.27" font-family="Times,serif" font-size="14.00">角色 B</text>
+<text text-anchor="middle" x="490.65" y="-80.47" font-family="Times,serif" font-size="14.00">(AI 恋人, 状态: 开心)</text>
+</g>
+<!-- A&#45;&gt;B -->
+<g id="rel_AB" class="edge">
+<title>A-&gt;B</title>
+<path fill="none" stroke="blue" stroke-width="1.8" d="M357.25,-95.05C368.27,-94.88 380.21,-94.71 392.28,-94.53"/>
+<polygon fill="blue" stroke="blue" stroke-width="1.8" points="392.19,-98.03 402.13,-94.38 392.08,-91.03 392.19,-98.03"/>
+<text text-anchor="start" x="366.26" y="-86.69" font-family="Times,serif" font-size="9.00">信任度: 70</text>
+<text text-anchor="start" x="367.39" y="-75.89" font-family="Times,serif" font-size="9.00" fill="blue">关系: 朋友</text>
+</g>
+<!-- C -->
+<g id="node3" class="node">
+<title>C</title>
+<ellipse fill="lightgrey" stroke="black" cx="153.33" cy="-29.42" rx="52.83" ry="29.42"/>
+<text text-anchor="middle" x="153.33" y="-33.62" font-family="Times,serif" font-size="14.00">角色 C</text>
+<text text-anchor="middle" x="153.33" y="-16.82" font-family="Times,serif" font-size="14.00">(状态: 焦虑)</text>
+</g>
+<!-- A&#45;&gt;C -->
+<g id="rel_AC" class="edge">
+<title>A-&gt;C</title>
+<path fill="none" stroke="grey" stroke-dasharray="1,5" d="M262.7,-77.51C245.03,-69.74 224.23,-60.59 205.55,-52.38"/>
+<polygon fill="grey" stroke="grey" points="207.08,-49.23 196.52,-48.4 204.26,-55.63 207.08,-49.23"/>
+<text text-anchor="start" x="194.5" y="-78.44" font-family="Times,serif" font-size="9.00">信任度: 40</text>
+<text text-anchor="start" x="188.87" y="-67.64" font-family="Times,serif" font-size="9.00" fill="grey">关系: 互相提防</text>
+</g>
+<!-- P -->
+<g id="node4" class="node">
+<title>P</title>
+<ellipse fill="gold" stroke="black" cx="306.13" cy="-236.64" rx="41.61" ry="41.61"/>
+<ellipse fill="none" stroke="black" cx="306.13" cy="-236.64" rx="45.61" ry="45.61"/>
+<text text-anchor="middle" x="306.13" y="-232.44" font-family="Times,serif" font-size="14.00">玩家 (你)</text>
+</g>
+<!-- P&#45;&gt;A -->
+<g id="rel_PA" class="edge">
+<title>P-&gt;A</title>
+<path fill="none" stroke="blue" stroke-width="1.5" d="M305.56,-190.93C305.34,-173.78 305.1,-154.39 304.89,-137.61"/>
+<polygon fill="blue" stroke="blue" stroke-width="1.5" points="308.39,-137.6 304.77,-127.64 301.39,-137.69 308.39,-137.6"/>
+<text text-anchor="start" x="271.22" y="-177.77" font-family="Times,serif" font-size="9.00">信任度: 60</text>
+<text text-anchor="start" x="272.35" y="-166.97" font-family="Times,serif" font-size="9.00" fill="blue">关系: 朋友</text>
+</g>
+<!-- P&#45;&gt;B -->
+<g id="rel_PB" class="edge">
+<title>P-&gt;B</title>
+<path fill="none" stroke="darkgreen" stroke-width="3" d="M342.14,-208.62C371.38,-185.87 412.8,-153.64 444.47,-128.99"/>
+<polygon fill="darkgreen" stroke="darkgreen" stroke-width="3" points="446.33,-131.98 452.08,-123.08 442.04,-126.46 446.33,-131.98"/>
+<text text-anchor="start" x="359.31" y="-182.31" font-family="Times,serif" font-size="9.00">信任度: 95</text>
+<text text-anchor="start" x="360.43" y="-171.51" font-family="Times,serif" font-size="9.00" fill="darkgreen">关系: 恋人</text>
+</g>
+<!-- P&#45;&gt;C -->
+<g id="rel_PC" class="edge">
+<title>P-&gt;C</title>
+<path fill="none" stroke="orange" stroke-width="0.8" stroke-dasharray="5,2" d="M278.81,-199.6C250.84,-161.66 207.64,-103.07 179.93,-65.49"/>
+<polygon fill="orange" stroke="orange" stroke-width="0.8" points="183.06,-63.83 174.3,-57.85 177.42,-67.98 183.06,-63.83"/>
+<text text-anchor="start" x="193.12" y="-146.04" font-family="Times,serif" font-size="9.00">信任度: 20</text>
+<text text-anchor="start" x="190.87" y="-135.24" font-family="Times,serif" font-size="9.00" fill="orange">关系: 不信任</text>
+</g>
+<!-- Event1 -->
+<g id="node5" class="node">
+<title>Event1</title>
+<polygon fill="lightyellow" stroke="black" points="540.78,-270.41 506.38,-288.41 437.57,-288.41 403.17,-270.41 437.57,-252.41 506.38,-252.41 540.78,-270.41"/>
+<text text-anchor="middle" x="471.98" y="-266.21" font-family="Times,serif" font-size="14.00">事件: 节日派对</text>
+</g>
+<!-- Event1&#45;&gt;A -->
+<g id="edge8" class="edge">
+<title>Event1-&gt;A</title>
+<path fill="none" stroke="purple" stroke-dasharray="5,2" d="M454.36,-252.05C426.62,-223.16 372.32,-166.6 337.22,-130.05"/>
+<polygon fill="purple" stroke="purple" points="330.46,-123 340.63,-127.1 333.07,-125.73 337.38,-130.22 337.38,-130.22 337.38,-130.22 333.07,-125.73 334.14,-133.33 330.46,-123"/>
+</g>
+<!-- Event1&#45;&gt;B -->
+<g id="edge7" class="edge">
+<title>Event1-&gt;B</title>
+<path fill="none" stroke="purple" stroke-dasharray="5,2" d="M473.9,-252.1C476.82,-224.35 482.45,-170.94 486.37,-133.71"/>
+<polygon fill="purple" stroke="purple" points="487.4,-123.93 490.82,-134.35 487,-127.69 486.35,-133.88 486.35,-133.88 486.35,-133.88 487,-127.69 481.87,-133.41 487.4,-123.93"/>
+</g>
+<!-- Event1&#45;&gt;P -->
+<g id="edge6" class="edge">
+<title>Event1-&gt;P</title>
+<path fill="none" stroke="purple" stroke-dasharray="5,2" d="M421.77,-260.19C402.87,-256.34 381.28,-251.94 361.9,-248"/>
+<polygon fill="purple" stroke="purple" points="352.29,-246.04 362.99,-243.63 356,-246.8 362.09,-248.04 362.09,-248.04 362.09,-248.04 356,-246.8 361.19,-252.45 352.29,-246.04"/>
+<text text-anchor="middle" x="381.15" y="-245.99" font-family="Times,serif" font-size="9.00"> 提供互动情境</text>
+</g>
+<!-- Event2 -->
+<g id="node6" class="node">
+<title>Event2</title>
+<polygon fill="tomato" stroke="black" points="137.62,-177.72 103.21,-195.72 34.4,-195.72 0,-177.72 34.4,-159.72 103.21,-159.72 137.62,-177.72"/>
+<text text-anchor="middle" x="68.81" y="-173.52" font-family="Times,serif" font-size="14.00">事件: 突发危机</text>
+</g>
+<!-- Event2&#45;&gt;A -->
+<g id="edge10" class="edge">
+<title>Event2-&gt;A</title>
+<path fill="none" stroke="red" stroke-dasharray="5,2" d="M110.65,-163.17C149.16,-149.79 206.56,-129.83 248.89,-115.12"/>
+<polygon fill="red" stroke="red" points="258.15,-111.9 250.19,-119.43 254.58,-113.14 248.71,-115.18 248.71,-115.18 248.71,-115.18 254.58,-113.14 247.23,-110.93 258.15,-111.9"/>
+<text text-anchor="middle" x="158.4" y="-141.85" font-family="Times,serif" font-size="9.00"> 增加关系紧张</text>
+</g>
+<!-- Event2&#45;&gt;C -->
+<g id="edge9" class="edge">
+<title>Event2-&gt;C</title>
+<path fill="none" stroke="red" stroke-dasharray="5,2" d="M84.77,-159.5C100.09,-136.91 122.72,-97.91 137.86,-68.47"/>
+<polygon fill="red" stroke="red" points="142.33,-59.58 141.85,-70.54 140.63,-62.96 137.83,-68.52 137.83,-68.52 137.83,-68.52 140.63,-62.96 133.81,-66.49 142.33,-59.58"/>
+<text text-anchor="middle" x="89.94" y="-116.68" font-family="Times,serif" font-size="9.00"> 引发焦虑状态</text>
+</g>
+<!-- Event2&#45;&gt;C -->
+<g id="edge11" class="edge">
+<title>Event2-&gt;C</title>
+<path fill="none" stroke="red" stroke-dasharray="5,2" d="M74.19,-159.39C84.67,-136.1 107.18,-95.5 125.62,-65.84"/>
+<polygon fill="red" stroke="red" points="130.79,-57.66 129.25,-68.52 128.77,-60.86 125.45,-66.11 125.45,-66.11 125.45,-66.11 128.77,-60.86 121.64,-63.71 130.79,-57.66"/>
+</g>
+</g>
+</svg>
