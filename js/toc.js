@@ -1,0 +1,1 @@
+$(document).ready(function(){var h=$("h1").length,t=$("h2").length,e=$("h3").length,n=$("h4").length,l=$("h5").length,g=$("h6").length,c=($("h7").length,"");h>1&&(""==c?c="h1":c+=",h1"),t>1&&(""==c?c="h2":c+=",h2"),e>1&&(""==c?c="h3":c+=",h3"),n>1&&(""==c?c="h4":c+=",h4"),l>1&&(""==c?c="h5":c+=",h5"),g>1&&(""==c?c="h6":c+=",h6"),$("#toc").tocify({selectors:c})});
