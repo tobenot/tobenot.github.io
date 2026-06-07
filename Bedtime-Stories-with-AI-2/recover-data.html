@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>睡前故事 2 · 旧站存档迁移</title>
+	<style>
+		body { font-family: system-ui, sans-serif; max-width: 40rem; margin: 2rem auto; padding: 0 1rem; line-height: 1.6; color: #1f2937; }
+		h1 { font-size: 1.25rem; }
+		.box { border: 1px solid #e5e7eb; border-radius: .5rem; padding: 1rem; margin: 1rem 0; }
+		button { padding: .5rem 1rem; cursor: pointer; }
+		.ok { color: #047857; }
+		.warn { color: #b45309; }
+		.err { color: #b91c1c; }
+		code { background: #f3f4f6; padding: .1rem .35rem; border-radius: .25rem; }
+	</style>
+</head>
+<body>
+	<h1>与AI的睡前故事 2 · 旧站存档迁移</h1>
+	<p>本站已迁至 <a href="https://ai.tobenot.top/" target="_top">ai.tobenot.top</a>。浏览器把 <code>tobenot.top</code> 与 <code>ai.tobenot.top</code> 的存档分开存放，直接打开新域名看不到旧对话。</p>
+	<p>若你曾在旧地址使用过本工具，可在此页导出存档，再到新站「设置 → 导入存档」恢复。</p>
+
+	<div class="box">
+		<p id="status">正在检测本机旧存档…</p>
+		<p id="detail"></p>
+		<button id="exportBtn" type="button" hidden>下载完整备份 JSON</button>
+		<button id="exportSettingsBtn" type="button" hidden>下载设置快照（含 API Key）</button>
+	</div>
+
+	<ol>
+		<li>在<strong>本页</strong>点击「下载完整备份 JSON」（须用曾访问过旧站的同一浏览器）。</li>
+		<li>打开 <a href="https://ai.tobenot.top/" target="_top">ai.tobenot.top</a> → 右上角设置 →「导入存档（合并）」或「导入存档（覆盖）」。</li>
+		<li>API Key 等设置需重新填写，或再导入「设置快照」后对照恢复。</li>
+	</ol>
+
+	<script>
+	(function () {
+		var DB_NAME = 'bs2-chat-db';
+		var KV = 'kv';
+		var ARCHIVE = 'chatArchive';
+		var HOT_KEY = 'chat_history';
+		var CURRENT_KEY = 'current_chat_id';
+		var INDEX_KEY = 'archive_index';
+		var LEGACY_HOT = 'bs2_chat_history';
+		var LEGACY_CURRENT = 'bs2_current_chat_id';
+
+		// 新站目标 Origin（仅向该域名 postMessage，防止泄漏）
+		var TARGET_ORIGIN = 'https://ai.tobenot.top';
+
+		var statusEl = document.getElementById('status');
+		var detailEl = document.getElementById('detail');
+		var exportBtn = document.getElementById('exportBtn');
+		var exportSettingsBtn = document.getElementById('exportSettingsBtn');
+		var snapshot = null;
+		var settingsSnapshot = null;
+
+		function req(store, op, key) {
+			return new Promise(function (resolve, reject) {
+				var r = key !== undefined ? store[op](key) : store[op]();
+				r.onsuccess = function () { resolve(r.result); };
+				r.onerror = function () { reject(r.error); };
+			});
+		}
+
+		function openDb() {
+			return new Promise(function (resolve, reject) {
+				// 不传版本号，避免旧站 DB 版本高于 2 时发生 VersionError 报错
+				var request = indexedDB.open(DB_NAME);
+				request.onerror = function () { reject(request.error); };
+				request.onsuccess = function () { resolve(request.result); };
+			});
+		}
+
+		function readLegacyLocal() {
+			var hot = localStorage.getItem(LEGACY_HOT);
+			var current = localStorage.getItem(LEGACY_CURRENT) || null;
+			if (!hot) return null;
+			return { hot: hot, current: current, archiveIndex: [], archived: [] };
+		}
+
+		function collectSettings() {
+			var out = {};
+			for (var i = 0; i < localStorage.length; i++) {
+				var key = localStorage.key(i);
+				if (key && key.indexOf('bs2_') === 0) {
+					out[key] = localStorage.getItem(key);
+				}
+			}
+			return out;
+		}
+
+		function parseHot(raw) {
+			if (!raw) return [];
+			// 兼容 KV store 内直接存对象和存 JSON 字符串两种情况
+			if (typeof raw === 'string') {
+				var data = JSON.parse(raw);
+				return Array.isArray(data) ? data : [];
+			}
+			return Array.isArray(raw) ? raw : [];
+		}
+
+		function download(filename, obj) {
+			var blob = new Blob([JSON.stringify(obj, null, 2)], { type: 'application/json' });
+			var url = URL.createObjectURL(blob);
+			var a = document.createElement('a');
+			a.href = url;
+			a.download = filename;
+			a.click();
+			URL.revokeObjectURL(url);
+		}
+
+		async function loadData() {
+			var hotRaw = null;
+			var currentId = null;
+			var archiveIndex = [];
+			var archived = [];
+
+			try {
+				var db = await openDb();
+				var tx = db.transaction([KV, ARCHIVE], 'readonly');
+				hotRaw = await req(tx.objectStore(KV), 'get', HOT_KEY);
+				currentId = await req(tx.objectStore(KV), 'get', CURRENT_KEY);
+				var indexRaw = await req(tx.objectStore(KV), 'get', INDEX_KEY);
+				archived = await req(tx.objectStore(ARCHIVE), 'getAll');
+				if (Array.isArray(indexRaw)) archiveIndex = indexRaw;
+				await new Promise(function (resolve, reject) {
+					tx.oncomplete = resolve;
+					tx.onerror = function () { reject(tx.error); };
+				});
+			} catch (e) {
+				console.warn('[recover-data] IndexedDB 读取失败', e);
+			}
+
+			if (!hotRaw) {
+				var legacy = readLegacyLocal();
+				if (legacy) {
+					hotRaw = legacy.hot;
+					currentId = legacy.current;
+				}
+			}
+
+			var hotChats = [];
+			try {
+				hotChats = parseHot(hotRaw);
+			} catch (e) {
+				throw new Error('热区存档无法解析');
+			}
+
+			return {
+				hotChats: hotChats,
+				archivedChats: Array.isArray(archived) ? archived : [],
+				archiveIndex: archiveIndex,
+				currentChatId: currentId || null
+			};
+		}
+
+		exportBtn.addEventListener('click', function () {
+			if (!snapshot) return;
+			download('chat_full_backup_recover_' + new Date().toISOString().slice(0, 10) + '.json', snapshot);
+		});
+
+		exportSettingsBtn.addEventListener('click', function () {
+			if (!settingsSnapshot) return;
+			download('bs2_settings_snapshot_' + new Date().toISOString().slice(0, 10) + '.json', settingsSnapshot);
+		});
+
+		loadData().then(function (data) {
+			settingsSnapshot = {
+				meta: { type: 'settings_snapshot', exportedAt: new Date().toISOString(), origin: location.origin },
+				localStorage: collectSettings()
+			};
+
+			var total = data.hotChats.length + data.archivedChats.length;
+			var settingsCount = Object.keys(settingsSnapshot.localStorage).length;
+			
+			if (total === 0 && settingsCount === 0) {
+				statusEl.innerHTML = '<span class="warn">未在本浏览器检测到旧站存档。</span>';
+				detailEl.textContent = '若你已在其他设备导出过备份，请直接在 ai.tobenot.top 导入 JSON。若从未备份且旧存档已无法访问，对话无法自动找回。';
+				// 若被嵌入 iframe 中，通知父页面无数据
+				if (window.parent !== window) {
+					window.parent.postMessage({ type: 'bs2_migration_empty' }, TARGET_ORIGIN);
+				}
+				return;
+			}
+
+			snapshot = {
+				meta: {
+					version: 2,
+					exportedAt: new Date().toISOString(),
+					type: 'full_backup',
+					source: 'tobenot.top_recover_page',
+					totalChats: total,
+					hotCount: data.hotChats.length,
+					archiveCount: data.archivedChats.length
+				},
+				hotChats: data.hotChats,
+				archivedChats: data.archivedChats,
+				archiveIndex: data.archiveIndex,
+				currentChatId: data.currentChatId
+			};
+
+			statusEl.innerHTML = '<span class="ok">检测到旧站存档，可导出。</span>';
+			detailEl.textContent = '热区 ' + data.hotChats.length + ' 条，冷区 ' + data.archivedChats.length + ' 条；localStorage 设置项 ' + settingsCount + ' 个。';
+			exportBtn.hidden = total > 0 ? false : true;
+			exportSettingsBtn.hidden = settingsCount > 0 ? false : true;
+
+			// 若被嵌入 iframe 中，通过 postMessage 将全量数据发往新站
+			if (window.parent !== window) {
+				statusEl.innerHTML = '<span class="ok">已通过无缝迁移发送至新站。</span>';
+				window.parent.postMessage({
+					type: 'bs2_migration_data',
+					payload: {
+						snapshot: snapshot,
+						settingsSnapshot: settingsSnapshot
+					}
+				}, TARGET_ORIGIN);
+			}
+
+		}).catch(function (err) {
+			statusEl.innerHTML = '<span class="err">读取失败：' + (err && err.message ? err.message : String(err)) + '</span>';
+			if (window.parent !== window) {
+				window.parent.postMessage({ 
+					type: 'bs2_migration_error', 
+					error: err && err.message ? err.message : String(err) 
+				}, TARGET_ORIGIN);
+			}
+		});
+	})();
+	</script>
+</body>
+</html>
