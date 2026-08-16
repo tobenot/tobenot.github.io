@@ -1,0 +1,186 @@
+/* 宣发页模板样式 — 干净克制，单强调色 + 大量留白，移动端优先 */
+/* 强调色默认深蓝 #2b4c7e，复制到具体项目时可整站替换 */
+
+:root {
+  --accent: #2b4c7e;
+  --ink: #22242a;
+  --muted: #6b7078;
+  --paper: #ffffff;
+  --line: #e4e6ea;
+  --font-display: "Playfair Display", "Noto Serif SC", Georgia, serif;
+  --font-body: "Noto Serif SC", "Lora", Georgia, serif;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: var(--font-body);
+  color: var(--ink);
+  background: var(--paper);
+  line-height: 1.75;
+  -webkit-font-smoothing: antialiased;
+}
+
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+img { max-width: 100%; display: block; }
+
+/* ---------- Hero ---------- */
+.hero { padding: 96px 24px 64px; }
+
+.hero-inner { max-width: 720px; margin: 0 auto; text-align: center; }
+
+.kicker {
+  font-size: 14px;
+  letter-spacing: 0.18em;
+  color: var(--muted);
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.hero-title {
+  font-family: var(--font-display);
+  font-size: clamp(34px, 6vw, 52px);
+  line-height: 1.2;
+  font-weight: 600;
+  margin-bottom: 20px;
+  letter-spacing: 0.02em;
+}
+
+.hero-sub {
+  font-size: 18px;
+  color: var(--muted);
+  margin-bottom: 36px;
+}
+
+.hero-actions { display: flex; gap: 14px; justify-content: center; flex-wrap: wrap; margin-bottom: 56px; }
+
+.btn-primary {
+  display: inline-block;
+  background: var(--accent);
+  color: #fff;
+  padding: 14px 32px;
+  border-radius: 6px;
+  font-size: 16px;
+  transition: opacity 0.2s;
+}
+.btn-primary:hover { opacity: 0.88; text-decoration: none; }
+
+.btn-ghost {
+  display: inline-block;
+  padding: 14px 32px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  color: var(--ink);
+  font-size: 16px;
+}
+.btn-ghost:hover { border-color: var(--accent); color: var(--accent); text-decoration: none; }
+
+.hero-cover {
+  border-radius: 8px;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.10);
+  margin: 0 auto;
+}
+
+/* ---------- 通用 section ---------- */
+.section { padding: 72px 24px; }
+
+.section-inner { max-width: 960px; margin: 0 auto; }
+
+.section-title {
+  font-family: var(--font-display);
+  font-size: 28px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 48px;
+  letter-spacing: 0.03em;
+}
+
+.section:nth-child(even) { background: #fafafb; }
+
+/* ---------- 亮点网格 ---------- */
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 32px;
+}
+
+.feature-card {
+  padding: 28px 24px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  transition: box-shadow 0.2s, transform 0.2s;
+}
+.feature-card:hover { box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06); transform: translateY(-2px); }
+
+.feature-icon { width: 28px; height: 28px; color: var(--accent); margin-bottom: 16px; }
+
+.feature-title { font-size: 18px; font-weight: 600; margin-bottom: 8px; }
+
+.feature-text { font-size: 15px; color: var(--muted); }
+
+/* ---------- 截图区 ---------- */
+.shot-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 24px;
+}
+
+.shot { border-radius: 8px; overflow: hidden; border: 1px solid var(--line); }
+.shot img { width: 100%; }
+.shot figcaption {
+  padding: 12px 16px;
+  font-size: 14px;
+  color: var(--muted);
+  background: #fff;
+  text-align: center;
+}
+
+/* ---------- 证据区 ---------- */
+.proof-quote {
+  font-family: var(--font-display);
+  font-size: clamp(20px, 3vw, 26px);
+  line-height: 1.5;
+  text-align: center;
+  max-width: 640px;
+  margin: 0 auto 16px;
+}
+
+.proof-source { text-align: center; color: var(--muted); font-size: 15px; }
+
+/* ---------- 底部 CTA ---------- */
+.bottom-cta { text-align: center; }
+
+.bottom-title {
+  font-family: var(--font-display);
+  font-size: clamp(26px, 4vw, 36px);
+  font-weight: 600;
+  margin-bottom: 32px;
+  letter-spacing: 0.02em;
+}
+
+.back-link { margin-top: 28px; font-size: 15px; color: var(--muted); }
+.back-link a { color: var(--muted); }
+.back-link a:hover { color: var(--accent); }
+
+/* ---------- 页脚 ---------- */
+.footer {
+  padding: 32px 24px;
+  border-top: 1px solid var(--line);
+  text-align: center;
+  font-size: 14px;
+  color: var(--muted);
+}
+.footer a { color: var(--muted); }
+.footer a:hover { color: var(--accent); }
+
+/* ---------- 移动端微调 ---------- */
+@media (max-width: 640px) {
+  .hero { padding: 64px 20px 48px; }
+  .section { padding: 56px 20px; }
+  .hero-actions { flex-direction: column; }
+  .btn-primary, .btn-ghost { width: 100%; text-align: center; }
+}
