@@ -3,74 +3,85 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>在线图片生成 — tobenot</title>
-  <meta name="description" content="兼容 OpenAI API 的在线生图工具:浏览器打开就能用,接前沿生图模型,画二次元角色、插画、头像都行。不用装软件,不用配环境。">
+  <title>在线图片生成 | 萝北来信</title>
+  <meta name="description" content="一个接入自有模型服务的浏览器图片工具，支持文字生图、参考图编辑、图片识别、批量生成和素材重命名。需要自行配置兼容的 API 服务，工具免费，模型调用按服务商规则计费。">
   <link rel="canonical" href="https://tobenot.top/pr/online-image-generation/">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://tobenot.top/pr/online-image-generation/">
   <meta property="og:title" content="在线图片生成">
-  <meta property="og:description" content="兼容 OpenAI API 的在线生图工具:浏览器打开就能用,接前沿生图模型,画二次元角色、插画、头像都行。">
+  <meta property="og:description" content="一个接入自有模型服务的浏览器图片工具，支持文字生图、参考图编辑、图片识别、批量生成和素材重命名。需要自行配置兼容的 API 服务，工具免费，模型调用按服务商规则计费。">
   <meta property="og:image" content="https://tobenot.top/pr/online-image-generation/img/cover.jpg">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
   <link rel="stylesheet" href="assets/style.css">
+  <link rel="stylesheet" href="../copy-layout.css">
 </head>
 <body>
 
   <!-- Hero -->
   <header class="hero">
     <div class="hero-inner">
-      <p class="kicker">image.tobenot.top · 免费在线工具</p>
+      <p class="kicker">OpenAI Image WebUI · image.tobenot.top</p>
       <h1 class="hero-title">在线图片生成</h1>
-      <p class="hero-sub">浏览器打开就能用的生图工具。接前沿生图模型,想画几张画几张。</p>
+      <p class="hero-sub">一个接入自己模型服务的浏览器图片工具。可以根据文字生成图片，上传参考图进行修改，也可以批量处理提示词和整理生成结果。</p>
       <div class="hero-actions">
         <a class="btn-primary" href="https://image.tobenot.top/" target="_blank" rel="noopener">打开直接用</a>
-        <a class="btn-ghost" href="#features">它怎么用</a>
+        <a class="btn-ghost" href="#features">了解功能与使用条件</a>
       </div>
       <img class="hero-cover" src="img/cover.jpg" alt="在线图片生成:两张 AI 生成的动漫少女对比图">
     </div>
   </header>
 
+  <section class="section overview" aria-labelledby="overview-title">
+    <div class="section-inner copy-content">
+      <h2 id="overview-title" class="copy-title">这个工具怎么用</h2>
+      <p>在线图片生成是一个面向 OpenAI 兼容图片接口的网页工具。使用时填写模型服务地址、API Key 和模型名称，再输入想要的画面描述。图片由所连接的模型生成，网站负责提交任务和展示结果。</p>
+      <p>除了文字生图，还可以上传参考图片，在支持编辑的模型上修改图片，并使用蒙版指定要编辑的区域。批量模式可以一次提交多条提示词，使用相同的参考图和设置，适合尝试一组角色、物品或场景方案。具体支持的尺寸、参数和编辑方式取决于模型服务。</p>
+      <p>生成结果可以在任务列表和图库中查看，支持选择多张图片并打包下载。图库保存在浏览器本地，重要图片需要另行下载备份。浏览器存储空间有限，清除站点数据或自动清理较早缓存都可能让本地图片不再保留。</p>
+      <p>工具本身免费，不提供无限生图额度。请求从浏览器发往你配置的 API 服务，提示词和上传的参考图会交给该服务处理。服务商需要允许浏览器跨域访问，模型调用费用与内容使用条件按服务商规则执行。</p>
+    </div>
+  </section>
+
   <!-- 亮点网格 -->
   <section id="features" class="section features">
     <div class="section-inner">
-      <h2 class="section-title">它好在哪</h2>
+      <h2 class="section-title">图片生成与整理</h2>
       <div class="feature-grid">
 
         <div class="feature-card">
           <svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
-          <h3 class="feature-title">前沿模型</h3>
-          <p class="feature-text">兼容 OpenAI API,想用最新的生图模型生成几张图,这里就是最快的路。</p>
+          <h3 class="feature-title">文字生成图片</h3>
+          <p class="feature-text">输入画面描述，选择模型、数量和尺寸后提交任务。可以用于尝试插画、头像或游戏美术方案。</p>
         </div>
 
         <div class="feature-card">
           <svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M3 12h4l3-8 4 16 3-8h4"/></svg>
-          <h3 class="feature-title">不用安装</h3>
-          <p class="feature-text">没有客户端,没有环境配置。打开网页,填上 API Key 就能画。</p>
+          <h3 class="feature-title">参考图与局部编辑</h3>
+          <p class="feature-text">上传图片后进入编辑流程，在兼容模型上使用参考图和蒙版。并非所有服务都支持相同的编辑参数。</p>
         </div>
 
         <div class="feature-card">
           <svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>
-          <h3 class="feature-title">想画什么画什么</h3>
-          <p class="feature-text">角色、插画、头像、概念图——描述你的想法,它负责画出来。</p>
+          <h3 class="feature-title">批量生成</h3>
+          <p class="feature-text">按行输入提示词，或粘贴 CSV 内容，使用共享设置运行一组任务，再将结果打包下载。</p>
         </div>
 
         <div class="feature-card">
           <svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M13 2L3 14h7l-1 8 10-12h-7l1-8z"/></svg>
-          <h3 class="feature-title">即开即用</h3>
-          <p class="feature-text">适合"就想要几张图"的场景:不做长期工程,不搭复杂流程,画完就走。</p>
+          <h3 class="feature-title">图片识别</h3>
+          <p class="feature-text">使用支持图片输入的视觉模型描述图片或提取文字。该功能使用单独配置的视觉模型，需要服务支持相应接口。</p>
         </div>
 
         <div class="feature-card">
           <svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M12 2l8 4v6c0 5-3.5 8.5-8 10-4.5-1.5-8-5-8-10V6l8-4z"/><path d="M9 12l2 2 4-4"/></svg>
-          <h3 class="feature-title">自己控制数据</h3>
-          <p class="feature-text">API Key 自己填,生成的图自己存。一个轻量工具,不多问你要任何东西。</p>
+          <h3 class="feature-title">素材重命名</h3>
+          <p class="feature-text">让视觉模型根据图片内容提出文件名，下载用于 Windows 的重命名和撤销脚本。执行前应检查命名结果。</p>
         </div>
 
         <div class="feature-card">
           <svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M12 3l1.9 5.8L20 10l-5 3.7L16.5 20 12 16.5 7.5 20 9 13.7 4 10l6.1-1.2L12 3z"/></svg>
-          <h3 class="feature-title">免费</h3>
-          <p class="feature-text">工具本身免费,只需要你自己的模型 API 额度。没有隐藏收费,没有会员墙。</p>
+          <h3 class="feature-title">任务与图库</h3>
+          <p class="feature-text">查看任务状态和生成结果，设置并发数量，并从图库中选择图片下载。网页中的费用估计仅供参考。</p>
         </div>
 
       </div>
